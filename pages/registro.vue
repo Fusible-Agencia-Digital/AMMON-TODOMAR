@@ -30,9 +30,9 @@
                 <b-nav-item :active="activeTab===4" @click="activeTab=4" href="#"
                             v-scroll-to="{el: '#formas', offset: -180}">Formas de pago
                 </b-nav-item>
-                <b-nav-item :active="activeTab===5" @click="activeTab=5" href="#"
+                <!--<b-nav-item :active="activeTab===5" @click="activeTab=5" href="#"
                             v-scroll-to="{el: '#politica', offset: -180}">Política de cancelación
-                </b-nav-item>
+                </b-nav-item>-->
             </menu-tabs-component>
         </div>
         <!-- Hero End -->
@@ -43,65 +43,44 @@
                     <div class="col-md-12">
                         <div class="card card-info" id="general">
                             <div class="card-header">
-                                <h2 class="mb-0">Información importante sobre el Registro</h2>
+                                <h2 class="mb-0">INFORMACIÓN IMPORTANTE SOBRE EL REGISTRO</h2>
                             </div>
                             <div class="card-body">
-                                <p>Tenemos nuevos requisitos en torno al Congreso Virtual. Para inscribirte al congreso
-                                    SOMOS 2020 deberás afiliarse durante la promoción Membresía más Congreso “Porque
-                                    todos somos IMSS”.</p>
-                                <p>Se requiere una dirección de correo electrónico única para cada individuo para
-                                    acceder a la plataforma virtual. Sin una dirección de correo electrónico única, no
-                                    podrá obtener acceso al Congreso Virtual.</p>
-                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier
-                                    correspondencia relevante y acceder a la constancia después del congreso.
-                                    Proporcionar esta información por adelantado también nos permitirá procesar todos
-                                    los registros individuales o de grupo de manera eficiente y entregar detalles de
-                                    inicio de sesión a los registrados de manera oportuna.</p>
+                                <p>Tenga en cuenta que para 2020 tenemos nuevos requisitos en torno al Jornadas Académicas Virtuales. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
+                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después de las Jornadas Académicas Virtuales. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
                             </div>
                         </div>
 
                         <div class="card card-info" id="costo">
                             <div class="card-header">
-                                <h2 class="mb-0">Costos</h2>
+                                <h2 class="mb-0">REGISTRO INDIVIDUAL</h2>
                             </div>
                             <div class="card-body">
                                 <div class="row title-cost">
                                     <div class="col-12">
-                                        <p>Aprovecha la promoción hasta el 15 de septiembre y afíliate “Porque todos
-                                            SOMOS IMSS” </p>
+                                        <p>
+                                        Cuota de registro <br>
+                                        <h3>$3000.00</h3> </p>
                                     </div>
                                     <div class="col-12">
-                                        <div class="table-responsive">
-                                            <table class="table table-striped">
-                                                <thead>
-                                                <tr>
-                                                    <th></th>
-                                                    <th>SEPTIEMBRE 15</th>
-                                                    <th>DURANTE EL CONGRESO</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <th>ESPECIALISTAS</th>
-                                                    <td>1,000.00</td>
-                                                    <td>2,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>MÉDICOS GENERALES, TÉCNICOS Y ENFERMERAS</th>
-                                                    <td>500.00</td>
-                                                    <td>1,000.00</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>
-                                                        RESIDENTES Y ESTUDIANTES
-                                                        <p>Es necesario enviar constancia de estudiante</p>
-                                                    </th>
-                                                    <td>200.00</td>
-                                                    <td>400.00</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                        <a href="https://www.srcongress.mx/somos/registro_virtual.php"
+                                           target="_blank" class="btn mb-5 mb-md-3 mt-3">
+                                            Registrate aquí
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-header">
+                                <h2 class="mb-0">INSCRIPCIONES GRUPALES</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row title-cost">
+                                    <div class="col-12">
+                                        <p>
+                                        Las inscripciones grupales solo se aceptarán para grupos de 20 asistentes o más. Si está registrando 19 o menos asistentes, utilice el enlace de registro individuales. <br>
+                                        Para grupos de 20 personas o más, envíe un correo electrónico a educacion@ammom.mx. para recibir el Formulario de registro de grupo.<br>
+                                        No hay descuentos grupales adicionales disponibles.<br>
+                                         </p>
                                     </div>
                                     <div class="col-12">
                                         <a href="https://www.srcongress.mx/somos/registro_virtual.php"
@@ -145,53 +124,49 @@
 
                         <div class="card card-info" id="limite">
                             <div class="card-header">
-                                <h2 class="mb-0">Fecha límite de inscripción</h2>
+                                <h2 class="mb-0">FECHA LÍMITE DE INSCRIPCIÓN</h2>
                             </div>
                             <div class="card-body">
-                                <p>El último día para recibir el pago del descuento de la tarifa anticipada es el <b>15
-                                    de septiembre de 2020</b>.</p>
-                                <p>El día 15 de septiembre el registro en línea se cerrará, por lo que deberá realizar
-                                    su inscripción en línea hasta el día del congreso, esto puede demorar en las
-                                    validaciones por lo que le sugerimos inscribirse antes de septiembre 15.</p>
+                                <p>30 de septiembre de 2020. </b>.</p>
+                                
                             </div>
                         </div>
 
                         <div class="card card-info" id="">
                             <div class="card-header">
-                                <h2 class="mb-0">Confirmaciones de pago</h2>
+                                <h2 class="mb-0">CONFIRMACIONES DE INSCRIPCIÓN</h2>
                             </div>
                             <div class="card-body">
-                                <p>Las confirmaciones de inscripción son automáticas si son realizadas con tarjeta de
-                                    débito ó crédito, las transferencias bancarias si requieren de validación
-                                    administrativa.</p>
+                                <p>Las transferencias bancarias sí requieren de validación administrativa.  </p>
                             </div>
                         </div>
 
 
                         <div class="row" id="formas">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="card card-info">
                                     <div class="card-header">
-                                        <h2 class="mb-0">Formas de pago</h2>
+                                        <h2 class="mb-0">FORMAS DE PAGO:</h2>
                                     </div>
                                     <div class="card-body">
                                         <p>Para su comodidad contamos con las siguientes formas de pago:</p>
-                                        <p>
-                                            <a href="https://www.srcongress.mx/somos/registro_virtual.php">Inscripción
-                                                en línea con tarjeta de crédito ó débito.</a></p>
                                         <ul>
-                                            <li><b>Depósito:</b> A nombre de Sociedad Oncológica Multidisciplinaria de
-                                                la Seguridad Social, A.C. Banco BANCOMER, cuenta: 0112998963
+                                            <li><b>* tarjeta de crédito o débito</b>
                                             </li>
-                                            <li><b>Transferencia Electrónica:</b> A nombre de Sociedad Oncológica
-                                                Multidisciplinaria de la Seguridad Social, A.C. Banco BANCOMER Clabe:
-                                                012180001129989634
+                                            <li><b>* depósito bancario</b>
                                             </li>
+                                            <li><b>* transferencia bancaria</b>
+                                            </li>
+                                            
                                         </ul>
+                                        <p>BBVA<br>
+Cuenta 0107755929<br>
+Clave interbancaria 012180001077559297<br>
+A nombre de Asociación Mexicana de Metabolismo Óseo y Mineral, A.C.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <!--<div class="col-md-6">
                                 <div class="card card-info">
                                     <div class="card-header">
                                         <h2 class="mb-0">Formas de registro</h2>
@@ -206,11 +181,11 @@
                                         </p>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
 
 
-                        <div class="card card-info" id="politica">
+                        <!--<div class="card card-info" id="politica">
                             <div class="card-header">
                                 <h2 class="mb-0">Política de cancelación</h2>
                             </div>
@@ -237,7 +212,7 @@
                                     cortes de energía y cualquier cancelación relacionada con la epidemia de
                                     COVID-19.</p>
                             </div>
-                        </div>
+                        </div>-->
 
 
                     </div>

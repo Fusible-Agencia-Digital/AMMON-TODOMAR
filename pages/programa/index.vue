@@ -32,14 +32,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="pdf-download">
+                        <!--<div class="pdf-download">
                             <h4>
                                 <a href="/docs/Programa-SOMOS.pdf" download="">
                                     <img src="~/assets/images/pdf-download.png" alt="">
                                     Bajar programa
                                 </a>
                             </h4>
-                        </div>
+                        </div>-->
                         <aside class="single_sidebar_widget post_category_widget d-none d-md-block">
                             <h4 class="widget_title mb-3">Categorías</h4>
                             <ul class="list cat-list">

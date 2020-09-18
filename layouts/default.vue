@@ -55,8 +55,12 @@
                                 <nuxt-link to="/mesa-directiva" class="nav-link">Mesa directiva</nuxt-link>
                             </li>
                             <li class="nav-item">
-                                <nuxt-link to="/organizadores" class="nav-link">Organizadores</nuxt-link>
+                                <nuxt-link to="/programa" class="nav-link">Jornadas Académicas</nuxt-link>
                             </li>
+                            <li class="nav-item">
+                                <nuxt-link to="/profesores" class="nav-link">Profesores</nuxt-link>
+                            </li>
+                            
                             <li class="nav-item">
                                 <nuxt-link to="/contacto" class="nav-link">Contacto</nuxt-link>
                             </li>
@@ -72,9 +76,9 @@
                         <b-navbar-nav class="ml-auto">
                             <b-nav-item to="/">Inicio</b-nav-item>
                             <b-nav-item to="/registro">Registro</b-nav-item>
-                            <b-nav-item to="/aval">Aval</b-nav-item>
                             <b-nav-item to="/mesa-directiva">Mesa directiva</b-nav-item>
-                            <b-nav-item to="/organizadores">Organizadores</b-nav-item>
+                            <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
+                            <b-nav-item to="/profesores">Profesores</b-nav-item>
                             <b-nav-item to="/contacto">Contacto</b-nav-item>
                             <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
                                 <nuxt-link to="/registro"
@@ -143,7 +147,8 @@
                                         <li><a href="#" @click="scrollToTop('/')">Inicio</a></li>
                                         <li><a href="#" @click="scrollToTop('/registro')">Registro</a></li>
                                         <li><a href="#" @click="scrollToTop('/mesa-directiva')">Mesa Directiva</a></li>
-                                        <li><a href="#" @click="scrollToTop('/organizadores')">Organizadores</a></li>
+                                        <li><a href="#" @click="scrollToTop('/programa')">Jornadas Académicas</a></li>
+                                        <li><a href="#" @click="scrollToTop('/profesores')">Profesores</a></li>
                                         <li><a href="#" @click="scrollToTop('/contacto')">Contacto</a></li>
                                         <li v-if="!$auth.loggedIn">
                                             <a href="/#" v-b-modal.modal-login>Login</a>
