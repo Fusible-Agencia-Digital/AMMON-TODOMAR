@@ -58,7 +58,7 @@
                                 <nuxt-link to="/programa" class="nav-link">Jornadas Académicas</nuxt-link>
                             </li>
                             <li class="nav-item">
-                                <nuxt-link to="/profesores" class="nav-link">Profesores</nuxt-link>
+                                <nuxt-link to="/profesorado" class="nav-link">Profesores</nuxt-link>
                             </li>
                             
                             <li class="nav-item">
@@ -78,7 +78,7 @@
                             <b-nav-item to="/registro">Registro</b-nav-item>
                             <b-nav-item to="/mesa-directiva">Mesa directiva</b-nav-item>
                             <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
-                            <b-nav-item to="/profesores">Profesores</b-nav-item>
+                            <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <b-nav-item to="/contacto">Contacto</b-nav-item>
                             <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
                                 <nuxt-link to="/registro"
@@ -148,7 +148,7 @@
                                         <li><a href="#" @click="scrollToTop('/registro')">Registro</a></li>
                                         <li><a href="#" @click="scrollToTop('/mesa-directiva')">Mesa Directiva</a></li>
                                         <li><a href="#" @click="scrollToTop('/programa')">Jornadas Académicas</a></li>
-                                        <li><a href="#" @click="scrollToTop('/profesores')">Profesores</a></li>
+                                        <li><a href="#" @click="scrollToTop('/profesorado')">Profesores</a></li>
                                         <li><a href="#" @click="scrollToTop('/contacto')">Contacto</a></li>
                                         <li v-if="!$auth.loggedIn">
                                             <a href="/#" v-b-modal.modal-login>Login</a>
