@@ -20,8 +20,8 @@
                 <div class="row">
                     <div class="col">
                         <b-nav tabs justified class="cover-tabs">
-                            <b-nav-item :active="activeTab===0" @click="activeTab=0">Internacionales</b-nav-item>
-                            <b-nav-item :active="activeTab===1" @click="activeTab=1">Nacionales</b-nav-item>
+                            
+                            <b-nav-item :active="activeTab===0" @click="activeTab=1">Nacionales</b-nav-item>
                         </b-nav>
                     </div>
                 </div>
@@ -33,20 +33,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 mt-5 py-5 profesors-container">
-                        <div class="row" v-if="activeTab===1">
+                        <div class="row" v-if="activeTab===0">
                             <div class="col-lg-3 col-md-4 col-sm-6" v-for="doc in nationals">
                                 <div>
                                     <speaker-component :doctor="doc" color="#242b5e"></speaker-component>
                                 </div>
                             </div>
                         </div>
-                        <div class="row" v-if="activeTab===0">
-                            <div class="col-lg-3 col-md-4 col-sm-6" v-for="doc in internationals">
-                                <div>
-                                    <speaker-component :doctor="doc" color="#242b5e"></speaker-component>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
