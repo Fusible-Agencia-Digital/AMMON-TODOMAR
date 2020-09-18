@@ -1,0 +1,52 @@
+{
+  "name": "SOMOS",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^1.1.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-brands-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@fullcalendar/daygrid": "^5.1.0",
+    "@fullcalendar/vue": "^5.1.0",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/device": "^1.2.7",
+    "bootstrap": "^4.5.0",
+    "bootstrap-vue": "^2.15.0",
+    "fs": "^0.0.1-security",
+    "ics": "^2.22.1",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "nuxt": "^2.13.0",
+    "nuxt-fontawesome": "^0.4.0",
+    "nuxt-sweetalert2": "^1.0.0",
+    "v-calendar": "^1.0.0-beta.23",
+    "v-calendar-scheduler": "^0.7.4",
+    "v-mask": "^2.2.1",
+    "vue-add-to-calendar": "^1.0.6",
+    "vue-carousel": "^0.18.0",
+    "vue-form-wizard": "^0.8.4",
+    "vue-fullscreen": "^2.1.6",
+    "vue-markdown": "^2.2.4",
+    "vue-pdf": "^4.1.0",
+    "vue-scrollto": "^2.18.1",
+    "vue-social-sharing": "^3.0.0-beta.11",
+    "vue-unity-webgl": "^1.2.0",
+    "vue-zoomer": "^0.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/moment": "^1.6.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
