@@ -46,13 +46,13 @@
                                                required minlength="10">
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="col-sm-12">
                                     <div class="form-group">
                                         <input class="form-control" name="subject" id="subject" type="text"
                                                placeholder="Asunto" v-model="contact.subject" required>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <!--<div class="col-sm-6">
                                     <div class="form-group">
                                         <select name="type" id="type" class="form-select" v-model="contact.type"
                                                 required>
@@ -62,7 +62,7 @@
                                             <option value="Profesor">Profesor</option>
                                         </select>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="col-12">
                                     <div class="form-group">
                                         <textarea class="form-control w-100" name="message" id="message" cols="30"

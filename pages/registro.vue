@@ -63,7 +63,7 @@
                                         <h3>$3000.00</h3> </p>
                                     </div>
                                     <div class="col-12">
-                                        <a href="https://www.srcongress.mx/somos/registro_virtual.php"
+                                        <a href="https://www.srcongress.mx/ammom/jornada_virtual.php"
                                            target="_blank" class="btn mb-5 mb-md-3 mt-3">
                                             Registrate aquí
                                         </a>
@@ -83,7 +83,7 @@
                                          </p>
                                     </div>
                                     <div class="col-12">
-                                        <a href="https://www.srcongress.mx/somos/registro_virtual.php"
+                                        <a href="https://www.srcongress.mx/ammom/jornada_virtual.php"
                                            target="_blank" class="btn mb-5 mb-md-3 mt-3">
                                             Registrate aquí
                                         </a>
@@ -127,7 +127,7 @@
                                 <h2 class="mb-0">FECHA LÍMITE DE INSCRIPCIÓN</h2>
                             </div>
                             <div class="card-body">
-                                <p>30 de septiembre de 2020. </b>.</p>
+                                <p>21 de octubre de 2020.</p>
                                 
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                                 <h2 class="mb-0">CONFIRMACIONES DE INSCRIPCIÓN</h2>
                             </div>
                             <div class="card-body">
-                                <p>Las transferencias bancarias sí requieren de validación administrativa.  </p>
+                                <p> Las transferencias bancarias requieren de validación administrativa y es indispensable suban su comprobante de deposito y/o transferencia dentro del sistema de registro.</p>
                             </div>
                         </div>
 
@@ -151,7 +151,7 @@
                                     <div class="card-body">
                                         <p>Para su comodidad contamos con las siguientes formas de pago:</p>
                                         <ul>
-                                            <li><b>* tarjeta de crédito o débito</b>
+                                            <li><b>* tarjeta de crédito o débito:</b> Deben solicitar su línea de captura o recibo de pago CLIP al correo: educacion@ammom.mx
                                             </li>
                                             <li><b>* depósito bancario</b>
                                             </li>

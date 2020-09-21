@@ -57,6 +57,7 @@
                             <li class="nav-item">
                                 <nuxt-link to="/programa" class="nav-link">Jornadas Académicas</nuxt-link>
                             </li>
+                            
                             <li class="nav-item">
                                 <nuxt-link to="/profesorado" class="nav-link">Profesores</nuxt-link>
                             </li>
@@ -64,6 +65,10 @@
                             <li class="nav-item">
                                 <nuxt-link to="/contacto" class="nav-link">Contacto</nuxt-link>
                             </li>
+                            <li class="nav-item header-right-btn">
+                                <nuxt-link to="/queretaro" class="nav-link">Querétaro 2021</nuxt-link>
+                            </li>
+                            
 
                             <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
                                 <nuxt-link to="/registro"
@@ -80,6 +85,7 @@
                             <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <b-nav-item to="/contacto">Contacto</b-nav-item>
+                            <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item>
                             <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
                                 <nuxt-link to="/registro"
                                    class="btn btn-header">¡Regístrate!</nuxt-link>
@@ -149,8 +155,9 @@
                                         <li><a href="#" @click="scrollToTop('/mesa-directiva')">Mesa Directiva</a></li>
                                         <li><a href="#" @click="scrollToTop('/programa')">Jornadas Académicas</a></li>
                                         <li><a href="#" @click="scrollToTop('/profesorado')">Profesores</a></li>
+                                        <li><a href="#" @click="scrollToTop('/queretaro')">Querétaro 2021</a></li>
                                         <li><a href="#" @click="scrollToTop('/contacto')">Contacto</a></li>
-                                        <li v-if="!$auth.loggedIn">
+                                        <!--<li v-if="!$auth.loggedIn">
                                             <a href="/#" v-b-modal.modal-login>Login</a>
                                         </li>
                                         <template v-else>
@@ -163,7 +170,7 @@
                                             <li>
                                                 <a href="/#" @click="authLogout">Salir</a>
                                             </li>
-                                        </template>
+                                        </template>-->
                                     </ul>
                                 </div>
                             </div>
@@ -362,7 +369,9 @@
 
 <style lang="scss">
     @import "assets/scss/color";
-
+    .nav-item{
+        text-align:center;
+    }
     body {
         background-color: #FFF;
         background-size: cover !important;

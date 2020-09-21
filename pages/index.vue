@@ -146,7 +146,7 @@
                                 <p class="title">
                                     <nuxt-link to="/programa">Jornadas Académicas</nuxt-link>
                                 </p>
-                                <p class="subtitle">Multidisciplinario</p>
+                               
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                                 <p class="title">
                                     <nuxt-link to="/profesorado">Profesores</nuxt-link>
                                 </p>
-                                <p class="subtitle">+ 50 Expertos Nacionales</p>
+                                <p class="subtitle"></p>
                             </div>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                             <img src="~/assets/images/contenido/expo.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    Exhibición Virtual
+                                   Paseo virtual industria
                                 </p>
                                 
                             </div>
@@ -177,7 +177,7 @@
                             <img src="~/assets/images/contenido/simposio.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    Simposio
+                                    Simposios
                                 </p>
                             </div>
                         </div>
