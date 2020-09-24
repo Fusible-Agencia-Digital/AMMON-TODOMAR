@@ -9,7 +9,7 @@
                             <div class="hero-cap text-left">
                                 <h2>Congreso AMMOM</h2>
                                 <h4 class="text-white">Querétaro 2021</h4>
-                                <nuxt-link to="/registro" class="btn btn-transparent">Registro</nuxt-link>
+                                <!--nuxt-link to="/registro" class="btn btn-transparent">Registro</nuxt-link>-->
                             </div>
                         </div>
                     </div>
