@@ -14,7 +14,7 @@
                         <div class="slider-info">
                             <div class="col">
                                 <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
-                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px">
+                                <img src="~/assets/img/logo/logo_combinado_white.png" alt="" width="300px">
                                 <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
                                 <nuxt-link to="/registro"
                                            class="btn">¡Regístrate!
@@ -27,7 +27,7 @@
                         <div class="slider-info">
                             <div class="col">
                                 <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
-                                <img src="~/assets/img/logo/logo_header.png" alt="">
+                                <img src="~/assets/img/logo/logo_combinado_white.png" alt="">
                                 <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
                                 <nuxt-link to="/registro"
                                            class="btn">¡Regístrate!
