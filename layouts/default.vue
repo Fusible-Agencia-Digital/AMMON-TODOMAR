@@ -38,7 +38,7 @@
             <div class="header-area">
                 <b-navbar toggleable="lg" class="main-header header-sticky">
                     <nuxt-link to="/" class="navbar-brand">
-                        <img src="~/assets/img/logo/logo_header.png" width="100px" class="ml-50 p-1">
+                        <img src="~/assets/img/logo/logo_header.png" width="200px" class="ml-50 p-1">
                     </nuxt-link>
 
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -86,6 +86,7 @@
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <b-nav-item to="/contacto">Contacto</b-nav-item>
                             <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item>
+                            <b-nav-item to="/expocomercial">Expo</b-nav-item>
                             <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
                                 <nuxt-link to="/registro"
                                    class="btn btn-header">¡Regístrate!</nuxt-link>

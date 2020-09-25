@@ -14,7 +14,7 @@
                         <div class="slider-info">
                             <div class="col">
                                 <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
-                                <img src="~/assets/img/logo/logo_header.png" alt="">
+                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px">
                                 <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
                                 <nuxt-link to="/registro"
                                            class="btn">¡Regístrate!
@@ -224,7 +224,7 @@
                     </div>
                     <div class="col-md-12">
                         <client-only>
-                            <carousel :per-page="4" :autoplay="true" paginationActiveColor="#686bc4">
+                            <carousel :per-page="4" :autoplay="true" paginationActiveColor="#686bc4" infinite="true">
                                 <slide class="m-4">
                                     <img src="~/assets/img/sponsors/sponsorsmsd.png">
                                 </slide>
@@ -325,7 +325,7 @@
                 }
 
                 img {
-                    width: 170px !important;
+                    width: 300px !important;
                 }
             }
         }
