@@ -111,7 +111,7 @@
                             <div class="single-footer-caption mb-50">
                                 <div class="single-footer-caption mb-30">
                                     <div class="footer-tittle">
-                                        <h4>Fecha del XVII congreso</h4>
+                                        <h4>FECHA DE LAS JORNADAS VIRTUALES</h4>
                                         <div class="footer-pera">
                                             <client-only>
                                                 <v-calendar v-if="!loadingDates"
