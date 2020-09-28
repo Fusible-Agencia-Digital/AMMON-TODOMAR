@@ -6,9 +6,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap text-center">
+                            <div class="hero-cap text-left">
                                 <h2>Registro</h2>
                                 <h4 class="text-white">Información importante sobre el registro</h4>
+                                 <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
                             </div>
                         </div>
                     </div>

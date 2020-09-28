@@ -10,6 +10,8 @@
                                 <h2>Congreso AMMOM</h2>
                                 <h4 class="text-white">Querétaro 2021</h4>
                                 <!--nuxt-link to="/registro" class="btn btn-transparent">Registro</nuxt-link>-->
+                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+
                             </div>
                         </div>
                     </div>

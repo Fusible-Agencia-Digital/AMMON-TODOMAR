@@ -224,7 +224,7 @@
                     </div>
                     <div class="col-md-12">
                         <client-only>
-                            <carousel :per-page="4" :autoplay="true" paginationActiveColor="#686bc4" infinite="true">
+                            <carousel :per-page="5" indicators :autoplay="true" paginationActiveColor="#686bc4" :infinite="true">
                                 <slide class="m-4">
                                     <img src="~/assets/img/sponsors/sponsorsmsd.png">
                                 </slide>

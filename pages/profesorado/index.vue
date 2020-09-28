@@ -6,11 +6,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap text-center">
+                            <div class="hero-cap text-left">
                                 <h2>Profesores del Congreso</h2>
                                 <h4 class="text-white">Conoce a los especialistas que te transmitirán lo último en
                                     investigación
                                     <br> y tecnología al servicio de la medicina</h4>
+                            <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+
                             </div>
                         </div>
                     </div>
@@ -18,12 +20,12 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <!--<div class="col">
                         <b-nav tabs justified class="cover-tabs">
                             
                             <b-nav-item :active="activeTab===0" @click="activeTab=1">Nacionales</b-nav-item>
                         </b-nav>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
