@@ -88,7 +88,7 @@
 
                     <div class="col" id="activities" v-if="!loadingCalendar">
                         <div class="row mt-4" v-if="activeTab!=='all'">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <h4 class="widget_title mb-3 text-center">Canal 1</h4>
                                 <client-only>
                                     <vue-scheduler
@@ -100,7 +100,7 @@
                                             @event-clicked="goToActivity"></vue-scheduler>
                                 </client-only>
                             </div>
-                            <div class="col-md-6">
+                            <!--<div class="col-md-6">
                                 <h4 class="widget_title mb-3 text-center">Canal 2</h4>
                                 <client-only>
                                     <vue-scheduler
@@ -110,7 +110,7 @@
                                             :disable-dialog="true"
                                             @event-clicked="goToActivity"></vue-scheduler>
                                 </client-only>
-                            </div>
+                            </div>-->
                         </div>
                         <div class="row event-general" v-for="event in allEvents" @click="goToActivity(event)"
                              v-if="activeTab==='all'">
