@@ -224,7 +224,7 @@
                     </div>
                     <div class="col-md-12">
                         <client-only>
-                            <carousel :per-page="5" indicators :autoplay="true" paginationActiveColor="#686bc4" :infinite="true">
+                            <carousel :per-page="6" :navigationEnabled="true" :loop="true" :autoplay="true" paginationActiveColor="#686bc4" >
                                 <slide class="m-4">
                                     <img src="~/assets/img/sponsors/sponsorsmsd.png">
                                 </slide>
@@ -274,6 +274,7 @@
   import ImageComponent from "../components/ImageComponent";
 
   export default {
+      
     components: {ImageComponent, SpeakerComponent},
     data() {
       return {
@@ -283,6 +284,7 @@
         loaded: false
       }
     },
+    
 
     async mounted() {
       try {
