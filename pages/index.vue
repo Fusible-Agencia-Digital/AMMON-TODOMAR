@@ -213,7 +213,7 @@
             </div>
         </section>
         <!-- Blog Area End -->
-        <section class="work-company section-padding" v-if="sponsors.length">
+        <section class="work-company section-padding">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-12">
@@ -224,23 +224,27 @@
                     </div>
                     <div class="col-md-12">
                         <client-only>
-                            <carousel :per-page="6" :navigationEnabled="true" :loop="true" :autoplay="true" paginationActiveColor="#686bc4" >
-                                <slide class="m-4">
+                            <carousel v-bind:per-page="4" :autoplay="true" :loop="true"
+                          :paginationEnabled="true"
+                          :navigation-enabled="true"
+                          :paginationActiveColor="'#37bbe1'"
+                          :autoplayTimeout="4000" >
+                                <slide class="p-2">
                                     <img src="~/assets/img/sponsors/sponsorsmsd.png">
                                 </slide>
-                                <slide class="m-4">
+                                <slide class="p-2">
                                     <img src="~/assets/img/sponsors/sponsorssandoz.png">
                                 </slide>
-                                <slide class="m-4">
+                                <slide class="p-2">
                                     <img src="~/assets/img/sponsors/sponsorsamgen.png">
                                 </slide>
-                                <slide class="m-4">
+                                <slide class="p-2">
                                      <img src="~/assets/img/sponsors/sponsorsmedix.png">
                                 </slide>
-                                <slide class="m-4">
+                                <slide class="p-2">
                                      <img src="~/assets/img/sponsors/sponsorssmoksha.png">
                                 </slide>
-                                <slide class="m-4" >
+                                <slide class="p-2" >
                                      <img src="~/assets/img/sponsors/sponsorsasofarma.png">
                                 </slide>
                             </carousel>
