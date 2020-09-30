@@ -6,8 +6,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
-                            <div class="hero-cap text-left">
-                                <h2>Profesores de las Jornadas Virtuales</h2>
+                            <div class="hero-cap text-left" style="">
+                                <h2 style="text-transform:none!important">Profesores de las Jornadas Virtuales</h2>
                                 <h4 class="text-white">Conoce a los especialistas que te transmitirán lo último en
                                     investigación
                                     <br> y tecnología al servicio de la medicina</h4>
