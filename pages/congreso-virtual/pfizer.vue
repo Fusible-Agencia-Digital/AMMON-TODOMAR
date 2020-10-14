@@ -122,7 +122,7 @@
                                 </div>
                                 <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
                             </b-modal>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -133,6 +133,7 @@
 <script>
   export default {
     name: "contacto",
+    middleware: ['authenticated'],
 
     data() {
       return {

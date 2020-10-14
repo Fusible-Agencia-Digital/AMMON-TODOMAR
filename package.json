@@ -29,6 +29,7 @@
     "nuxt": "^2.13.0",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-sweetalert2": "^1.0.0",
+    "set-interval-async": "^1.0.33",
     "v-calendar": "^1.0.0-beta.23",
     "v-calendar-scheduler": "^0.7.4",
     "v-mask": "^2.2.1",

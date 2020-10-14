@@ -129,7 +129,7 @@
                             </div>
                             <div class="card-body">
                                 <p>21 de octubre de 2020.</p>
-                                
+
                             </div>
                         </div>
 
@@ -158,7 +158,7 @@
                                             </li>
                                             <li><b>* transferencia bancaria</b>
                                             </li>
-                                            
+
                                         </ul>
                                         <p>BBVA<br>
 Cuenta 0107755929<br>
@@ -226,6 +226,9 @@ A nombre de Asociación Mexicana de Metabolismo Óseo y Mineral, A.C.</p>
 
 <script>
   export default {
+
+    middleware: ['guest'],
+
     data() {
       return {
         activeTab: 0

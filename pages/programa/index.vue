@@ -89,7 +89,6 @@
                     <div class="col" id="activities" v-if="!loadingCalendar">
                         <div class="row mt-4" v-if="activeTab!=='all'">
                             <div class="col-md-12">
-                                <h4 class="widget_title mb-3 text-center">Canal 1</h4>
                                 <client-only>
                                     <vue-scheduler
                                             ref="eventsOne"

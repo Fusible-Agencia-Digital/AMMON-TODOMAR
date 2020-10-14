@@ -146,7 +146,7 @@
                                 <p class="title">
                                     <p class="title"><a href="#" @click="$bvModal.show('dudas')">REGISTRO PRIMERA VEZ</a></p>
                                 </p>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                                 <p class="title">
                                     <p class="title"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
                                 </p>
-                               
+
                             </div>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                                 <p class="title">
                                    <a href="#" @click="$bvModal.show('oncologia')">CURSO INTERDISCIPLINAR</a>
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@
                                 <p class="title">
                                    Paseo virtual industria
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -201,7 +201,7 @@
                                 <p class="title">
                                    Paseo virtual industria
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                                 <p class="title">
                                    Paseo virtual industria
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@
                                 <p class="title">
                                    Paseo virtual industria
                                 </p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -433,7 +433,9 @@
   import ImageComponent from "../components/ImageComponent";
 
   export default {
-      
+
+    middleware: ['guest'],
+
     components: {ImageComponent, SpeakerComponent},
     data() {
       return {
@@ -513,7 +515,7 @@
           }
         },
     },
-    
+
 
     computed: {
       ...mapState([

@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        AMM
-      </h1>
+      <h1 class="title">AMM</h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -28,9 +26,10 @@
 </template>
 
 <script>
-export default {}
+export default {
+  middleware: ["authenticated"],
+};
 </script>
 
 <style>
-
 </style>
