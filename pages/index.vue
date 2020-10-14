@@ -144,7 +144,18 @@
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Jornadas Académicas</nuxt-link>
+                                    <p class="title"><a href="#" @click="$bvModal.show('dudas')">REGISTRO PRIMERA VEZ</a></p>
+                                </p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="congress-content">
+                            <img src="~/assets/images/contenido/programa.jpg" alt="">
+                            <div class="details">
+                                <p class="title">
+                                    <p class="title"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
                                 </p>
                                
                             </div>
@@ -155,9 +166,53 @@
                             <img src="~/assets/images/contenido/profesores.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/profesorado">Profesores</nuxt-link>
+                                   <p class="title"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
                                 </p>
                                 <p class="subtitle"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="congress-content">
+                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <div class="details">
+                                <p class="title">
+                                   <a href="#" @click="$bvModal.show('oncologia')">CURSO INTERDISCIPLINAR</a>
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="congress-content">
+                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <div class="details">
+                                <p class="title">
+                                   Paseo virtual industria
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="congress-content">
+                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <div class="details">
+                                <p class="title">
+                                   Paseo virtual industria
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="congress-content">
+                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <div class="details">
+                                <p class="title">
+                                   Paseo virtual industria
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
@@ -212,6 +267,125 @@
                 </div>
             </div>
         </section>
+        <b-modal id="dudas"  class="text-center" hide-footer>
+            <h2 class="text-center">ATENCIÓN DE DUDAS</h2>
+            <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
+            escribenos y nos pondremos en contacto a través del correo <br>
+            eléctronico que nos proporciones.</p>
+            <p>Linea de atención a dudas: <a class="text-black" style="color:black!important" href="tel:5561478339">55 6147 8339</a></p>
+            <div class="p-4">
+                <b-form @submit.prevent="sendMessage('doubts')" >
+                    <b-form-group label="Nombre (s)" label-for="input-nombre">
+                        <b-form-input type="text" required v-model="message.name" ></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Paterno" label-for="input-apellido-p">
+                        <b-form-input type="text" required v-model="message.last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Materno" label-for="input-apellido-m">
+                        <b-form-input type="text" required v-model="message.mother_last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Email" label-for="input-email">
+                        <b-form-input type="email" required v-model="message.email"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Duda o problématica" label-for="input-duda">
+                        <b-form-textarea type="text" required v-model="message.message"></b-form-textarea>
+                    </b-form-group>
+                    <b-button variant="primary" class="float-right" type="submit" :disabled="disabled">Enviar</b-button>
+                </b-form>
+            </div>
+        </b-modal>
+
+        <b-modal id="acceso"  class="text-center" hide-footer>
+            <h2 class="text-center">PROBLEMAS DE ACCESO</h2>
+            <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
+            escribenos y nos pondremos en contacto a través del correo <br>
+            eléctronico que nos proporciones.</p>
+            <p>Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a></p>
+            <div class="p-4">
+                <b-form @submit.prevent="sendMessage('access')" >
+                    <b-form-group label="Nombre (s)" label-for="input-nombre">
+                        <b-form-input type="text" required v-model="message.name" ></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Paterno" label-for="input-apellido-p">
+                        <b-form-input type="text" required v-model="message.last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Materno" label-for="input-apellido-m">
+                        <b-form-input type="text" required v-model="message.mother_last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Email" label-for="input-email">
+                        <b-form-input type="email" required v-model="message.email"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Duda o problématica" label-for="input-duda">
+                        <b-form-textarea type="text" required v-model="message.message"></b-form-textarea>
+                    </b-form-group>
+                    <b-button variant="primary" class="float-right" type="submit" :disabled="disabled">Enviar</b-button>
+                </b-form>
+            </div>
+        </b-modal>
+
+        <b-modal id="pagos"  class="text-center" hide-footer>
+            <h2 class="text-center">ACLARACIÓN DE PAGOS</h2>
+            <p class="my-4 text-center">Descríbanos el problema sobre el pago de su registro y nos <br>
+            pondremos en contacto a través del correo eléctronico que nos <br>
+            proporcione</p>
+            <p>Linea de atención a acalración de pagos: <a href="tel:5537235921" style="color:black!important" class="text-black">55 3723 5921</a></p>
+            <div class="p-4">
+                <b-form @submit.prevent="sendMessage('payments')" >
+                    <b-form-group label="Nombre (s)" label-for="input-nombre">
+                        <b-form-input type="text" required v-model="message.name" ></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Paterno" label-for="input-apellido-p">
+                        <b-form-input type="text" required v-model="message.last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Materno" label-for="input-apellido-m">
+                        <b-form-input type="text" required v-model="message.mother_last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Email" label-for="input-email">
+                        <b-form-input type="email" required v-model="message.email"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Duda o problématica" label-for="input-duda">
+                        <b-form-textarea type="text" required v-model="message.message"></b-form-textarea>
+                    </b-form-group>
+                    <b-button variant="primary" class="float-right" type="submit" :disabled="disabled">Enviar</b-button>
+                </b-form>
+
+            </div>
+        </b-modal>
+
+        <b-modal id="oncologia"  class="text-center" hide-footer>
+            <h2 class="text-center">REGISTRO</h2>
+            <p class="my-4 text-center">Registra tus datos y recibirás vía correo electrónico una <strong>clave <br>
+            de acceso</strong> con la que podrás ingresar de forma gratuita al <br>
+            Curso Interdisciplinar de Congreso</p>
+            <div class="p-4">
+                <b-form @submit.prevent="registerUser()" >
+                    <b-form-group label="Nombre (s)" label-for="input-nombre">
+                        <b-form-input type="text" required v-model="message.name" ></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Paterno" label-for="input-apellido-p">
+                        <b-form-input type="text" required v-model="message.last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Apellido Materno" label-for="input-apellido-m">
+                        <b-form-input type="text" required v-model="message.mother_last_name"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Ciudad" label-for="input-duda">
+                        <b-form-input type="text" required v-model="message.city"></b-form-input>
+                    </b-form-group>
+                    <b-form-group label="Email" label-for="input-email">
+                        <b-form-input type="email" required v-model="message.email"></b-form-input>
+                    </b-form-group>
+                    <!--div class="form-group">
+                      <label>Especialidad</label>
+                      <select class="form-control" required v-model="message.speciality">
+                        <option v-for="(speciality, index) in specialities" :key="index" :value="speciality.id">{{ speciality.especialidad }}</option>
+                      </select>
+                    </div-->
+
+                    <b-button variant="primary" class="float-right" type="submit" :disabled="disabled">Enviar</b-button>
+                </b-form>
+
+            </div>
+        </b-modal>
         <!-- Blog Area End -->
         <section class="work-company section-padding" v-if="sponsors.length">
             <div class="container">
@@ -266,11 +440,20 @@
         sponsors: [],
         sponsorsCount: this.$device.isMobile ? 2 : 4,
         isMobile: this.$device.isMobile,
-        loaded: false
+        loaded: false,
+        message: {
+            name: "",
+            last_name: "",
+            mother_last_name: "",
+            email: "",
+            phone_number: "",
+            message: "",
+            city: "",
+            //category: 6,
+            //speciality: null
+        },
       }
     },
-    
-
     async mounted() {
       try {
         this.sponsors = await this.$axios.$get(`/sponsors?active_eq=true`);
@@ -280,6 +463,57 @@
         this.$swal('Error', 'Error al obtener profesores', 'error');
       }
     },
+    methods: {
+       showModal() {
+        this.$refs['inicio'].show()
+      },
+        async sendMessage(type) {
+
+          switch(type){
+            case 'doubts':
+                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
+                  break;
+            case 'access':
+                  this.message.mail_to = 'acceso@srcongress.mx';
+                  break;
+            case 'payments':
+                  this.message.mail_to = 'atencion@srcongress.mx';
+                  break;
+            default:
+                  this.message.mail_to = 'atencion@srcongress.mx';
+                  break;
+          }
+
+        this.disabled = true;
+        this.message.type = type;
+        try {
+          await this.$axiosAuth.post('/mail/contact', this.message);
+
+          this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto contigo a la brevedad.', 'success')
+          this.disabled = false;
+          this.message = {};
+        } catch (e) {
+          console.error(e.responseText);
+          this.disabled = false;
+          this.$swal('¡Error al enviar datos!', 'Por favor contacte directamente a atencion@srcongress.mx', 'error');
+        }
+      },
+
+
+        async registerUser() {
+          this.disabled = true;
+          try {
+              let user = await this.$axiosAuth.post(`/auth/register`, {...this.message});
+              this.$swal('Registro exitoso.', 'Tu código de acceso se ha enviado correctamente. La recepción puede demorar hasta 5 minutos.', 'success');
+              this.disabled = false;
+          } catch (e) {
+              console.error(e.response);
+              this.disabled = false;
+              this.$swal('Error',e.response.data.message, 'error');
+          }
+        },
+    },
+    
 
     computed: {
       ...mapState([
