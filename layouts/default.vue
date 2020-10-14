@@ -45,7 +45,7 @@
 
         <footer>
             <!-- Footer Start-->
-            <div class="footer-area footer-padding">
+            <!--<div class="footer-area footer-padding">
                 <div class="container">
                     <div class="row d-flex justify-content-between">
 
@@ -100,7 +100,7 @@
                                         <li><a href="#" @click="scrollToTop('/profesorado')">Profesores</a></li>
                                         <li><a href="#" @click="scrollToTop('/queretaro')">Querétaro 2021</a></li>
                                         <li><a href="#" @click="scrollToTop('/contacto')">Contacto</a></li>
-                                        <!--<li v-if="!$auth.loggedIn">
+                                        <li v-if="!$auth.loggedIn">
                                             <a href="/#" v-b-modal.modal-login>Login</a>
                                         </li>
                                         <template v-else>
@@ -113,7 +113,7 @@
                                             <li>
                                                 <a href="/#" @click="authLogout">Salir</a>
                                             </li>
-                                        </template>-->
+                                        </template>
                                     </ul>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!-- footer-bottom area -->
             <div class="footer-bottom-area footer-bg">
                 <div class="container">
