@@ -1,37 +1,8 @@
 <template>
     <div>
 
-        <b-modal id="modal-login" :hide-footer="true" @shown="resetWizard">
-            <form-wizard 
-                ref="auth-wizard"
-                title="Ingresa tus datos de acceso" 
-                subtitle="Sigue los pasos para ingresar"
-                nextButtonText="Siguiente"
-                backButtonText="Atrás"
-                finishButtonText="Ingresar"
-                color="#2B3682"
-                errorColor="#7B4199"
-                @on-complete="authLogin">
-
-                <tab-content title="Email" :beforeChange="authSendCode">
-                    <p>Por favor ingresa tu email</p>
-                    <div class="form-group">
-                        <label class="required">Email</label>
-                        <input type="text" class="form-control" v-model="user.email">
-                    </div>
-                </tab-content>
-                
-                <tab-content title="Código de verificación">
-                    <p>Se ha enviado un código de verificación al correo {{ user.email }}.
-                        Por favor ingresa aquí el código para poder accesar.
-                    </p>
-                    <div class="form-group">
-                        <label class="required">Código de verificación</label>
-                        <input type="text" class="form-control" v-model="user.password">
-                    </div>
-                </tab-content>
-
-            </form-wizard>
+        <b-modal id="modal-login" :hide-footer="true" title="Iniciar sesión">
+            <login-modal-component/>
         </b-modal>
 
         <header>
@@ -43,40 +14,6 @@
 
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-                    <!--div id="nav-collapse" class="navbar-collapse collapse" style="display: none;">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <nuxt-link to="/" class="nav-link">Inicio</nuxt-link>
-                            </li>
-                            <li class="nav-item">
-                                <nuxt-link to="/registro" class="nav-link">Registro</nuxt-link>
-                            </li>
-                            <li class="nav-item">
-                                <nuxt-link to="/mesa-directiva" class="nav-link">Mesa directiva</nuxt-link>
-                            </li>
-                            <li class="nav-item">
-                                <nuxt-link to="/programa" class="nav-link">Jornadas Académicas</nuxt-link>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <nuxt-link to="/profesorado" class="nav-link">Profesores</nuxt-link>
-                            </li>
-                            
-                            <li class="nav-item">
-                                <nuxt-link to="/contacto" class="nav-link">Contacto</nuxt-link>
-                            </li>
-                            <li class="nav-item header-right-btn">
-                                <nuxt-link to="/queretaro" class="nav-link">Querétaro 2021</nuxt-link>
-                            </li>
-                            
-
-                            <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
-                                <nuxt-link to="/registro"
-                                           class="btn header-btn">¡Regístrate!</nuxt-link>
-                            </div>
-                        </ul>
-                    </div-->
-
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav class="ml-auto">
                             <b-nav-item to="/">Inicio</b-nav-item>
@@ -86,10 +23,15 @@
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <b-nav-item to="/contacto">Contacto</b-nav-item>
                             <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item>
-                            <!--<b-nav-item to="/expocomercial">Expo</b-nav-item>-->
-                            <div class="header-right-btn f-right d-none d-lg-block ml-50 mr-30 mt-20">
-                                <nuxt-link to="/registro"
-                                   class="btn btn-header">¡Regístrate!</nuxt-link>
+
+                            <template v-if="$auth.loggedIn">
+                                <b-nav-item href="#" ><span class="font-weight-bold" style="text-transform: capitalize">Bienvenido(a), {{$auth.user.nombre}} {{$auth.user.apellidoP}}</span></b-nav-item>
+                            </template>
+
+                            <div class="text-center  d-sm-block d-lg-block   mt-20">
+                                <button v-if="!$auth.loggedIn" v-b-modal.modal-login class="btn btn-header">Iniciar sesión</button>
+                                <button v-if="$auth.loggedIn" @click="authLogout" class="btn btn-header">Salir</button>
+                                <nuxt-link v-if="!$auth.loggedIn" to="/registro" class="btn btn-header">¡Regístrate!</nuxt-link>
                             </div>
                         </b-navbar-nav>
                     </b-collapse>

@@ -62,14 +62,14 @@ export default {
   buildModules: [
     "@nuxtjs/moment"
   ],
-  
+
   moment: {
     /* module options */
     defaultLocale: 'es',
     timezone: true,
     defaultTimezone: 'America/Mexico_City'
   },
-  
+
   /*
   ** Nuxt.js modules
   */
@@ -119,23 +119,24 @@ export default {
     // Options
     strategies: {
       local: {
+        _scheme: 'local',
         endpoints: {
-          login: { url: process.env.BASE_API_URL + '/auth/login', method: 'post', propertyName: 'token' },
-          logout: { url: process.env.BASE_API_URL + '/auth/logout', method: 'post' },
+          login: { url: process.env.BASE_API_URL + '/auth/login', method: 'post', propertyName: 'token.token' },
+          logout: false,
           user: false
         },
         globalToken: false,
+        autoFetchUser: false
         // tokenRequired: true,
         // tokenType: 'bearer',
-        // autoFetchUser: false
       }
     },
     redirect: {
       login: '/',
       logout: '/',
       callback: '/',
-      home: '/'
+      home: '/congreso-virtual'
     }
   }
-  
+
 }
