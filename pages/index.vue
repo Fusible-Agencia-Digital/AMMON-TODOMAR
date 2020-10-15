@@ -22,7 +22,7 @@
                             </div>
                         </div>
                     </slide>
-                    <slide>
+                    <!--slide>
                         <img src="~/assets/img/home/banner1.jpg">
                         <div class="slider-info">
                             <div class="col">
@@ -34,7 +34,7 @@
                                 </nuxt-link>
                             </div>
                         </div>
-                    </slide>
+                    </slide-->
                 </carousel>
             </client-only>
         </div>
