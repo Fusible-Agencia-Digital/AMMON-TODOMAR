@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-4 pt-4 mt-3 mb-0">
-                            <h2 class="mb-4 pl-4">Bienvenido a Pfizer</h2>
+                            <h2 class="mb-4 pl-4">Bienvenido a Moksha8</h2>
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
                         <div class="col-xl-8 pt-4 mt-3 mb-3">
@@ -51,7 +51,7 @@
                     <div class="row">
                         <div class="col-xl-6 mb-0 contacto">
                             <div class="col-xl-10 offset-xl-1 p-4">
-                                <h2 class="text-center mb-4">Contacto con Pfizer</h2>
+                                <h2 class="text-center mb-4">Contacto con Moksha8</h2>
                                 <form class="form-contact contact_form" @submit.prevent="sendContact">
                                     <div class="row">
                                         <div class="col-sm-12">
