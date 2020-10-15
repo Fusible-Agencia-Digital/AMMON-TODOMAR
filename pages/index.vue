@@ -443,6 +443,7 @@
         sponsorsCount: this.$device.isMobile ? 2 : 4,
         isMobile: this.$device.isMobile,
         loaded: false,
+        disabled: false,
         message: {
             name: "",
             last_name: "",
