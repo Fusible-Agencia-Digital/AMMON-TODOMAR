@@ -122,7 +122,7 @@ export default {
       async sendContact() {
 
         this.disabled = true;
-        this.user.mail_to = ['adrisando26@gmail.com', 'gladucha_10@hotmail.com'];
+        this.user.mail_to = 'erickadrianmendezvillalpando@gmail.com';
         this.user.type = 'access';
         try {
           await this.$axiosAuth.post('/mail/contact', this.user);

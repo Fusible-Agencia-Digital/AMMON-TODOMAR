@@ -14,10 +14,7 @@
                              <img src="~/assets/images/Logo-Pfizer.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
-                            <a href="https://www.srcongress.mx/somos/registro_virtual.php"
-                                           target="_blank" class="btn mb-5 mb-md-3 mt-0 ml-2">
-                                            Registrate aquí
-                             </a>
+                            <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>
                         </div>
                     </div>
                 </div>

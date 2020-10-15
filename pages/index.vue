@@ -143,10 +143,7 @@
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
-                                <p class="title">
-                                    <p class="title"><a href="#" @click="$bvModal.show('dudas')">REGISTRO PRIMERA VEZ</a></p>
-                                </p>
-
+                                <p class="title"><a href="#" @click="$bvModal.show('dudas')">REGISTRO PRIMERA VEZ</a></p>
                             </div>
                         </div>
                     </div>
@@ -154,10 +151,7 @@
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
-                                <p class="title">
-                                    <p class="title"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
-                                </p>
-
+                                <p class="title"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
                             </div>
                         </div>
                     </div>
@@ -165,9 +159,7 @@
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/profesores.jpg" alt="">
                             <div class="details">
-                                <p class="title">
-                                   <p class="title"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
-                                </p>
+                                <p class="title"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
                                 <p class="subtitle"></p>
                             </div>
                         </div>
@@ -477,13 +469,13 @@
                   this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
                   break;
             case 'access':
-                  this.message.mail_to = 'acceso@srcongress.mx';
+                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
                   break;
             case 'payments':
-                  this.message.mail_to = 'atencion@srcongress.mx';
+                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
                   break;
             default:
-                  this.message.mail_to = 'atencion@srcongress.mx';
+                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
                   break;
           }
 
