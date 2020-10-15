@@ -18,10 +18,10 @@
                         <b-navbar-nav class="ml-auto">
                             <b-nav-item to="/">Inicio</b-nav-item>
                             <b-nav-item to="/registro">Registro</b-nav-item>
-                            <b-nav-item to="/mesa-directiva">Mesa directiva</b-nav-item>
+                            <!--<b-nav-item to="/mesa-directiva">Mesa directiva</b-nav-item>-->
                             <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
-                            <b-nav-item to="/contacto">Contacto</b-nav-item>
+                            <!--<b-nav-item to="/contacto">Contacto</b-nav-item>-->
                             <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item>
 
                             <template v-if="$auth.loggedIn">
@@ -139,15 +139,20 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="col-xl-10 col-lg-8 ">
                                 <div class="footer-copy-right">
-                                    <p>
-                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                        Asociación Mexicana de Metabolismo Óseo y Mineral @ 2020
-                                        <!--| This template is made with <i class="fa fa-heart"
-                                                                        aria-hidden="true"></i> by
-                                        <a
-                                                href="https://colorlib.com" target="_blank">Colorlib</a>
-                                        Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                    </p>
+                                    <ul class="list-group list-group-horizontal text-white">
+                                              <li class="m-2">
+                                                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                                   Asociación Mexicana de Metabolismo Óseo y Mineral &copy; {{ year }}
+                                                  <!--| This template is made with <i class="fa fa-heart"
+                                                                                  aria-hidden="true"></i> by
+                                                  <a
+                                                          href="https://colorlib.com" target="_blank">Colorlib</a>
+                                                  Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                              </li>
+                                              <li class="m-2"><nuxt-link to="/mesa-directiva">Mesa Directiva</nuxt-link></li>
+                                              <li class="m-2"><nuxt-link to="/organizadores">Organizadores</nuxt-link></li>
+                                              <li class="m-2"><nuxt-link to="/contacto">Contacto</nuxt-link></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
