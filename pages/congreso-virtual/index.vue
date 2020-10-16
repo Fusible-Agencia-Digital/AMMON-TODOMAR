@@ -45,7 +45,7 @@
 <script>
   export default {
     name: "index",
-    /*middleware: ['authenticated']*/
+    middleware: ['authenticated']
   }
 </script>
 
