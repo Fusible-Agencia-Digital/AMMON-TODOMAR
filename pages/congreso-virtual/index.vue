@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-xl-12 pt-4 mt-3 mb-3">
                             <h2 class="mb-4 pl-4 font-weight-bold">EXPO VIRTUAL</h2>
-                           	<p class="pl-4 pt-2">Bienvenido!</p>
+                           	<p class="pl-4 pt-2">¡Bienvenido!</p>
                            	<div><p class="pl-4 float-left">Presione sobre cada stand para acceder al contenido de cada expositor en el símbolo</p> <img src="~/assets/img/buttons/stand.png" width="60px" class="float-left pl-4"></div>
                             <div class="">
                              <p class="float-left pl-4 pt-2">Para ingresar a las Conferencias y Simposium de las Jornadas Virtuales presione el símbolo</p>

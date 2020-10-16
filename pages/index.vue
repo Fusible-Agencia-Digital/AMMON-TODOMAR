@@ -136,99 +136,69 @@
         </section>
         <!-- Brand Area End -->
         <!--? Blog Area Start -->
-        <section class="home-blog-area section-padding30">
+        <section class="home-blog-area mb-4 " style="padding:30px 0 30px 0;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-6">
+                <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/programa.jpg" alt="">
+                            <img src="~/assets/images/contenido/registro.jpg" alt="">
                             <div class="details">
-                                <p class="title"><a href="#" @click="$bvModal.show('dudas')">REGISTRO PRIMERA VEZ</a></p>
+                                <p class="title text-left pl-2"><a href="https://ammom.congreso.lat/registro">REGISTRO PRIMERA VEZ</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/programa.jpg" alt="">
+                            <img src="~/assets/images/contenido/atencion_dudas.jpg" alt="">
                             <div class="details">
-                                <p class="title"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
+                                <p class="title textl-left pl-2"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/profesores.jpg" alt="">
+                            <img src="~/assets/images/contenido/problemas_acceso.jpg" alt="">
                             <div class="details">
-                                <p class="title"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
+                                <p class="title text-left pl-2"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
                                 <p class="subtitle"></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <img src="~/assets/images/contenido/pagos.jpg" alt="">
                             <div class="details">
-                                <p class="title">
-                                   <a href="#" @click="$bvModal.show('oncologia')">CURSO INTERDISCIPLINAR</a>
+                                <p class="title text-left pl-2">
+                                   <a href="#" @click="$bvModal.show('pagos')">ACLARACIÓN DE PAGOS Y/O PAGOS</a>
                                 </p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/expo.jpg" alt="">
+                            <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
-                                <p class="title">
-                                   Paseo virtual industria
+                                <p class="title text-left pl-2">
+                                   <a href="/docs/Programa-Final-Final.pdf" download >DESCARGA EL PROGRAMA</a>
                                 </p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-4 col-lg-4">
                         <div class="congress-content">
-                            <img src="~/assets/images/contenido/expo.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                   Paseo virtual industria
+                            <img src="~/assets/images/contenido/CONFERENCIA_OSTEOPOROSIS.jpg" alt="">
+                            <div class="details" style="top:63px;">
+                                <p class="title text-left pl-2">
+                                   24 DE OCTUBRE. CONFERENCÍA DÍA MUNDIAL DE LA OSTEOPOROSIS
                                 </p>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/expo.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                   Paseo virtual industria
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/expo.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                   Paseo virtual industria
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <div class="congress-content">
-                            <img src="~/assets/images/contenido/simposio.jpg" alt="">
-                            <div class="details">
-                                <p class="title">
-                                    Simposios
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/img/content/eposter_2.jpg" alt="">
@@ -379,7 +349,7 @@
             </div>
         </b-modal>
         <!-- Blog Area End -->
-        <section class="work-company section-padding" v-if="sponsors.length">
+        <section class="work-company section-padding mt-4" v-if="sponsors.length">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-12">
@@ -621,10 +591,13 @@
         position: relative;
 
         img {
+            z-index: 5;
+            position:relative;
             width: 100%;
             -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
             -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
             box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+            min-height: 265px;
         }
 
         .details {
@@ -632,17 +605,20 @@
             top: 0;
             width: 100%;
             z-index: 9;
-            background-image: linear-gradient(180deg, $theme-color2 0%, rgba(41, 196, 169, 0.13) 100%);
+            background-color: #0F6B82;
             left: 0;
+            z-index: 1;
             bottom: 0;
             padding: 160px 14px;
 
             .title {
                 text-align: center;
                 font-weight: bold;
-                font-size: 2rem;
+                font-size: 1.4rem;
                 color: #FFF;
                 text-shadow: 0px 0px 20px #000000;
+                position: absolute;
+                bottom: 0;
             }
 
             .subtitle {
