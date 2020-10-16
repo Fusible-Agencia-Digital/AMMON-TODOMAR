@@ -19,7 +19,7 @@
         <section class="blog_area section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 mb-100">
+                    <div class="col-md-3 mb-2">
                         <div class="blog_right_sidebar">
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <div class="media post_item">
@@ -31,6 +31,7 @@
                                     </div>
                                 </div>
                             </aside>
+                            <a href="/congreso-virtual/live" class="btn my-2 w-100">En vivo</a>
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Comparte</h3>
                                 <div class="social-icons" v-if="activity">

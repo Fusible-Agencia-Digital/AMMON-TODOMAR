@@ -144,7 +144,7 @@
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/registro.jpg" alt="">
                             <div class="details">
-                                <p class="title text-left pl-2"><a href="https://ammom.congreso.lat/registro">REGISTRO PRIMERA VEZ</a></p>
+                                <p class="title text-left pl-2"><nuxt-link to="/registro">REGISTRO PRIMERA VEZ</nuxt-link></p>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
                             <img src="~/assets/img/content/eposter_2.jpg" alt="">
@@ -486,7 +486,9 @@
       ]),
 
       countDown() {
-        return this.$moment(this.event.start_date).valueOf() - this.$moment().startOf('day').valueOf();
+        let time = this.$moment(this.event.start_date).valueOf() - this.$moment().startOf('day').valueOf();
+
+        return time < 0 ? 0 : time;
       }
     }
 

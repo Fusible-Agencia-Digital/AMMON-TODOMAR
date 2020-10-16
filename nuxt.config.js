@@ -44,6 +44,7 @@ export default {
     "@/plugins/vue-countdown.js",
     "@/plugins/vue-form-wizard.js",
     "@/plugins/vue-social-sharing.js",
+    {src: '~/plugins/vue-persist', ssr: false},
     {src: '~/plugins/vue-unity-webgl.js', ssr: false, mode: 'client'},
     {src: '~/plugins/vue-carousel.js', ssr: false},
     {src: '~/plugins/vue-fullscreen.js', ssr: false, mode: 'client'},

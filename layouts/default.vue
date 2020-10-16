@@ -160,15 +160,6 @@
             <!-- Footer End-->
         </footer>
 
-
-        <!-- Scroll Up -->
-        <div id="back-top">
-            <a title="Go to Top" href="#">
-                <fa icon="level-up-alt"/>
-            </a>
-        </div>
-
-
     </div>
 </template>
 
