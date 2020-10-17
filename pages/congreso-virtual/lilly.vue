@@ -7,11 +7,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-4 pt-4 mt-3 mb-0">
-                            <h2 class="mb-4 pl-4">Bienvenido a Lilly</h2>
+                            <h2 class="mb-4 pl-4 font-weight-bold">Bienvenido a Lilly</h2>
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
                         <div class="col-xl-8 pt-4 mt-3 mb-3">
-                             <img src="~/assets/images/Logo-Pfizer.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
+                             <img src="~/assets/images/lilly/LOGO.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
                             <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>
@@ -24,26 +24,65 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 m-4">
-                    <div style="position:relative"><img id="main-image" src="~/assets/images/pfizer_stand.jpg" width="100%">
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.0%; height:9.2%; left:60.0%; top:63.2%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.7%; height:9.4%; left:59.6%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.5%; height:9.4%; left:55.3%; top:63.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.5%; height:9.4%; left:55.3%; top:52.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.3%; height:9.2%; left:49.7%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.7%; height:9.9%; left:49.5%; top:63.2%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.2%; height:9.4%; left:44.3%; top:63.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.4%; height:9.9%; left:43.2%; top:51.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:8.4%; height:9.1%; left:67.4%; top:53.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:4.4%; height:5.8%; left:76.1%; top:64.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:10.7%; height:39.9%; left:86.8%; top:48.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:6.1%; height:7.6%; left:30.2%; top:69.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:9.3%; height:10.2%; left:30.1%; top:49.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:6.4%; height:9.9%; left:17.5%; top:61.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:11.6%; height:42.6%; left:-0.1%; top:46.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                    <div style="position:relative"><img id="main-image" src="~/assets/images/lilly/stand.jpg" width="100%">
+                        <a @click="$bvModal.show('once')" class="rim-hotspot" style="width:3.3%; height:4.3%; left:90.1%; top:80.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a href="../docs/lilly/5.1_ESTUDIO.pdf" target="_blank" class="rim-hotspot" style="width:2.8%; height:5.0%; left:90.1%; top:72.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('nueve')" class="rim-hotspot" style="width:3.0%; height:5.3%; left:83.8%; top:83.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a href="../docs/lilly/5.2_ESTUDIO.pdf" target="_blank" download class="rim-hotspot" style="width:3.5%; height:5.6%; left:83.2%; top:75.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('seis')" class="rim-hotspot" style="width:4.9%; height:5.4%; left:75.5%; top:73.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('siete')" class="rim-hotspot" style="width:8.3%; height:14.2%; left:73.8%; top:56.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:7.4%; height:20.3%; left:64.4%; top:56.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('cuatro')" class="rim-hotspot" style="width:14.1%; height:19.3%; left:49.3%; top:56.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:9.7%; height:13.7%; left:38.7%; top:55.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:21.8%; height:22.1%; left:22.7%; top:70.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')"  class="rim-hotspot" style="width:14.3%; height:53.1%; left:5.2%; top:42.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     </div>
                 </div>
+                    
             </div>
         </div>
+        <b-modal  id="uno" hide-footer >
+            <div class="d-block text-center">
+                <img src="~/assets/images/lilly/ROLLUP-FORTEO.jpg"  width="100%;">
+            </div>
+        </b-modal>
+         <b-modal  id="dos" hide-footer >
+            <div class="d-block text-center">
+                <img src="~/assets/images/lilly/IMAGEN-IZQUIERDA.jpg"  width="100%;">
+            </div>
+        </b-modal>
+        <b-modal  id="tres" hide-footer >
+            <div class="d-block text-center">
+                 <h2 class="p-4">Puede enviarnos un mensaje a través de nuestro formulario de contacto y le enviaremos la información requerida</h2>
+            </div>
+        </b-modal>
+        <b-modal  id="cinco" hide-footer >
+            <div class="d-block text-center">
+                  <img src="~/assets/images/lilly/IMAGEN.jpg"  width="100%;">
+            </div>
+        </b-modal>
+        <b-modal  id="seis" hide-footer >
+            <div class="d-block text-center">
+                  <h2 class="p-4">Nuestros ejecutivos están listos para atenderle en nuestro chat.</h2>
+            </div>
+        </b-modal>
+        <b-modal  id="siete" hide-footer >
+            <div class="d-block text-center">
+                 <img src="~/assets/images/lilly/IMAGEN-DERECHA.jpg"  width="100%;">
+            </div>
+        </b-modal>
+        <b-modal  id="nueve" hide-footer >
+            <div class="d-block text-center">
+                 <img src="~/assets/images/lilly/REPISA-4.jpg"  width="100%;">
+            </div>
+        </b-modal>
+        <b-modal  id="once" hide-footer >
+            <div class="d-block text-center">
+                 <img src="~/assets/images/lilly/REPISA-3.jpg"  width="100%;">
+            </div>
+        </b-modal>
+        
+       
 
         <!--? CONTACTO-->
         <div class="section-contacto">
@@ -51,7 +90,7 @@
                     <div class="row">
                         <div class="col-xl-6 mb-0 contacto">
                             <div class="col-xl-10 offset-xl-1 p-4">
-                                <h2 class="text-center mb-4">Contacto con Lilly</h2>
+                                <h2 class="text-center mb-4 text-white">Contacto con Lilly</h2>
                                 <form class="form-contact contact_form" @submit.prevent="sendContact">
                                     <div class="row">
                                         <div class="col-sm-12">
@@ -96,8 +135,8 @@
 
                             </div>
                         </div>
-                        <div class="col-xl-6 p-0 m-0" style="background-image:url(/images/pfizer/POSTER1.jpg);background-size:cover">
-                            <div class="col-xl-3 link text-center"><a href="www.google.com" target="_blank"><h3>www.Pfizer</h3></a></div>
+                        <div class="col-xl-6 p-0 m-0" style="background-color: #d52b1e;">
+                            <div class="col-xl-4 link text-center"><a href="https://www.lilly.com.mx" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
                         </div>
                         <div>
                             <b-modal ref="uno" id="uno" hide-footer>
@@ -220,7 +259,7 @@
         .link{
             position:relative;
             top:50%;
-            left:40%;
+            left:35%;
             background-color:white;
             opacity:.7;
             border-radius:10px;
