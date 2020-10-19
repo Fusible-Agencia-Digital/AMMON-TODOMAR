@@ -16,7 +16,8 @@
 
                     <b-collapse id="nav-collapse" is-nav>
                         <b-navbar-nav class="ml-auto">
-                            <b-nav-item to="/">Inicio</b-nav-item>
+                            <b-nav-item v-if="!$auth.loggedIn" to="/">Inicio</b-nav-item>
+                            <b-nav-item v-if="$auth.loggedIn" to="/">Expo</b-nav-item>
                             <b-nav-item v-if="!$auth.loggedIn" to="/registro">Registro</b-nav-item>
                             <b-nav-item  v-if="$auth.loggedIn" href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
                             <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>

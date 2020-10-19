@@ -246,7 +246,7 @@
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p class="text-center">Linea de atención a dudas: <a class="text-black" style="color:black!important" href="mailto:educacion@ammom.mx">educacion@ammom.mx</a></p>
+            <p class="text-center">Linea de atención a dudas: </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('doubts')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -274,7 +274,7 @@
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a> / <a class="text-black" style="color:black!important" href="mailto:arvimex@gmail.com">arvimex@gmail.com</a></p>
+            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a> </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('access')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -302,7 +302,7 @@
             <p class="my-4 text-center">Descríbanos el problema sobre el pago de su registro y nos <br>
             pondremos en contacto a través del correo eléctronico que nos <br>
             proporcione</p>
-            <p class="text-center">Linea de atención a acalración de pagos: <a href="mailto:educacion@ammom.mx" style="color:black!important" class="text-black">educacion@ammom.mx</a></p>
+            <p class="text-center">Linea de atención a acalración de pagos: </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('payments')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
