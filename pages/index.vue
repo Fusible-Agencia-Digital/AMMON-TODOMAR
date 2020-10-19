@@ -191,7 +191,7 @@
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/CONFERENCIA_OSTEOPOROSIS.jpg" alt="">
                             <div class="details" style="top:63px;">
-                                <p class="title text-left pl-2">
+                                <p class="title text-left pl-2 pr-2">
                                    24 DE OCTUBRE. CONFERENCÍA DÍA MUNDIAL DE LA OSTEOPOROSIS
                                 </p>
 
@@ -615,8 +615,9 @@
 
             .title {
                 text-align: center;
-                font-weight: bold;
+                font-weight: 300;
                 font-size: 1.4rem;
+                font-family: bebas-neue-pro, sans-serif!important;
                 color: #FFF;
                 text-shadow: 0px 0px 20px #000000;
                 position: absolute;
