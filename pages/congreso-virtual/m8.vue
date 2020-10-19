@@ -11,7 +11,7 @@
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
                         <div class="col-xl-8 pt-4 mt-3 mb-3">
-                             <img src="~/assets/images/m8/Logo.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
+                             <img src="~/assets/images/m8/logo.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
                             <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>

@@ -24,7 +24,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 m-4">
-                    <div style="position:relative"><img id="main-image" src="~/assets/images/medix/stand.jpg" width="100%">
+                    <div style="position:relative"><img id="main-image" src="~/assets/images/MEDIX/stand.jpg" width="100%">
                         <a @click="$bvModal.show('ocho')" class="rim-hotspot" style="width:5.0%; height:29.5%; left:80.0%; top:60.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="google.com" class="rim-hotspot" style="width:12.0%; height:15.0%; left:66.5%; top:47.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/medix/stand_DIG_Histofil_5_folleto_100920.pdf" target="_blank" class="rim-hotspot" style="width:5.8%; height:19.6%; left:60.3%; top:68.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
@@ -101,7 +101,7 @@
                         <div>
                             <b-modal ref="uno" id="uno" hide-footer>
                                 <div class="d-block text-center">
-                                    <img src="~/assets/images/medix/Stand_DIG_Histofil_2_poster_100920.jpg"  width="100%;">
+                                    <img src="~/assets/images/MEDIX/Stand_DIG_Histofil_2_poster_100920.jpg"  width="100%;">
                                 </div>
                                 
                             </b-modal>

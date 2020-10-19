@@ -17,7 +17,7 @@
                                 <img src="~/assets/img/logo/logo_combinado_white.png" alt="" width="300px">
                                 <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
                                 <nuxt-link to="/registro"
-                                           class="btn">¡Regístrate!
+                                           class="btn">INICIAR SESIÓN
                                 </nuxt-link>
                             </div>
                         </div>
@@ -141,53 +141,64 @@
                 <div class="row">
                 <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
                     <div class="col-md-4 col-lg-4">
+                        <a href="/registro" >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/registro.jpg" alt="">
                             <div class="details">
-                                <p class="title text-left pl-2"><nuxt-link to="/registro">REGISTRO PRIMERA VEZ</nuxt-link></p>
+                                <p class="title text-left pl-2">REGISTRO PRIMERA VEZ</p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
+                        <a href="#" @click="$bvModal.show('dudas')">
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/atencion_dudas.jpg" alt="">
                             <div class="details">
-                                <p class="title textl-left pl-2"><a href="#" @click="$bvModal.show('dudas')">ATENCIÓN DE DUDAS</a></p>
+                                <p class="title textl-left pl-2">ATENCIÓN DE DUDAS</p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
+                        <a href="#" @click="$bvModal.show('acceso')">
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/problemas_acceso.jpg" alt="">
                             <div class="details">
-                                <p class="title text-left pl-2"><a href="#" @click="$bvModal.show('acceso')">PROBLEMAS DE ACCESO</a></p>
+                                <p class="title text-left pl-2">PROBLEMAS DE ACCESO</p>
                                 <p class="subtitle"></p>
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
+                         <a href="#" @click="$bvModal.show('pagos')">
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/pagos.jpg" alt="">
                             <div class="details">
                                 <p class="title text-left pl-2">
-                                   <a href="#" @click="$bvModal.show('pagos')">ACLARACIÓN DE PAGOS Y/O PAGOS</a>
+                                  ACLARACIÓN DE PAGOS Y/O PAGOS
                                 </p>
 
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
+                        <a href="/docs/Programa-Final-Final.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
                                 <p class="title text-left pl-2">
-                                   <a href="/docs/Programa-Final-Final.pdf" download >DESCARGA EL PROGRAMA</a>
+                                   DESCARGA EL PROGRAMA
                                 </p>
 
                             </div>
                         </div>
+                        </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
+                        <a href="http://streamingmx.com.mx/ammom/landing.php" target="_blank">
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/CONFERENCIA_OSTEOPOROSIS.jpg" alt="">
                             <div class="details" style="top:63px;">
@@ -197,6 +208,7 @@
 
                             </div>
                         </div>
+                        </a>
                     </div>
 
                     <!--div class="col-md-6 col-lg-4">
@@ -234,7 +246,7 @@
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p>Linea de atención a dudas: <a class="text-black" style="color:black!important" href="tel:5561478339">55 6147 8339</a></p>
+            <p class="text-center">Linea de atención a dudas: </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('doubts')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -262,7 +274,7 @@
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p>Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a></p>
+            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a> </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('access')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -290,7 +302,7 @@
             <p class="my-4 text-center">Descríbanos el problema sobre el pago de su registro y nos <br>
             pondremos en contacto a través del correo eléctronico que nos <br>
             proporcione</p>
-            <p>Linea de atención a acalración de pagos: <a href="tel:5537235921" style="color:black!important" class="text-black">55 3723 5921</a></p>
+            <p class="text-center">Linea de atención a acalración de pagos: </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('payments')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -436,13 +448,13 @@
 
           switch(type){
             case 'doubts':
-                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
+                  this.message.mail_to = 'educacion@ammom.mx';
                   break;
             case 'access':
-                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
+                  this.message.mail_to = 'arvimex@gmail.com';
                   break;
             case 'payments':
-                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
+                  this.message.mail_to = 'educacion@ammom.mx';
                   break;
             default:
                   this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
