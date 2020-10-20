@@ -21,9 +21,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-12 m-4">
+                <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/amgen/stand.jpg" width="100%">
                         <a @click="$bvModal.show('seis')"  class="rim-hotspot" style="width:5.0%; height:18.2%; left:83.4%; top:71.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:8.2%; height:19.5%; left:73.7%; top:56.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>

@@ -21,9 +21,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-12 m-4">
+                <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/italmex/stand.jpg" width="100%">
                         <a @click="$bvModal.show('seis')" target="_blank" class="rim-hotspot" style="width:5.8%; height:9.9%; left:88.9%; top:60.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="google.com" class="riwidth: 5.8%; height: 9.9%; left: 88.9%; top: 60.4%; position: absolute; cursor: pointer; display: block; z-index: 5; overflow: hidden;m-hotspot" style="width:10.6%; height:16.8%; left:67.6%; top:48.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>

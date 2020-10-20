@@ -21,9 +21,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-12 m-4">
+                <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/pfizer_stand.jpg" width="100%">
                         <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.0%; height:9.2%; left:60.0%; top:63.2%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.7%; height:9.4%; left:59.6%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>

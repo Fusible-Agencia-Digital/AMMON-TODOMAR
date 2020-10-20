@@ -21,9 +21,9 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xl-12 m-4">
+                <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/lilly/stand.jpg" width="100%">
                         <a @click="$bvModal.show('once')" class="rim-hotspot" style="width:3.3%; height:4.3%; left:90.1%; top:80.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/lilly/5.1_ESTUDIO.pdf" target="_blank" class="rim-hotspot" style="width:2.8%; height:5.0%; left:90.1%; top:72.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
