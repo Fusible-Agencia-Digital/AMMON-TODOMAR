@@ -19,6 +19,9 @@
                                 <button v-b-modal.modal-login
                                            class="btn">INICIAR SESIÓN
                                 </button>
+                                <div>
+                                            <a href="/registro"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></a>
+                                        </div>
                             </div>
                         </div>
                     </slide>
