@@ -100,25 +100,7 @@
                             <div class="col-xl-3 link text-center"><a href="www.google.com" target="_blank"><h3>www.Pfizer</h3></a></div>
                         </div>
                         <div>
-                            <b-modal ref="uno" id="uno" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
-
-                            <b-modal  id="dos" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
-                            <b-modal  id="tres" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
+                            
 
                         </div>
                     </div>

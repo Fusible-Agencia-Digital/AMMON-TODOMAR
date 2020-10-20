@@ -130,25 +130,7 @@
                             <div class="col-xl-4 link text-center"><a href="http://megalabs.mx" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
                         </div>
                         <div>
-                            <b-modal ref="uno" id="uno" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
-
-                            <b-modal  id="dos" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
-                            <b-modal  id="tres" hide-footer>
-                                <div class="d-block text-center">
-                                    <img src="~/assets/images/pfizer/Roll-up-CDE.jpg"  width="100%;">
-                                </div>
-                                <b-button class="mt-3" variant="outline-danger" block @click="hideModal">Close Me</b-button>
-                            </b-modal>
+                            
 
                         </div>
                     </div>
