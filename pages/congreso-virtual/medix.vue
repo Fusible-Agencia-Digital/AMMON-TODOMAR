@@ -26,8 +26,8 @@
                 <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/MEDIX/stand.jpg" width="100%">
                         <a @click="$bvModal.show('ocho')" class="rim-hotspot" style="width:5.0%; height:29.5%; left:80.0%; top:60.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a href="google.com" class="rim-hotspot" style="width:12.0%; height:15.0%; left:66.5%; top:47.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a href="../docs/medix/stand_DIG_Histofil_5_folleto_100920.pdf" target="_blank" class="rim-hotspot" style="width:5.8%; height:19.6%; left:60.3%; top:68.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('siete')" class="rim-hotspot" style="width:12.0%; height:15.0%; left:66.5%; top:47.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a href="../docs/medix/Stand_DIG_Histofil_5_folleto_100920.pdf" target="_blank" class="rim-hotspot" style="width:5.8%; height:19.6%; left:60.3%; top:68.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:10.9%; height:12.7%; left:26.6%; top:68.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/medix/mat_apoyo_medix_sept_1280x1280-ok1.pdf" target="_blank" class="rim-hotspot" style="width:8.8%; height:14.5%; left:50.7%; top:50.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/medix/MAT_APOYO_BIOLAIF_17sept2020.pdf" target="_blank" class="rim-hotspot" style="width:8.3%; height:22.3%; left:41.6%; top:48.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
@@ -118,6 +118,13 @@
                                 </div>
 
                             </b-modal>
+                            <b-modal  id="siete" hide-footer size="xl" >
+                                <div class="d-block text-center">
+                                    <iframe src="https://player.vimeo.com/video/470256988?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                   
+                                </div>
+                                
+                            </b-modal>
 
                         </div>
                     </div>
@@ -129,7 +136,7 @@
 <script>
   export default {
     name: "contacto",
-    middleware: ['authenticated'],
+   middleware: ['authenticated'],
 
     head() {
         return {
@@ -170,13 +177,14 @@
         async sendContact() {
             this.disabled = true;
 
-            if (this.contact.type === 'Proveedor') {
+            /*if (this.contact.type === 'Proveedor') {
             this.contact.mail_to = 'jorge@srcongress.mx';
             } else if (this.contact.type === 'Profesor') {
             this.contact.mail_to = 'adriana.sanchez@srcongress.mx';
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
-            }
+            }*/
+            this.contact.mail_to = 'khernandez@medix.com.mx';
 
             try {
             await this.$axios.$post('/emails/contact', this.contact);
