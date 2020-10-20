@@ -32,7 +32,7 @@
                         <a @click="$bvModal.show('seis')" class="rim-hotspot" style="width:4.9%; height:5.4%; left:75.5%; top:73.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('siete')" class="rim-hotspot" style="width:8.3%; height:14.2%; left:73.8%; top:56.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:7.4%; height:20.3%; left:64.4%; top:56.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('cuatro')" class="rim-hotspot" style="width:14.1%; height:19.3%; left:49.3%; top:56.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('video')" class="rim-hotspot" style="width:14.1%; height:19.3%; left:49.3%; top:56.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:9.7%; height:13.7%; left:38.7%; top:55.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:21.8%; height:22.1%; left:22.7%; top:70.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('uno')"  class="rim-hotspot" style="width:14.3%; height:53.1%; left:5.2%; top:42.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
@@ -79,6 +79,12 @@
         <b-modal  id="once" hide-footer >
             <div class="d-block text-center">
                  <img src="~/assets/images/lilly/REPISA-3.jpg"  width="100%;">
+            </div>
+        </b-modal>
+
+        <b-modal  id="video" hide-footer size="xl" >
+            <div class="d-block text-center">
+                <iframe src="https://player.vimeo.com/video/470207925?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
         </b-modal>
 
@@ -151,7 +157,7 @@
 <script>
   export default {
     name: "contacto",
-    middleware: ['authenticated'],
+   /* middleware: ['authenticated'],*/
 
     head() {
         return {
