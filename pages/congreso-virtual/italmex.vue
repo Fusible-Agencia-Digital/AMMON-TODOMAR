@@ -26,7 +26,7 @@
                 <div class="col-xl-12 p-0">
                     <div style="position:relative"><img id="main-image" src="~/assets/images/italmex/stand.jpg" width="100%">
                         <a @click="$bvModal.show('seis')" target="_blank" class="rim-hotspot" style="width:5.8%; height:9.9%; left:88.9%; top:60.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a href="google.com" class="riwidth: 5.8%; height: 9.9%; left: 88.9%; top: 60.4%; position: absolute; cursor: pointer; display: block; z-index: 5; overflow: hidden;m-hotspot" style="width:10.6%; height:16.8%; left:67.6%; top:48.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('siete')" class="riwidth: 5.8%; height: 9.9%; left: 88.9%; top: 60.4%; position: absolute; cursor: pointer; display: block; z-index: 5; overflow: hidden;m-hotspot" style="width:10.6%; height:16.8%; left:67.6%; top:48.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/italmex/folleto_opt.pdf" target="_blank" class="rim-hotspot" style="width:6.6%; height:16.8%; left:59.4%; top:68.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cinco')"  class="rim-hotspot" style="width:9.3%; height:9.1%; left:47.5%; top:69.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cuatro')"  class="rim-hotspot" style="width:10.9%; height:16.8%; left:50.5%; top:46.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
@@ -68,6 +68,12 @@
             <div class="d-block text-center">
                    <h2 class="p-4">Nuestros representantes están listos para atenderle en nuestro chat. </h2>
 
+            </div>
+        </b-modal>
+
+        <b-modal  id="siete" hide-footer size="xl" >
+            <div class="d-block text-center">
+                <iframe src="https://player.vimeo.com/video/470256561?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </div>
         </b-modal>
 
