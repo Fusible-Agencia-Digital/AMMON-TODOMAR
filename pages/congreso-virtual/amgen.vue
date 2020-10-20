@@ -122,7 +122,7 @@
                             </div>
                         </div>
                         <div class="col-xl-6 p-0 m-0" style="    background-image: linear-gradient(180deg, #54bb5a 0%, #159bd7 100%) !important;">
-                            <div class="col-xl-4 link text-center"><a href="https://www.amgen.com.mx/" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
+                            <div class="col-xl-4 link text-center"><a href="https://amgenone.com" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
                         </div>
                         <div>
                            
@@ -177,13 +177,14 @@
         async sendContact() {
             this.disabled = true;
 
-            if (this.contact.type === 'Proveedor') {
+            /*if (this.contact.type === 'Proveedor') {
             this.contact.mail_to = 'jorge@srcongress.mx';
             } else if (this.contact.type === 'Profesor') {
             this.contact.mail_to = 'adriana.sanchez@srcongress.mx';
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
-            }
+            }*/
+            this.contact.mail_to='mparraol@amgen.com';
 
             try {
             await this.$axios.$post('/emails/contact', this.contact);

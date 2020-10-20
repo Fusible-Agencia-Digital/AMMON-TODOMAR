@@ -183,13 +183,14 @@
         async sendContact() {
             this.disabled = true;
 
-            if (this.contact.type === 'Proveedor') {
+            /*if (this.contact.type === 'Proveedor') {
             this.contact.mail_to = 'jorge@srcongress.mx';
             } else if (this.contact.type === 'Profesor') {
             this.contact.mail_to = 'adriana.sanchez@srcongress.mx';
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
-            }
+            }*/
+            this.contact.mail_to='alfredo.gomez@megalabs.mx';
 
             try {
             await this.$axios.$post('/emails/contact', this.contact);
