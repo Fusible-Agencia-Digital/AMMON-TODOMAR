@@ -35,7 +35,7 @@
                         <a @click="$bvModal.show('uno')"  class="rim-hotspot" style="width:15.7%; height:54.8%; left:2.9%; top:39.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     </div>
                 </div>
-                    
+
             </div>
         </div>
         <b-modal  id="uno" hide-footer >
@@ -61,19 +61,19 @@
         <b-modal  id="cinco" hide-footer >
             <div class="d-block text-center">
                    <h2 class="p-4"> Pónganse en contacto con nuestro equipo a través del formulario</h2>
-                  
+
             </div>
         </b-modal>
         <b-modal  id="seis" hide-footer >
             <div class="d-block text-center">
                    <h2 class="p-4">Nuestros representantes están listos para atenderle en nuestro chat. </h2>
-                  
+
             </div>
         </b-modal>
-        
-        
-        
-       
+
+
+
+
 
         <!--? CONTACTO-->
         <div class="section-contacto">
@@ -169,7 +169,7 @@
                 {
                     hid: 'zoho',
                     //innerHTML: "var _smartsupp = _smartsupp || {};_smartsupp.key = 'f05d28f4332f6998dbbe2ee4832c4ce37d354e07';window.smartsupp||(function(d) {var s,c,o=smartsupp=function(){ o.push(arguments)};o=[];s=d.getElementsByTagName('script')[0];c=d.createElement('script');c.type='text/javascript';c.charset='utf-8';c.async=true;c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);})(document);",
-                    innerHTML: 'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"c1a87a31cb4e49328b8e184a76c808eb0f518f6a5caea4d66677f95a57bf6c0a", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id=\'zsiqwidget\'></div>");',
+                    innerHTML: 'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"b43037b8b5cfd498887f772b83a0918991d06d2177be92e0c49949688e35398b", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id=\'zsiqwidget\'></div>");',
                     type: 'text/javascript',
                     charset: 'utf-8'
                 }

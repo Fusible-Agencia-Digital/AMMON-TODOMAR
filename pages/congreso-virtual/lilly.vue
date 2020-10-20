@@ -38,7 +38,7 @@
                         <a @click="$bvModal.show('uno')"  class="rim-hotspot" style="width:14.3%; height:53.1%; left:5.2%; top:42.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     </div>
                 </div>
-                    
+
             </div>
         </div>
         <b-modal  id="uno" hide-footer >
@@ -81,8 +81,8 @@
                  <img src="~/assets/images/lilly/REPISA-3.jpg"  width="100%;">
             </div>
         </b-modal>
-        
-       
+
+
 
         <!--? CONTACTO-->
         <div class="section-contacto">
