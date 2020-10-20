@@ -457,7 +457,7 @@
                   this.message.mail_to = 'educacion@ammom.mx';
                   break;
             default:
-                  this.message.mail_to = 'erickadrianmendezvillalpando@gmail.com';
+                  this.message.mail_to = 'educacion@ammom.mx';
                   break;
           }
 
