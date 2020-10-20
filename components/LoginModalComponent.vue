@@ -94,8 +94,9 @@ export default {
         try {
           let response = await this.$auth.loginWith('local', {data: this.user});
           await this.$auth.setUser(response.data.user);
-          this.$router.push('/congreso-virtual')
-          this.$bvModal.hide('modal-login');
+          //this.$router.push('/congreso-virtual');
+          //this.$bvModal.hide('modal-login');
+          window.location.href = '/congreso-virtual'
         } catch (e) {
           console.error(e.response)
           this.$swal('Error', e.response.data.message, 'error');

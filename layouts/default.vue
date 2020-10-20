@@ -217,6 +217,10 @@
       }
     },
 
+    async mounted() {
+      await this.verifyToken();
+    },
+
     methods: {
       saveEvent(event) {
         this.$store.commit('saveEvent', event);
@@ -287,9 +291,20 @@
       },
 
       resetWizard() {
-          console.warn(this.$refs['auth-wizard']);
           this.$refs['auth-wizard'].reset();
             this.$refs['auth-wizard'].activateAll();
+      },
+
+
+      async verifyToken() {
+        if(this.$auth.loggedIn) {
+          try {
+            await this.$axiosAuth.get('/auth/me')
+          } catch(e) {
+            await this.$swal('Error', e.response.data.message, 'error');
+            await this.$auth.logout();
+          }
+        }
       }
     },
 
@@ -304,13 +319,15 @@
     },
 
     watch: {
-        '$route': function (newVal, oldVal) {
+        '$route': async function (newVal, oldVal) {
           if(newVal.name !== 'congreso-virtual-live') {
               let chatWindow = document.querySelector('.zsiq_floatmain');
               if(chatWindow) {
                   chatWindow.classList.add('d-none');
               }
           }
+
+          await this.verifyToken();
         }
     }
   }

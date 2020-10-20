@@ -136,7 +136,7 @@ export default {
       login: '/',
       logout: '/',
       callback: '/',
-      home: '/congreso-virtual'
+      home: false // Page to redirect after login
     }
   }
 
