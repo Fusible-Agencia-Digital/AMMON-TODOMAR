@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="col-xl-6 p-0 m-0" style="    background-image: linear-gradient(180deg, #8b242f 0%, #cf322f 100%) !important;">
-                            <div class="col-xl-4 link text-center"><a href="https://www.moksha8.com/mexico.html" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
+                            <div class="col-xl-4 link text-center"><a href="https://www.moksha8.com" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
                         </div>
                         <div>
                             <b-modal ref="uno" id="uno" hide-footer>
