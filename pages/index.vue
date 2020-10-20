@@ -16,9 +16,9 @@
                                 <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
                                 <img src="~/assets/img/logo/logo_combinado_white.png" alt="" width="300px">
                                 <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
-                                <nuxt-link to="/registro"
+                                <button v-b-modal.modal-login
                                            class="btn">INICIAR SESIÓN
-                                </nuxt-link>
+                                </button>
                             </div>
                         </div>
                     </slide>
