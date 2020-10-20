@@ -27,7 +27,7 @@
                     <div style="position:relative"><img id="main-image" src="~/assets/images/MEDIX/stand.jpg" width="100%">
                         <a @click="$bvModal.show('ocho')" class="rim-hotspot" style="width:5.0%; height:29.5%; left:80.0%; top:60.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="google.com" class="rim-hotspot" style="width:12.0%; height:15.0%; left:66.5%; top:47.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a href="../docs/medix/stand_DIG_Histofil_5_folleto_100920.pdf" target="_blank" class="rim-hotspot" style="width:5.8%; height:19.6%; left:60.3%; top:68.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a href="../docs/medix/Stand_DIG_Histofil_5_folleto_100920.pdf" target="_blank" class="rim-hotspot" style="width:5.8%; height:19.6%; left:60.3%; top:68.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:10.9%; height:12.7%; left:26.6%; top:68.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/medix/mat_apoyo_medix_sept_1280x1280-ok1.pdf" target="_blank" class="rim-hotspot" style="width:8.8%; height:14.5%; left:50.7%; top:50.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="../docs/medix/MAT_APOYO_BIOLAIF_17sept2020.pdf" target="_blank" class="rim-hotspot" style="width:8.3%; height:22.3%; left:41.6%; top:48.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
@@ -129,7 +129,7 @@
 <script>
   export default {
     name: "contacto",
-    middleware: ['authenticated'],
+   middleware: ['authenticated'],
 
     head() {
         return {
