@@ -157,7 +157,7 @@
 <script>
   export default {
     name: "contacto",
-   /* middleware: ['authenticated'],*/
+   middleware: ['authenticated'],
 
     head() {
         return {
