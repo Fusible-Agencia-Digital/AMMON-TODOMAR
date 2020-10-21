@@ -7,11 +7,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-4 pt-4 mt-3 mb-0">
-                            <h2 class="mb-4 pl-4 font-weight-bold">Bienvenido a AMGEN</h2>
+                            <h2 class="mb-4 pl-4">Bienvenido a Prolia</h2>
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
                         <div class="col-xl-8 pt-4 mt-3 mb-3">
-                             <img src="~/assets/images/amgen/logo.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
+                             <img src="~/assets/images/Logo-Pfizer.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
                             <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>
@@ -24,51 +24,26 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-12 p-0">
-                    <div style="position:relative"><img id="main-image" src="~/assets/images/amgen/stand.jpg" width="100%">
-                        <a @click="$bvModal.show('seis')"  class="rim-hotspot" style="width:5.0%; height:18.2%; left:83.4%; top:71.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:8.2%; height:19.5%; left:73.7%; top:56.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('cuatro')"  class="rim-hotspot" style="width:8.4%; height:21.5%; left:64.4%; top:55.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('tres')"  class="rim-hotspot" style="width:11.6%; height:17.8%; left:37.3%; top:55.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('dos')"  class="rim-hotspot" style="width:8.9%; height:39.8%; left:23.4%; top:52.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        <a @click="$bvModal.show('uno')"  class="rim-hotspot" style="width:15.3%; height:54.1%; left:4.0%; top:40.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                    <div style="position:relative"><img id="main-image" src="~/assets/images/pfizer_stand.jpg" width="100%">
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.0%; height:9.2%; left:60.0%; top:63.2%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.7%; height:9.4%; left:59.6%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.5%; height:9.4%; left:55.3%; top:63.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.5%; height:9.4%; left:55.3%; top:52.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.3%; height:9.2%; left:49.7%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.7%; height:9.9%; left:49.5%; top:63.2%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:3.2%; height:9.4%; left:44.3%; top:63.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:5.4%; height:9.9%; left:43.2%; top:51.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:8.4%; height:9.1%; left:67.4%; top:53.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:4.4%; height:5.8%; left:76.1%; top:64.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:10.7%; height:39.9%; left:86.8%; top:48.7%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:6.1%; height:7.6%; left:30.2%; top:69.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:9.3%; height:10.2%; left:30.1%; top:49.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:6.4%; height:9.9%; left:17.5%; top:61.9%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:11.6%; height:42.6%; left:-0.1%; top:46.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     </div>
                 </div>
-
             </div>
         </div>
-        <b-modal  id="uno" hide-footer >
-            <div class="d-block text-center">
-                <img src="~/assets/images/amgen/2_1280x2700px.jpg"  width="100%;">
-            </div>
-        </b-modal>
-         <b-modal  id="dos" hide-footer >
-            <div class="d-block text-center">
-                  <h2 class="p-4">Nuestros ejecutivos están listos para atenderle en nuestro chat.</h2>
-            </div>
-        </b-modal>
-        <b-modal  id="tres" hide-footer >
-            <div class="d-block text-center">
-                 <img src="~/assets/images/amgen/1280x1280_px.jpg"  width="100%;">
-            </div>
-        </b-modal>
-        <b-modal  id="cuatro" hide-footer >
-            <div class="d-block text-center">
-                   <img src="~/assets/images/amgen/1080_1600_px_2.jpg"  width="100%;">
-            </div>
-        </b-modal>
-        <b-modal  id="cinco" hide-footer >
-            <div class="d-block text-center">
-                   <img src="~/assets/images/amgen/2_1280x2700px.jpg"  width="100%;">
-            </div>
-        </b-modal>
-        <b-modal  id="seis" hide-footer >
-            <div class="d-block text-center">
-                   <h2 class="p-4">Puede enviarnos un mensaje a través de nuestro formulario de contacto y le enviaremos la información requerida</h2>
-            </div>
-        </b-modal>
-
-
-
 
         <!--? CONTACTO-->
         <div class="section-contacto">
@@ -76,7 +51,7 @@
                     <div class="row">
                         <div class="col-xl-6 mb-0 contacto">
                             <div class="col-xl-10 offset-xl-1 p-4">
-                                <h2 class="text-center mb-4 text-white">Contacto con AMGEN</h2>
+                                <h2 class="text-center mb-4">Contacto con Prolia</h2>
                                 <form class="form-contact contact_form" @submit.prevent="sendContact">
                                     <div class="row">
                                         <div class="col-sm-12">
@@ -121,8 +96,8 @@
 
                             </div>
                         </div>
-                        <div class="col-xl-6 p-0 m-0" style="    background-image: linear-gradient(180deg, #54bb5a 0%, #159bd7 100%) !important;">
-                            <div class="col-xl-4 link text-center"><a href="https://amgenone.com" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
+                        <div class="col-xl-6 p-0 m-0" style="background-image:url(/images/pfizer/POSTER1.jpg);background-size:cover">
+                            <div class="col-xl-3 link text-center"><a href="www.google.com" target="_blank"><h3>www.Pfizer</h3></a></div>
                         </div>
                         <div>
 
@@ -152,7 +127,6 @@
             ]
         }
     },
-
     data() {
       return {
         contact: {
@@ -161,7 +135,6 @@
         disabled: false
       }
     },
-
     methods: {
         showModal() {
             this.$refs['my-modal'].show()
@@ -176,19 +149,15 @@
         },
         async sendContact() {
             this.disabled = true;
-
-            /*if (this.contact.type === 'Proveedor') {
+            if (this.contact.type === 'Proveedor') {
             this.contact.mail_to = 'jorge@srcongress.mx';
             } else if (this.contact.type === 'Profesor') {
             this.contact.mail_to = 'adriana.sanchez@srcongress.mx';
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
-            }*/
-            this.contact.mail_to='mparraol@amgen.com';
-
+            }
             try {
             await this.$axios.$post('/emails/contact', this.contact);
-
             this.$swal('¡Mensaje enviado correctamente!', 'En caso de ser necesario nos pondremos en contacto contigo a la brevedad.', 'success')
             this.disabled = false;
             this.contact = {
@@ -206,7 +175,6 @@
 
 <style lang="scss" scoped>
     @import "assets/scss/color";
-
     .section-bienvenidos{
     	height:auto;
     	h2 , p{
@@ -227,11 +195,10 @@
         .link{
             position:relative;
             top:50%;
-            left:35%;
+            left:40%;
             background-color:white;
             opacity:.7;
             border-radius:10px;
-
         }
     }
     .slider-height2{
@@ -244,8 +211,6 @@
         color:white;
       }
     }
-
-
     .contact-info {
         a {
             color: $theme-color;
