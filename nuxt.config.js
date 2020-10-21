@@ -22,9 +22,13 @@ export default {
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
       {hid: 'description', name: 'description', content: process.env.BASE_APP_SUBTITLE || ''}
     ],
+    script: [
+      {src: 'https://cdn.myth.theoplayer.com/ac28db7f-ce62-4420-805e-a439cb54e97f/THEOplayer.js', type: 'text/javascript', charset: 'utf-8'}
+    ],
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.png'},
-      {rel: 'stylesheet', href: 'https://use.typekit.net/zcx1erq.css'} //Adobe Font
+      {rel: 'stylesheet', href: 'https://use.typekit.net/zcx1erq.css'}, //Adobe Font
+      {rel: 'stylesheet', href: 'https://cdn.myth.theoplayer.com/ac28db7f-ce62-4420-805e-a439cb54e97f/ui.css'}, //TheoPlayerCSS
     ]
   },
   /*

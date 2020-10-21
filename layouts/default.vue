@@ -320,11 +320,9 @@
 
     watch: {
         '$route': async function (newVal, oldVal) {
-          if(newVal.name !== 'congreso-virtual-live') {
-              let chatWindow = document.querySelector('.zsiq_floatmain');
-              if(chatWindow) {
-                  chatWindow.classList.add('d-none');
-              }
+          let chatWindow = document.querySelector('.zsiq_floatmain');
+          if(chatWindow) {
+              chatWindow.classList.add('d-none');
           }
 
           await this.verifyToken();

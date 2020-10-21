@@ -12,8 +12,8 @@
                     </template>
                     <h1 v-if="event.title" class="mb-4">{{ event.title }}</h1>
 
-                    <div class="embed-responsive embed-responsive-16by9" v-if="channel=='one'">
-                        <iframe class="embed-responsive-item" src="https://player.castr.io/live_83fd5620050711ebb1720b1249c4b35d" width="590" height="431" frameborder="0" scrolling="no" allow="autoplay" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                    <div v-if="channel=='one'">
+                        <TheoPlayerComponent :source="videoOne" />
                     </div>
                   </div>
                   <div class="col-12 text-center mt-4" v-if="event.survey_url">
@@ -38,6 +38,10 @@ export default {
 
     data: () => ({
         event: {},
+        videoOne: {
+            "src": "https://cdn3.wowza.com/1/dDJlQ1BpTTlMZ2tB/bjd1b2ZC/hls/live/playlist.m3u8",
+            "type": "application/x-mpegurl"
+        },
     }),
 
     async mounted() {
