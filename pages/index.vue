@@ -188,7 +188,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                       <!-- <a href="/docs/Programa-Final-Final.pdf" download >-->
+                       <a href="/docs/Programa-Final-Final.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
@@ -198,7 +198,7 @@
 
                             </div>
                         </div>
-                       <!-- </a>-->
+                       </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <a href="http://streamingmx.com.mx/ammom/landing.php" target="_blank">
