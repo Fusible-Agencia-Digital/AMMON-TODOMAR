@@ -184,7 +184,7 @@
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
             }*/
-            this.contact.mail_to = 'khernandez@medix.com.mx';
+            this.contact.mail_to = 'jcastaneda@medix.com.mx';
 
             try {
             await this.$axios.$post('/emails/contact', this.contact);
