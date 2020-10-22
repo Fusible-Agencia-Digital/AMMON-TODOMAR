@@ -116,7 +116,7 @@
             </div>
         </b-modal>
 
-        <b-modal  id="cuatro" hide-footer size="xl" >
+        <b-modal  id="cuatro" hide-footer  >
             <div class="d-block text-center">
                  <img src="~/assets/images/amgen/1080_1600_px_2.jpg"  width="100%;">
                 
