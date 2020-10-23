@@ -20,7 +20,7 @@
                                            class="btn">INICIAR SESIÓN
                                 </button>
                                 <div>
-                                            <a href="/registro"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></a>
+                                            <a href="https://www.srcongress.mx/ammom/jornada_virtual_beca.php"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></a>
                                         </div>
                             </div>
                         </div>
@@ -102,7 +102,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6 register">
+                   <!-- <div class="col-md-6 register">
                         <div class="counter-section">
                             <h1>YA EMPEZAMOS LA CUENTA REGRESIVA</h1>
                             <div class="cd-timer" id="countdown">
@@ -132,7 +132,7 @@
                         </div>
 
                         <nuxt-link to="/registro" class="btn mt-50">¡Regístrate!</nuxt-link>
-                    </div>
+                    </div>-->
 
                 </div>
             </div>
@@ -144,7 +144,7 @@
                 <div class="row">
                 <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
                     <div class="col-md-4 col-lg-4">
-                        <a href="/registro" >
+                        <a href="https://www.srcongress.mx/ammom/jornada_virtual_beca.php" >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/registro.jpg" alt="">
                             <div class="details">
