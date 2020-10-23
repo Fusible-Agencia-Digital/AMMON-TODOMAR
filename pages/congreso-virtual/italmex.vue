@@ -10,8 +10,8 @@
                             <h2 class="mb-4 pl-4 font-weight-bold">Bienvenido a Italmex</h2>
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
-                        <div class="col-xl-8 pt-4 mt-3 mb-3">
-                             <img src="~/assets/images/italmex/logo.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
+                        <div class="movil col-xl-8 pt-4 mt-3 mb-3">
+                             <img src="~/assets/images/italmex/logo.png" width="300px" class="movil float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
                             <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>
@@ -224,6 +224,12 @@
              left:0!important;
             
          }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+            display: block;
+         }
      }
 
     @media (max-width: 768px) {
@@ -232,7 +238,42 @@
             left:0!important;
            
          }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
      }
+     @media (max-width: 992px) { 
+         .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (max-width: 1200px) { 
+        .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
+     }
+
     .section-bienvenidos{
     	height:auto;
     	h2 , p{
