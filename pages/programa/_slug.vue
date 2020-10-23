@@ -214,6 +214,9 @@
 <style lang="scss" scoped>
     @import "assets/scss/color";
 
+    .blog_area a:hover{
+        color:white!important;
+    }
     .slider-area2 {
         background-image: url(/images/banner_programa.jpg);
     }

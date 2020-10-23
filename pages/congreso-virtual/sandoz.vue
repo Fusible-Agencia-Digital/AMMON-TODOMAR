@@ -163,7 +163,7 @@
             try {
             await this.$axios.$post('/emails/contact', this.contact);
 
-            this.$swal('¡Mensaje enviado correctamente!', 'En caso de ser necesario nos pondremos en contacto contigo a la brevedad.', 'success')
+            this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad', 'success')
             this.disabled = false;
             this.contact = {
                 type: null

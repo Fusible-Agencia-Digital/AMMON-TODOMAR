@@ -99,7 +99,7 @@
 
                             <b-modal  id="dos" hide-footer>
                                 <div class="d-block text-center">
-                                   <h2 class="p-4">Pónganse en contacto con el Dr. Rodrigo Moreno / Gerente Médico Líneas Gineco y Neuro de Asofarma. <br>
+                                   <h2 class="p-4">Pónganse en contacto con el Dr. Rodrigo Moreno / Gerente Médico Líneas Gineco y Neuro de Asofarma <br>
                                    a través del formulario</h2>
                                 </div>
                                 
