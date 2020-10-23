@@ -34,7 +34,7 @@
                 <a href="/congreso-virtual/lilly" class="rim-hotspot" style="width:9.4%; height:14.2%; left:58.0%; top:56.1%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                 <a href="/congreso-virtual/medix" class="rim-hotspot" style="width:8.3%; height:16.2%; left:48.2%; top:55.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                 <a href="/congreso-virtual/m8" class="rim-hotspot" style="width:9.0%; height:16.2%; left:37.0%; top:54.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                <a href="/congreso-virtual/" class="rim-hotspot" style="width:9.1%; height:18.2%; left:26.8%; top:53.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                <a href="/congreso-virtual/ammom" class="rim-hotspot" style="width:9.1%; height:18.2%; left:26.8%; top:53.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                 <a href="/congreso-virtual/asofarma" class="rim-hotspot" style="width:10.4%; height:18.6%; left:15.6%; top:53.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                 <a href="/congreso-virtual/live" class="rim-hotspot" style="width:10.7%; height:31.5%; left:0.8%; top:37.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                <!--<a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:10.1%; height:31.2%; left:87.8%; top:38.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>

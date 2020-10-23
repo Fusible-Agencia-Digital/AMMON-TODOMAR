@@ -71,7 +71,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-header">
+                            <!--<div class="card-header">
                                 <h2 class="mb-0">INSCRIPCIONES GRUPALES</h2>
                             </div>
                             <div class="card-body">
@@ -90,7 +90,7 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
 
                         <!--div class="card card-info" id="grupales">
@@ -123,7 +123,7 @@
                             </div>
                         </div-->
 
-                        <div class="card card-info" id="limite">
+                        <!--<div class="card card-info" id="limite">
                             <div class="card-header">
                                 <h2 class="mb-0">FECHA LÍMITE DE INSCRIPCIÓN</h2>
                             </div>
@@ -131,16 +131,16 @@
                                 <p>21 de octubre de 2020.</p>
 
                             </div>
-                        </div>
+                        </div>-->
 
-                        <div class="card card-info" id="">
+                        <!--<div class="card card-info" id="">
                             <div class="card-header">
                                 <h2 class="mb-0">CONFIRMACIONES DE INSCRIPCIÓN</h2>
                             </div>
                             <div class="card-body">
                                 <p> Las transferencias bancarias requieren de validación administrativa y es indispensable suban su comprobante de deposito y/o transferencia dentro del sistema de registro.</p>
                             </div>
-                        </div>
+                        </div>-->
 
 
                         <div class="row" id="formas">
