@@ -320,12 +320,18 @@
 
     watch: {
         '$route': async function (newVal, oldVal) {
+          console.warn(newVal);
+
           let chatWindow = document.querySelector('.zsiq_floatmain');
           if(chatWindow) {
               chatWindow.classList.add('d-none');
           }
 
           await this.verifyToken();
+
+          if(newVal.name.includes("congreso-virtual-")) {
+            window.location.href = newVal.path;
+          }
         }
     }
   }
