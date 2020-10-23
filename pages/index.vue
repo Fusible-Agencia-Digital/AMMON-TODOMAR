@@ -188,7 +188,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                        <a href="/docs/Programa-Final-Final.pdf" download >
+                       <a href="/docs/Programa-Final-Final.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
@@ -198,7 +198,7 @@
 
                             </div>
                         </div>
-                        </a>
+                       </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
                         <a href="http://streamingmx.com.mx/ammom/landing.php" target="_blank">
@@ -277,7 +277,7 @@
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
             escribenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
-            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5534114697">55 3411 4697</a> </p>
+            <p class="text-center">Linea de atención telefónica: <a class="text-black" style="color:black!important" href="tel:5591638378">55 916 383 78</a> y <a class="text-black" style="color:black!important" href="tel:9841330675">98 413 306 75</a>  </p>
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('access')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
@@ -454,7 +454,7 @@
                   this.message.mail_to = 'educacion@ammom.mx';
                   break;
             case 'access':
-                  this.message.mail_to = 'arvimex@gmail.com';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
             case 'payments':
                   this.message.mail_to = 'educacion@ammom.mx';

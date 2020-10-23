@@ -10,8 +10,8 @@
                             <h2 class="mb-4 pl-4 font-weight-bold">Bienvenido a Moksha8</h2>
                            	<p class="pl-4">Presione en donde vea el símbolo <img src="~/assets/img/buttons/SPOT.png" width="px" class="float-right pr-4 mr-3"><br>para acceder al contenido</p>
                         </div>
-                        <div class="col-xl-8 pt-4 mt-3 mb-3">
-                             <img src="~/assets/images/m8/logo.png" width="300px" class=" float-left ml-2 pl-4 pt-3">
+                        <div class="col-xl-8 pt-4 mt-3 mb-3 movil">
+                             <img src="~/assets/images/m8/logo.png" width="300px" class="movil float-left ml-2 pl-4 pt-3">
                         </div>
                         <div class="col-xl-12 pl-4 registrarte">
                             <nuxt-link to="/congreso-virtual" class="btn mb-5 mb-md-3 mt-0 ml-2">Regresar</nuxt-link>
@@ -34,6 +34,7 @@
                         <a href="http://www.m8congresos.com/ammom/quiz" target="_blank" class="rim-hotspot" style="width:9.1%; height:16.2%; left:63.8%; top:55.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a href="http://www.m8congresos.com/ammom/muestra-medica" target="_blank" class="rim-hotspot" style="width:10.9%; height:17.3%; left:38.4%; top:54.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                         <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:15.9%; height:54.8%; left:4.0%; top:40.4%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                        <a @click="$bvModal.show('videos')" class="rim-hotspot" style="width:13.2%; height:21.1%; left:49.5%; top:55.6%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     </div>
                 </div>
 
@@ -119,6 +120,14 @@
                                 </div>
 
                             </b-modal>
+                            <b-modal  id="videos" hide-footer size="xl">
+                                <div class="d-block text-center">
+                                    <iframe src="https://player.vimeo.com/video/470355252?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                </div>
+
+                            </b-modal>
+
+                            
 
                         </div>
                     </div>
@@ -183,7 +192,7 @@
             try {
             await this.$axios.$post('/emails/contact', this.contact);
 
-            this.$swal('¡Mensaje enviado correctamente!', 'En caso de ser necesario nos pondremos en contacto contigo a la brevedad.', 'success')
+            this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad', 'success')
             this.disabled = false;
             this.contact = {
                 type: null
@@ -200,6 +209,61 @@
 
 <style lang="scss" scoped>
     @import "assets/scss/color";
+    @media (max-width: 576px) {
+         .section-contacto .link{
+             top:0!important;
+             left:0!important;
+            
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+            display: block;
+         }
+     }
+
+    @media (max-width: 768px) {
+         .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
+     }
+     @media (max-width: 992px) { 
+         .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (max-width: 1200px) { 
+        .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+         .movil{
+             padding-top: 0!important;
+             margin-top:0!important;
+             text-align: center;
+             display: block;
+         }
+     }
 
     .section-bienvenidos{
     	height:auto;
