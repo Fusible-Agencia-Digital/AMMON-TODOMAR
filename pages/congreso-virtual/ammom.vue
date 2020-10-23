@@ -27,7 +27,7 @@
                     <div style="position:relative"><img id="main-image" src="~/assets/images/ammom/stand.jpg" width="100%">
                     <a @click="$bvModal.show('seis')" class="rim-hotspot" style="width:16.4%; height:19.3%; left:65.2%; top:69.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('cinco')" class="rim-hotspot" style="width:10.9%; height:14.5%; left:26.4%; top:68.3%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                    <a  class="rim-hotspot" style="width:11.7%; height:14.7%; left:67.4%; top:45.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
+                    <a  @click="$bvModal.show('cuatro')" style="width:11.7%; height:14.7%; left:67.4%; top:45.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:9.4%; height:19.3%; left:50.4%; top:50.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:7.2%; height:21.1%; left:42.2%; top:49.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:8.7%; height:19.1%; left:31.8%; top:49.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
