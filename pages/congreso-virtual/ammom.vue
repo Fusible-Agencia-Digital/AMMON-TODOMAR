@@ -118,7 +118,7 @@
             </div>
         </b-modal>
 
-        <b-modal  id="cuatro" hide-footer  >
+        <b-modal  id="cuatro" hide-footer size="xl" >
             <div class="d-block text-center">
                  <iframe src="https://player.vimeo.com/video/471040933?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                 
