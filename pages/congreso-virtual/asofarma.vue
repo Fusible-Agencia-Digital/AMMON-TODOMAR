@@ -139,7 +139,7 @@
 <script>
   export default {
     name: "contacto",
-   middleware: ['authenticated'],
+   /*middleware: ['authenticated'],*/
 
     data() {
       return {
@@ -194,6 +194,22 @@
 
 <style lang="scss" scoped>
     @import "assets/scss/color";
+
+    @media (max-width: 576px) {
+         .section-contacto .link{
+             top:0!important;
+             left:0!important;
+            
+         }
+     }
+
+    @media (max-width: 768px) {
+         .section-contacto .link{
+            top:0!important;
+            left:0!important;
+           
+         }
+     }
 
     .section-bienvenidos{
     	height:auto;

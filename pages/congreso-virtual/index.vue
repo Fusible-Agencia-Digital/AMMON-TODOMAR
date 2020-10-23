@@ -68,7 +68,7 @@
 
 <style lang="scss" scoped>
     @import "assets/scss/color";
-
+    
     .section-bienvenidos{
     	background: linear-gradient(to bottom, #7609f3,#9c12db);
     	height:auto;
