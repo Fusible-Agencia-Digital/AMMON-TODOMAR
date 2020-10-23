@@ -65,8 +65,13 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    "@nuxtjs/moment"
+    "@nuxtjs/moment",
+    '@nuxtjs/google-analytics'
   ],
+
+  googleAnalytics: {
+    id: 'G-JCH14EK0B7'
+  },
 
   moment: {
     /* module options */

@@ -1303,6 +1303,13 @@
     consola "^2.10.1"
     dotenv "^8.1.0"
 
+"@nuxtjs/google-analytics@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-analytics/-/google-analytics-2.4.0.tgz#3bb9f398a05cc23340d1f423f8d8653dc4114f46"
+  integrity sha512-rDQTwHIjyjVrx8GywHPuWykJ3jRFGaHl5Iqji/y8tQWUc0yGEeHxOoR0yimzxnTS1Ph2/PubQYpgnVeEPEdL/A==
+  dependencies:
+    vue-analytics "^5.22.1"
+
 "@nuxtjs/moment@^1.6.1":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@nuxtjs/moment/-/moment-1.6.1.tgz#a4e98a861c9d21e34f983046143f4c9bb92bdb7c"
@@ -10329,6 +10336,11 @@ vue-add-to-calendar@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/vue-add-to-calendar/-/vue-add-to-calendar-1.0.6.tgz#00e4f37998207d2b15f78fbd812e35000400fcf0"
   integrity sha512-QY0rJTF5hTOLWcRwNSVgHbzTCSAkwIGRecCOQaPfwDt1RFyWpArfKzwnhNVp9h87TCTcQG6F37DWp5oNfq5ivA==
+
+vue-analytics@^5.22.1:
+  version "5.22.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
+  integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
 
 vue-carousel@^0.18.0:
   version "0.18.0"

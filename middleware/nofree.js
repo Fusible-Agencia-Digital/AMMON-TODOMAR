@@ -5,7 +5,7 @@ export default async function ({ redirect, $auth }) {
     if ($auth.user.is_free) {
 
       if (process.client) {
-        window.location.href = '/congreso-virtual/canal-uno';
+        window.location.href = '/congreso-virtual/live';
       }
 
       //redirect('/congreso-virtual/canal-uno')
