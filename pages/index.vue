@@ -188,7 +188,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                       <a href="/docs/Programa-Final-20201022.pdf" download >
+                       <a href="/docs/Programa-Final-20201023.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/programa.jpg" alt="">
                             <div class="details">
