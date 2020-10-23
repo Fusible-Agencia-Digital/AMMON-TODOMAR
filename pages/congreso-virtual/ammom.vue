@@ -31,7 +31,7 @@
                     <a @click="$bvModal.show('tres')" class="rim-hotspot" style="width:9.4%; height:19.3%; left:50.4%; top:50.0%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('dos')" class="rim-hotspot" style="width:7.2%; height:21.1%; left:42.2%; top:49.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
                     <a @click="$bvModal.show('uno')" class="rim-hotspot" style="width:8.7%; height:19.1%; left:31.8%; top:49.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
-                        
+
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
         <b-modal  id="tres" hide-footer >
             <div class="d-block text-center">
                   <img src="~/assets/images/ammom/Poster-WOD20-12-WEB-es.jpg"  width="100%;">
-                   
+
 
             </div>
         </b-modal>
@@ -121,7 +121,7 @@
         <b-modal  id="cuatro" hide-footer size="xl" >
             <div class="d-block text-center">
                  <iframe src="https://player.vimeo.com/video/471040933?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                
+
             </div>
         </b-modal>
         <b-modal  id="cinco" hide-footer >
@@ -135,10 +135,10 @@
 
             </div>
         </b-modal>
-        
 
-        
-        
+
+
+
 
      </main>
 </template>
@@ -153,7 +153,7 @@
                 {
                     hid: 'zoho',
                     //innerHTML: "var _smartsupp = _smartsupp || {};_smartsupp.key = 'f05d28f4332f6998dbbe2ee4832c4ce37d354e07';window.smartsupp||(function(d) {var s,c,o=smartsupp=function(){ o.push(arguments)};o=[];s=d.getElementsByTagName('script')[0];c=d.createElement('script');c.type='text/javascript';c.charset='utf-8';c.async=true;c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);})(document);",
-                    innerHTML: 'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"c1a87a31cb4e49328b8e184a76c808eb8781798c20454206b2e5863f4a4fade4", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id=\'zsiqwidget\'></div>");',
+                    innerHTML: 'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"c1a87a31cb4e49328b8e184a76c808eb8f61d323a7e7423507b01825e7a3b952", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id=\'zsiqwidget\'></div>");',
                     type: 'text/javascript',
                     charset: 'utf-8'
                 }
@@ -213,7 +213,7 @@
          .section-contacto .link{
              top:0!important;
              left:0!important;
-            
+
          }
          .movil{
              padding-top: 0!important;
@@ -227,7 +227,7 @@
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -236,11 +236,11 @@
              display: block;
          }
      }
-     @media (max-width: 992px) { 
+     @media (max-width: 992px) {
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -251,11 +251,11 @@
     }
 
     // Extra large devices (large desktops, 1200px and up)
-    @media (max-width: 1200px) { 
+    @media (max-width: 1200px) {
         .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
