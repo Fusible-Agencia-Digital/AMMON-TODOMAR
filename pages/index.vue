@@ -305,7 +305,7 @@
             <p class="my-4 text-center">Descríbanos el problema sobre el pago de su registro y nos <br>
             pondremos en contacto a través del correo eléctronico que nos <br>
             proporcione</p>
-            <p class="text-center">Linea de atención a acalración de pagos: </p>
+           <!--<p class="text-center">Linea de atención a acalración de pagos: </p>-->
             <div class="p-4">
                 <b-form @submit.prevent="sendMessage('payments')" >
                     <b-form-group label="Nombre (s)" label-for="input-nombre">
