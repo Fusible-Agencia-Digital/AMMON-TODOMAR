@@ -320,7 +320,6 @@
 
     watch: {
         '$route': async function (newVal, oldVal) {
-          console.warn(newVal);
 
           let chatWindow = document.querySelector('.zsiq_floatmain');
           if(chatWindow) {
