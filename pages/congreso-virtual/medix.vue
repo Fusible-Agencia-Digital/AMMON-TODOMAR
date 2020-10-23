@@ -121,9 +121,9 @@
                             <b-modal  id="siete" hide-footer size="xl" >
                                 <div class="d-block text-center">
                                     <iframe src="https://player.vimeo.com/video/470256988?autoplay=1" width="100%" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                                   
+
                                 </div>
-                                
+
                             </b-modal>
 
                         </div>
@@ -184,7 +184,7 @@
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
             }*/
-            this.contact.mail_to = 'jcastaneda@medix.com.mx';
+            this.contact.mail_to = 'mcervantes@medix.com.mx';
 
             try {
             await this.$axios.$post('/emails/contact', this.contact);
@@ -210,7 +210,7 @@
          .section-contacto .link{
              top:0!important;
              left:0!important;
-            
+
          }
          .movil{
              padding-top: 0!important;
@@ -224,7 +224,7 @@
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -233,11 +233,11 @@
              display: block;
          }
      }
-     @media (max-width: 992px) { 
+     @media (max-width: 992px) {
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -248,11 +248,11 @@
     }
 
     // Extra large devices (large desktops, 1200px and up)
-    @media (max-width: 1200px) { 
+    @media (max-width: 1200px) {
         .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
