@@ -102,31 +102,31 @@
                                    <h2 class="p-4">Pónganse en contacto con el Dr. Rodrigo Moreno / Gerente Médico Líneas Gineco y Neuro de Asofarma <br>
                                    a través del formulario</h2>
                                 </div>
-                                
+
                             </b-modal>
                             <b-modal  id="tres" hide-footer>
                                 <div class="d-block text-center">
                                     <img src="~/assets/images/asofarma/ARTE-3-Izquierdo_DEMUS_150dpi.jpg"  width="100%;">
                                 </div>
-                                
+
                             </b-modal>
                             <b-modal  id="cuatro" hide-footer>
                                 <div class="d-block text-center">
                                     <img src="~/assets/images/asofarma/ARTE-5_FAM-TAFIROL_AZUL_150dpi.jpg"  width="100%;">
                                 </div>
-                                
+
                             </b-modal>
                             <b-modal  id="cinco" hide-footer>
                                 <div class="d-block text-center">
                                     <img src="~/assets/images/asofarma/ARTE-3-Derecho_NOVOVARTALON_150dpi.jpg"  width="100%;">
                                 </div>
-                                
+
                             </b-modal>
                             <b-modal  id="seis" hide-footer>
                                 <div class="d-block text-center">
                                     <img src="~/assets/images/asofarma/ARTE-4_XUMER-60-LANZA_150dpi.jpg"  width="100%;">
                                 </div>
-                                
+
                             </b-modal>
 
                         </div>
@@ -172,10 +172,10 @@
             } else {
             this.contact.mail_to = 'atencion@srcongress.mx';
             }*/
-            
+
             this.contact.mail_to = 'informacionmedica@asofarma.com.mx';
             try {
-            await this.$axios.$post('/emails/contact', this.contact);
+            await this.$axiosAuth.$post('/mail/contact', this.contact);
 
             this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad.', 'success')
             this.disabled = false;
@@ -199,7 +199,7 @@
          .section-contacto .link{
              top:0!important;
              left:0!important;
-            
+
          }
          .movil{
              padding-top: 0!important;
@@ -213,7 +213,7 @@
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -222,11 +222,11 @@
              display: block;
          }
      }
-     @media (max-width: 992px) { 
+     @media (max-width: 992px) {
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -237,11 +237,11 @@
     }
 
     // Extra large devices (large desktops, 1200px and up)
-    @media (max-width: 1200px) { 
+    @media (max-width: 1200px) {
         .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;

@@ -145,7 +145,7 @@
                             <div class="col-xl-4 link text-center"><a href="https://www.lilly.com.mx" target="_blank"><h3>Visite nuestro sitio</h3></a></div>
                         </div>
                         <div>
-                            
+
 
                         </div>
                     </div>
@@ -207,7 +207,7 @@
             }
 
             try {
-            await this.$axios.$post('/emails/contact', this.contact);
+            await this.$axiosAuth.$post('/mail/contact', this.contact);
 
             this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad', 'success')
             this.disabled = false;
@@ -230,7 +230,7 @@
          .section-contacto .link{
              top:0!important;
              left:0!important;
-            
+
          }
          .movil{
              padding-top: 0!important;
@@ -244,7 +244,7 @@
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -253,11 +253,11 @@
              display: block;
          }
      }
-     @media (max-width: 992px) { 
+     @media (max-width: 992px) {
          .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;
@@ -268,11 +268,11 @@
     }
 
     // Extra large devices (large desktops, 1200px and up)
-    @media (max-width: 1200px) { 
+    @media (max-width: 1200px) {
         .section-contacto .link{
             top:0!important;
             left:0!important;
-           
+
          }
          .movil{
              padding-top: 0!important;

@@ -187,7 +187,7 @@
             this.contact.mail_to = 'mcervantes@medix.com.mx';
 
             try {
-            await this.$axios.$post('/emails/contact', this.contact);
+            await this.$axiosAuth.$post('/mail/contact', this.contact);
 
             this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad', 'success')
             this.disabled = false;
