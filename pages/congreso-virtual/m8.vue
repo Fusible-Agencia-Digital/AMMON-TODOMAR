@@ -190,7 +190,7 @@
             this.contact.mail_to = 'joaquin.ruenes@moksha8.com';
 
             try {
-            await this.$axiosAuth.$post('/mail/contact', this.contact);
+            await this.$axiosAuth.post('/mail/contact', this.contact);
 
             this.$swal('¡Mensaje enviado correctamente!', 'Nos pondremos en contacto con usted a la brevedad', 'success')
             this.disabled = false;
