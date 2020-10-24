@@ -121,7 +121,7 @@
         this.disabled = true;
 
         try {
-          await this.$axios.post('/mail/contact', this.contact);
+          await this.$axiosAuth.post('/mail/contact', this.contact);
 
           this.$swal('¡Mensaje enviado correctamente!', 'En caso de ser necesario nos pondremos en contacto contigo a la brevedad.', 'success')
           this.disabled = false;
