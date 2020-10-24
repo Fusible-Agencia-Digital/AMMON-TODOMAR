@@ -460,7 +460,7 @@
                   this.message.mail_to = 'educacion@ammom.mx';
                   break;
             default:
-                  this.message.mail_to = 'educacion@ammom.mx';
+                  this.message.mail_to = 'atencion@srcongress.mx';
                   break;
           }
 

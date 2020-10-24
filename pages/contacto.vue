@@ -152,7 +152,7 @@
         } catch (e) {
           console.error(e);
           this.disabled = false;
-          this.$swal('¡Error al enviar datos!', 'Por favor contacte directamente a contacto@mastologia.org.mx', 'error');
+          this.$swal('¡Error al enviar datos!', 'Por favor contacte directamente a atencion@srcongress.mx', 'error');
         }
       }
     }
