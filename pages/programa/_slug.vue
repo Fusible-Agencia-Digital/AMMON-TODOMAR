@@ -89,6 +89,11 @@
                                 </div>
                                 <div class="blog_details">
                                     <h3 class="blog-head" style="color: #2d2d2d;">{{ activity.title }}</h3>
+
+                                    <div class="embed-responsive embed-responsive-16by9" v-if="activity.video_url">
+                                      <iframe class="embed-responsive-item" :src="activity.video_url" allowfullscreen></iframe>
+                                    </div>
+
                                     <div v-html="activity.description"></div>
                                     <div class="row team-area mt-5">
                                         <div class="col" v-if="activity.speakers.length">
