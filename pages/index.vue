@@ -213,7 +213,7 @@
             </div>
         </section>
         <!-- Blog Area End -->
-        <section class="work-company section-padding">
+        <section class="work-company section-padding" v-if="sponsors.length">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-12">
@@ -224,28 +224,9 @@
                     </div>
                     <div class="col-md-12">
                         <client-only>
-                            <carousel v-bind:per-page="4" :autoplay="true" :loop="true"
-                          :paginationEnabled="true"
-                          :navigation-enabled="true"
-                          :paginationActiveColor="'#37bbe1'"
-                          :autoplayTimeout="4000" >
-                                <slide class="p-2">
-                                    <img src="~/assets/img/sponsors/sponsorsmsd.png">
-                                </slide>
-                                <slide class="p-2">
-                                    <img src="~/assets/img/sponsors/sponsorssandoz.png">
-                                </slide>
-                                <slide class="p-2">
-                                    <img src="~/assets/img/sponsors/sponsorsamgen.png">
-                                </slide>
-                                <slide class="p-2">
-                                     <img src="~/assets/img/sponsors/sponsorsmedix.png">
-                                </slide>
-                                <slide class="p-2">
-                                     <img src="~/assets/img/sponsors/sponsorssmoksha.png">
-                                </slide>
-                                <slide class="p-2" >
-                                     <img src="~/assets/img/sponsors/sponsorsasofarma.png">
+                            <carousel :loop="true" :per-page="sponsorsCount" :autoplay="true" :paginationEnabled="true" :navigation-enabled="true" paginationActiveColor="#686bc4">
+                                <slide v-for="sponsor in sponsors" :key="sponsor.id">
+                                    <image-component :picture="sponsor.picture" class="px-3"/>
                                 </slide>
                             </carousel>
                         </client-only>
