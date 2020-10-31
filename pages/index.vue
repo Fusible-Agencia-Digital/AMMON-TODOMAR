@@ -144,21 +144,21 @@
                 <div class="row">
                 <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
                     <div class="col-md-4 col-lg-4">
-                        <a href="https://www.srcongress.mx/ammom/jornada_virtual_beca.php" >
+                        <a href="https://www.srcongress.mx/ammom/jornada_virtual.php" >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/registro.jpg" alt="">
                             <div class="details">
-                                <p class="title text-left pl-2">REGISTRO PRIMERA VEZ</p>
+                                <p class="title text-left pl-2">DESCARGA TU CONSTANCIA</p>
                             </div>
                         </div>
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-4">
-                        <a href="#" @click="$bvModal.show('dudas')">
+                        <a href="/docs/Manual_constancias_AMMOM1.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/atencion_dudas.jpg" alt="">
                             <div class="details">
-                                <p class="title textl-left pl-2">ATENCIÓN DE DUDAS</p>
+                                <p class="title textl-left pl-2">DESCARGA MANUAL PARA OBTENER CONSTANCIA</p>
                             </div>
                         </div>
                         </a>
