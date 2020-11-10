@@ -19,9 +19,7 @@
                                 <button v-b-modal.modal-login
                                            class="btn">INICIAR SESIÓN
                                 </button>
-                                <div>
-                                            <a href="https://www.srcongress.mx/ammom/jornada_virtual_beca.php"><p class="movil-center float-right text-white mt-3">Si no estás registrado,<span class="text-lowercase"> hazlo <u class="text-white"><strong>aquí</strong></u></span> </p></a>
-                                        </div>
+                                
                             </div>
                         </div>
                     </slide>
@@ -84,60 +82,7 @@
             </div>
         </section-->
         <!-- About Law End-->
-        <!--? Brand Area Start -->
-        <section class="team-area gradient-bg pt-100 pb-100 section-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 info">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle section-tittle2 mb-50">
-                            <div class="section-tittle mb-35">
-                                <h2 class="text-center">Desde 23 de julio</h2>
-                            </div>
-                            <p class="text-center">
-                                Para las Jornadas Académicas Virtuales se requiere una dirección de correo electrónico única para cada participante para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, no podrán obtener acceso a las jornadas académicas.
-                            </p>
-                            <p class="text-center">
-                                Esta dirección de correo electrónico también se utilizará para enviar cualquier comunicado relevante y acceder a la constancia después de las jornadas académicas. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.
-                            </p>
-                        </div>
-                    </div>
-                   <!-- <div class="col-md-6 register">
-                        <div class="counter-section">
-                            <h1>YA EMPEZAMOS LA CUENTA REGRESIVA</h1>
-                            <div class="cd-timer" id="countdown">
-                                <client-only>
-                                    <countdown :time="countDown">
-                                        <template slot-scope="props">
-                                            <div class="cd-item">
-                                                <span>{{ props.days }}</span>
-                                                <p>Días</p>
-                                            </div>
-                                            <div class="cd-item">
-                                                <span>{{ props.hours }}</span>
-                                                <p>Hrs</p>
-                                            </div>
-                                            <div class="cd-item">
-                                                <span>{{ props.minutes }}</span>
-                                                <p>Min</p>
-                                            </div>
-                                            <div class="cd-item">
-                                                <span>{{ props.seconds }}</span>
-                                                <p>Seg</p>
-                                            </div>
-                                        </template>
-                                    </countdown>
-                                </client-only>
-                            </div>
-                        </div>
-
-                        <nuxt-link to="/registro" class="btn mt-50">¡Regístrate!</nuxt-link>
-                    </div>-->
-
-                </div>
-            </div>
-        </section>
-        <!-- Brand Area End -->
+       
         <!--? Blog Area Start -->
         <section class="home-blog-area mb-4 " style="padding:30px 0 30px 0;">
             <div class="container">
