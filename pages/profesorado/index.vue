@@ -11,7 +11,7 @@
                                 <h4 class="text-white">Conoce a los especialistas que te transmitirán lo último en
                                     investigación
                                     <br> y tecnología al servicio de la medicina</h4>
-                            <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                            <img src="~/assets/img/logo/logo_white.png" alt="" width="150px" class="float-left">
 
                             </div>
                         </div>

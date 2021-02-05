@@ -9,7 +9,7 @@
                             <div class="hero-cap text-left">
                                 <h2>Registro</h2>
                                 <h4 class="text-white">Información importante sobre el registro</h4>
-                                 <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                                 <img src="~/assets/img/logo/logo_white.png" alt="" width="150px" class="float-left">
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                                 <h2 class="mb-0">INFORMACIÓN IMPORTANTE SOBRE EL REGISTRO</h2>
                             </div>
                             <div class="card-body">
-                                <p>Tenga en cuenta que para 2020 tenemos nuevos requisitos en torno al Jornadas Académicas Virtuales. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
+                                <p>Tenga en cuenta que para 2021 tenemos nuevos requisitos en torno al Jornadas Académicas Virtuales. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
                                 <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después de las Jornadas Académicas Virtuales. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
                             </div>
                         </div>

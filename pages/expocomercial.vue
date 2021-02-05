@@ -8,7 +8,7 @@
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 pt-4 mt-3 mb-3 text-left">
                             <h2 class="mb-4 pl-4 font-weight-bold">EXPO COMERCIAL 2020</h2>
-                            <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                            <img src="~/assets/img/logo/logo_white.png" alt="" width="300px" class="float-left">
 
                         </div>
                     </div>

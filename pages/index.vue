@@ -14,8 +14,8 @@
                         <div class="slider-info">
                             <div class="col">
                                 <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
-                                <img src="~/assets/img/logo/logo_combinado_white.png" alt="" width="300px">
-                                <h2 class="mb-4">del 23 al 25 octubre 2020</h2>
+                                <img src="~/assets/img/logo/logo_white.png" alt="" width="150px">
+                                <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
                                 <button v-b-modal.modal-login
                                            class="btn">INICIAR SESIÓN
                                 </button>
@@ -87,7 +87,7 @@
         <section class="home-blog-area mb-4 " style="padding:30px 0 30px 0;">
             <div class="container">
                 <div class="row">
-                <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2020</h2></div>
+                <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2021</h2></div>
                     <div class="col-md-4 col-lg-4">
                         <a href="https://www.srcongress.mx/ammom/jornada_virtual.php" >
                         <div class="congress-content">
@@ -473,7 +473,7 @@
                 }
 
                 img {
-                    width: 300px !important;
+                    width: 160px !important;
                 }
             }
         }

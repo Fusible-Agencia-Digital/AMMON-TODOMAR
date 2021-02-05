@@ -9,7 +9,7 @@
                             <div class="hero-cap text-left">
                                 <h2>Mesa directiva 2019-2021</h2>
                                 <h4 class="text-white">{{ title }}</h4>
-                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                                <img src="~/assets/img/logo/logo_white.png" alt="" width="300px" class="float-left">
 
                                 <!--nuxt-link to="/registro" class="btn btn-transparent">Registro</nuxt-link>-->
                             </div>

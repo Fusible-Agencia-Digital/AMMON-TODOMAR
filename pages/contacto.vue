@@ -9,7 +9,7 @@
                             <div class="hero-cap text-left">
                                 <h2>Contacto</h2>
                                 <h4 class="text-white">Asociación Mexicana de Metabolismo Óseo y Mineral A.C.</h4>
-                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                                <img src="~/assets/img/logo/logo_white.png" alt="" width="300px" class="float-left">
 
                             </div>
                         </div>

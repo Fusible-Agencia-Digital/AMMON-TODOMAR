@@ -8,7 +8,7 @@
                         <div class="col-xl-12">
                             <div class="hero-cap text-left">
                                 <h2>Programa</h2>
-                                <img src="~/assets/img/logo/logo_header.png" alt="" width="300px" class="float-left">
+                                <img src="~/assets/img/logo/logo_white.png" alt="" width="150px" class="float-left">
 
                             </div>
                         </div>

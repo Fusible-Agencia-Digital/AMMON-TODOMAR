@@ -9,7 +9,7 @@
             <div class="header-area">
                 <b-navbar toggleable="lg" class="main-header header-sticky">
                     <nuxt-link to="/" class="navbar-brand">
-                        <img src="~/assets/img/logo/logo_header_viejo.png" width="100px" class="ml-50 p-1">
+                        <img src="~/assets/img/logo/logo_white.png" width="71px" class="ml-50 p-1">
                     </nuxt-link>
 
                     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -22,7 +22,8 @@
                             <b-nav-item  v-if="$auth.loggedIn" href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
                             <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
-                            <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item>
+                            <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
+                            <b-nav-item href="https://www.srcongress.mx/ammom/trabajos.php" target="_blank">Trabajos</b-nav-item>
                             <template v-if="$auth.loggedIn">
                                 <b-nav-item href="#" ><span class="font-weight-bold" style="text-transform: capitalize">Bienvenido(a), {{$auth.user.nombre}} {{$auth.user.apellidoP}}</span></b-nav-item>
                             </template>
@@ -43,96 +44,7 @@
 
 
         <footer>
-            <!-- Footer Start-->
-            <!--<div class="footer-area footer-padding">
-                <div class="container">
-                    <div class="row d-flex justify-content-between">
-
-                        <div class="col-md-4">
-                            <div class="single-footer-caption mb-50">
-                                <div class="single-footer-caption mb-30">
-                                    <div class="footer-tittle">
-                                        <h4>FECHA DE LAS JORNADAS VIRTUALES</h4>
-                                        <div class="footer-pera">
-                                            <client-only>
-                                                <v-calendar v-if="!loadingDates"
-                                                            is-dark
-                                                            color="blue"
-                                                            mode="single"
-                                                            nav-visibility="hidden"
-                                                            :from-date="attributes[0].dates.start"
-                                                            :attributes="attributes"></v-calendar>
-                                            </client-only>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Contáctanos</h4>
-                                    <ul>
-                                        <li>Dirección: <br>
-                                            Durango 290 -504 <br>
-                                            Col. Roma México 06700 <br>
-                                            Ciudad de México</li>
-                                        <li><a href="tel:+525555117260">Teléfono: +52 55 55117260</a></li>
-                                        <li><a href="mailto:educacion@ammom.mx">Email :
-                                            educacion@ammom.mx</a></li>
-                                        <li><a href="tel:+5555117819">Teléfono: +52 55 55117819</a></li>
-                                        <li><a href="mailto:planeacionestrategica@ammom.mx">Email :
-                                            planeacionestrategica@ammom.mx</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle">
-                                    <h4>Navegación</h4>
-                                    <ul>
-                                        <li><a href="#" @click="scrollToTop('/')">Inicio</a></li>
-                                        <li><a href="#" @click="scrollToTop('/registro')">Registro</a></li>
-                                        <li><a href="#" @click="scrollToTop('/mesa-directiva')">Mesa Directiva</a></li>
-                                        <li><a href="#" @click="scrollToTop('/programa')">Jornadas Académicas</a></li>
-                                        <li><a href="#" @click="scrollToTop('/profesorado')">Profesores</a></li>
-                                        <li><a href="#" @click="scrollToTop('/queretaro')">Querétaro 2021</a></li>
-                                        <li><a href="#" @click="scrollToTop('/contacto')">Contacto</a></li>
-                                        <li v-if="!$auth.loggedIn">
-                                            <a href="/#" v-b-modal.modal-login>Login</a>
-                                        </li>
-                                        <template v-else>
-                                            <li>
-                                                <nuxt-link to="/perfil" >Perfil</nuxt-link>
-                                            </li>
-                                            <li>
-                                                <nuxt-link to="/congreso" >Congreso Virtual</nuxt-link>
-                                            </li>
-                                            <li>
-                                                <a href="/#" @click="authLogout">Salir</a>
-                                            </li>
-                                        </template>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="single-footer-caption mb-50">
-                                <div class="footer-tittle social-links">
-                                    <h4>Social</h4>
-                                    <a href="#" target="_blank"><fa :icon="['fab', 'facebook-f']" class="fa-2x"></fa></a>
-                                    <a href="#" target="_blank"><fa :icon="['fab', 'twitter']" class="fa-2x"></fa></a>
-                                    <a href="#" target="_blank"><fa :icon="['fab', 'instagram']" class="fa-2x"></fa></a>
-                                    <a href="#" target="_blank"><fa :icon="['fab', 'linkedin']" class="fa-2x"></fa></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- footer-bottom area -->
-            <div class="footer-bottom-area footer-bg">
+           <div class="footer-bottom-area footer-bg">
                 <div class="container">
                     <div class="footer-border">
                         <div class="row d-flex justify-content-between align-items-center">
