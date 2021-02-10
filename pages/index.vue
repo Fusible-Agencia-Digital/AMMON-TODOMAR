@@ -13,7 +13,8 @@
                         <img src="~/assets/img/home/banner1.jpg">
                         <div class="slider-info">
                             <div class="col">
-                                <h1>JORNADAS ACADÉMICAS VIRTUALES</h1>
+                                <h1>XX CONGRESO MEXICANO DE OSTEOPOROSIS Y ENFERMEDADES METABÓLICAS OSEAS</h1>
+                                <h2>CONGRESO VIRTUAL</h2>
                                 <img src="~/assets/img/logo/logo_white.png" alt="" width="150px">
                                 <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
                                 <button v-b-modal.modal-login
@@ -88,7 +89,7 @@
             <div class="container">
                 <div class="row">
                 <div class="col-md-12 mb-4 mt-4"><h2 class="text-center">CENTRO DE ATENCIÓN AMMOM 2021</h2></div>
-                    <div class="col-md-4 col-lg-4">
+                    <!--div class="col-md-4 col-lg-4">
                         <a href="https://www.srcongress.mx/ammom/jornada_virtual.php" >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/registro.jpg" alt="">
@@ -97,8 +98,8 @@
                             </div>
                         </div>
                         </a>
-                    </div>
-                    <div class="col-md-4 col-lg-4">
+                    </div-->
+                    <!--div class="col-md-4 col-lg-4">
                         <a href="/docs/Manual_constancias_AMMOM1.pdf" download >
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/atencion_dudas.jpg" alt="">
@@ -107,7 +108,7 @@
                             </div>
                         </div>
                         </a>
-                    </div>
+                    </div-->
                     <div class="col-md-4 col-lg-4">
                         <a href="#" @click="$bvModal.show('acceso')">
                         <div class="congress-content">
@@ -145,7 +146,7 @@
                         </div>
                        </a>
                     </div>
-                    <div class="col-md-4 col-lg-4">
+                    <!--div class="col-md-4 col-lg-4">
                         <a href="http://streamingmx.com.mx/ammom/landing.php" target="_blank">
                         <div class="congress-content">
                             <img src="~/assets/images/contenido/CONFERENCIA_OSTEOPOROSIS.jpg" alt="">
@@ -157,7 +158,7 @@
                             </div>
                         </div>
                         </a>
-                    </div>
+                    </div-->
 
                     <!--div class="col-md-6 col-lg-4">
                         <div class="congress-content">
@@ -473,7 +474,7 @@
                 }
 
                 img {
-                    width: 160px !important;
+                    width: 130px !important;
                 }
             }
         }

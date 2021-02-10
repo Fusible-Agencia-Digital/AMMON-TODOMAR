@@ -20,7 +20,7 @@
                             <b-nav-item v-if="$auth.loggedIn" to="/">Expo</b-nav-item>
                             <b-nav-item v-if="!$auth.loggedIn" to="/registro">Registro</b-nav-item>
                             <b-nav-item  v-if="$auth.loggedIn" href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
-                            <b-nav-item to="/programa">Jornadas Académicas</b-nav-item>
+                            <b-nav-item to="/programa">Programa</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
                             <b-nav-item href="https://www.srcongress.mx/ammom/trabajos.php" target="_blank">Trabajos</b-nav-item>
