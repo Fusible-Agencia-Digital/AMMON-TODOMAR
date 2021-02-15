@@ -141,7 +141,6 @@
                                 <p class="title text-left pl-2">
                                    DESCARGA EL PROGRAMA
                                 </p>
-
                             </div>
                         </div>
                        </a>
