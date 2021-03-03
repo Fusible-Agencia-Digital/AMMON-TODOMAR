@@ -47,8 +47,21 @@
                                 <h2 class="mb-0">INFORMACIÓN IMPORTANTE SOBRE EL REGISTRO</h2>
                             </div>
                             <div class="card-body">
-                                <p>Tenga en cuenta que para 2021 tenemos nuevos requisitos en torno al Jornadas Académicas Virtuales. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
-                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después de las Jornadas Académicas Virtuales. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
+                                <p>Tenga en cuenta que para 2021 tenemos nuevos requisitos en torno al Congreso Virtual. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
+                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después de las Congreso Virtual. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
+                            </div>
+                        </div>
+
+                        <div class="card card-info" id="costo">
+                            <div class="card-header">
+                                <h2 class="mb-0">FECHA LÍMITE DE INSCRIPCIÓN</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="row title-cost">
+                                    <div class="col-12">
+                                        <h3>03 de mayo de 2021</h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -60,15 +73,16 @@
                                 <div class="row title-cost">
                                     <div class="col-12">
                                         <p>
-                                        Cuota de registro <br>
-                                        <h3>$3000.00</h3> </p>
+                                        Cuota de registro </p>
+                                        <h3>$5000.00</h3>
+                                     
                                     </div>
-                                    <div class="col-12">
+                                    <!-- <div class="col-12">
                                         <a href="https://www.srcongress.mx/ammom/jornada_virtual.php"
                                            target="_blank" class="btn mb-5 mb-md-3 mt-3">
                                             Registrate aquí
                                         </a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <!--<div class="card-header">

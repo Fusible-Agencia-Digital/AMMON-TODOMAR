@@ -29,7 +29,7 @@
                             </template>
 
                             <div class="text-center  d-sm-block d-lg-block   mt-20">
-                                <button v-if="!$auth.loggedIn" v-b-modal.modal-login class="btn btn-header">Iniciar sesión</button>
+                                <!-- <button v-if="!$auth.loggedIn" v-b-modal.modal-login class="btn btn-header">Iniciar sesión</button> -->
                                 <button v-if="$auth.loggedIn" @click="authLogout" class="btn btn-header">Salir</button>
                                 <!--<nuxt-link v-if="!$auth.loggedIn" to="/registro" class="btn btn-header">¡Regístrate!</nuxt-link>-->
                             </div>

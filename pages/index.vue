@@ -17,8 +17,8 @@
                                 <h2>CONGRESO VIRTUAL</h2>
                                 <img src="~/assets/img/logo/logo_white.png" alt="" width="150px">
                                 <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
-                                <button v-b-modal.modal-login class="btn">INICIAR SESIÓN
-                                </button>
+                                <!-- <button v-b-modal.modal-login class="btn">INICIAR SESIÓN
+                                </button> -->
                             </div>
                         </div>
                     </slide>
