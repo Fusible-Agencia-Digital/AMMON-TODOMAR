@@ -15,7 +15,7 @@
                             <div class="col">
                                 <h1>XX CONGRESO MEXICANO DE OSTEOPOROSIS Y ENFERMEDADES METABÓLICAS OSEAS</h1>
                                 <h2>CONGRESO VIRTUAL</h2>
-                                <img src="~/assets/img/logo/logo_white.png" alt="" width="150px">
+                                <img src="~/assets/img/logo/logo_cover_2.png" alt="Logo AMMOM">
                                 <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
                                 <!-- <button v-b-modal.modal-login class="btn">INICIAR SESIÓN
                                 </button> -->
@@ -471,7 +471,7 @@
                 }
 
                 img {
-                    width: 130px !important;
+                    width: 400px !important;
                 }
             }
         }
@@ -647,7 +647,7 @@
 
                 img {
                     margin: 25px 0 25px auto !important;
-                    width: 170px;
+                    width: 400px;
                 }
             }
         }
