@@ -4,6 +4,11 @@
         <b-modal id="modal-login" :hide-footer="true" title="Iniciar sesión">
             <login-modal-component/>
         </b-modal>
+        <b-modal id="modalWorks" :hide-footer="true" title="Trabajos">
+            <div class="modal-body">
+                <h2>Recepción de trabajos cerrado. Gracias por su participación.</h2>
+            </div>
+        </b-modal>
 
         <header>
             <div class="header-area">
@@ -23,7 +28,7 @@
                             <b-nav-item to="/programa">Programa</b-nav-item>
                             <!-- <b-nav-item to="/profesorado">Profesores</b-nav-item> -->
                             <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
-                            <b-nav-item href="https://www.srcongress.mx/ammom/trabajos.php" target="_blank">Trabajos</b-nav-item>
+                            <b-nav-item href="#" v-b-modal.modalWorks>Trabajos</b-nav-item>
                             <template v-if="$auth.loggedIn">
                                 <b-nav-item href="#" ><span class="font-weight-bold" style="text-transform: capitalize">Bienvenido(a), {{$auth.user.nombre}} {{$auth.user.apellidoP}}</span></b-nav-item>
                             </template>
@@ -72,6 +77,7 @@
             </div>
             <!-- Footer End-->
         </footer>
+
 
     </div>
 </template>

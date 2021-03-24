@@ -77,12 +77,12 @@
                                         <h3>$5000.00</h3>
                                      
                                     </div>
-                                    <!-- <div class="col-12">
-                                        <a href="https://www.srcongress.mx/ammom/jornada_virtual.php"
+                                    <div class="col-12">
+                                        <a href="https://www.srcongress.mx/ammom/registro_virtual.php"
                                            target="_blank" class="btn mb-5 mb-md-3 mt-3">
                                             Registrate aquí
                                         </a>
-                                    </div> -->
+                                    </div>
                                 </div>
                             </div>
                             <!--<div class="card-header">
