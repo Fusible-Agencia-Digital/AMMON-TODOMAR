@@ -48,7 +48,7 @@
                             </div>
                             <div class="card-body">
                                 <p>Tenga en cuenta que para 2021 tenemos nuevos requisitos en torno al Congreso Virtual. Se requiere una dirección de correo electrónico única para cada individuo para acceder a la plataforma virtual. Sin una dirección de correo electrónico única, el miembro del grupo no podrá obtener acceso.</p>
-                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después de las Congreso Virtual. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
+                                <p>Esta dirección de correo electrónico también se utilizará para enviar cualquier correspondencia relevante y acceder a la constancia después del Congreso Virtual. Proporcionar esta información por adelantado también nos permitirá procesar todos los registros individuales o de grupo de manera eficiente y entregar detalles de inicio de sesión a los registrados de manera oportuna.</p>
                             </div>
                         </div>
 

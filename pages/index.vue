@@ -190,7 +190,7 @@
         <b-modal id="dudas"  class="text-center" hide-footer>
             <h2 class="text-center">ATENCIÓN DE DUDAS</h2>
             <p class="my-4 text-center">Si tienes dudas generales sobre respecto al congreso, <br>
-            escribenos y nos pondremos en contacto a través del correo <br>
+            escríbenos y nos pondremos en contacto a través del correo <br>
             eléctronico que nos proporciones.</p>
             <p class="text-center">Linea de atención a dudas: </p>
             <div class="p-4">
