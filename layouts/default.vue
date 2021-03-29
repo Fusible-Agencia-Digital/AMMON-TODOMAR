@@ -26,7 +26,7 @@
                             <b-nav-item v-if="!$auth.loggedIn" to="/registro">Registro</b-nav-item>
                             <b-nav-item  v-if="$auth.loggedIn" href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
                             <b-nav-item to="/programa">Programa</b-nav-item>
-                            <!-- <b-nav-item to="/profesorado">Profesores</b-nav-item> -->
+                            <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
                             <b-nav-item href="#" v-b-modal.modalWorks>Trabajos</b-nav-item>
                             <template v-if="$auth.loggedIn">
