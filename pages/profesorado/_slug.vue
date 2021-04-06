@@ -24,7 +24,7 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Eventos programados con {{ speaker.name }} {{ speaker.last_name }}:</h3>
                                 <div class="socials">
-                                    <a v-for="activity in speaker.activities" class="social-link" :href="`/programa/${activity.slug}`">{{ activity.title }}</a>
+                                    <a v-for="activity in speaker.activities" class="social-link" :href="`/programas/${activity.slug}`">{{ activity.title }}</a>
                                 </div>
                             </aside>
                         </div>

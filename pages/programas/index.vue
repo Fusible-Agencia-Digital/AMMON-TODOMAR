@@ -230,7 +230,7 @@
 
       goToActivity(event) {
         if (!this.detailDisabled)
-          this.$router.push({name: 'programa-slug', params: {slug: event.slug}})
+          this.$router.push({name: 'programas-slug', params: {slug: event.slug}})
       },
 
       getTimeRange(array) {

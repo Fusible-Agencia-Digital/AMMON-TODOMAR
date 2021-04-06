@@ -24,7 +24,7 @@
                             <img src="~/assets/img/cursos/patologia.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso Patología</nuxt-link>
+                                    <nuxt-link to="/programas">Curso Patología</nuxt-link>
                                 </p>
                                 <p class="subtitle">10 de octubre Canal 2</p></div>
                         </div>
@@ -34,7 +34,7 @@
                             <img src="~/assets/img/cursos/radio_oncologia.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso Radio Oncología</nuxt-link>
+                                    <nuxt-link to="/programas">Curso Radio Oncología</nuxt-link>
                                 </p>
                                 <p class="subtitle">10 de octubre Canal 2</p></div>
                         </div>
@@ -44,7 +44,7 @@
                             <img src="~/assets/img/cursos/imagen.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso Imagen</nuxt-link>
+                                    <nuxt-link to="/programas">Curso Imagen</nuxt-link>
                                 </p>
                                 <p class="subtitle">9 de octubre Canal 2</p>
                             </div>
@@ -55,7 +55,7 @@
                             <img src="~/assets/img/cursos/abc.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso ABC</nuxt-link>
+                                    <nuxt-link to="/programas">Curso ABC</nuxt-link>
                                 </p>
                                 <p class="subtitle">10 de Octubre Canal 1 </p></div>
                         </div>
@@ -65,7 +65,7 @@
                             <img src="~/assets/img/cursos/interdisciplinar.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso Interdisciplinar</nuxt-link>
+                                    <nuxt-link to="/programas">Curso Interdisciplinar</nuxt-link>
                                 </p>
                                 <p class="subtitle">10 de octubre canal 2</p></div>
                         </div>
@@ -75,7 +75,7 @@
                             <img src="~/assets/img/cursos/oncologia.jpg" alt="">
                             <div class="details">
                                 <p class="title">
-                                    <nuxt-link to="/programa">Curso Oncología</nuxt-link>
+                                    <nuxt-link to="/programas">Curso Oncología</nuxt-link>
                                 </p>
                                 <p class="subtitle"></p></div>
                         </div>

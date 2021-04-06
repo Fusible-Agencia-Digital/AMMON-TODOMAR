@@ -25,7 +25,7 @@
                             <b-nav-item v-if="$auth.loggedIn" to="/">Expo</b-nav-item>
                             <b-nav-item v-if="!$auth.loggedIn" to="/registro">Registro</b-nav-item>
                             <b-nav-item  v-if="$auth.loggedIn" href="/congreso-virtual/live" exact exact-active-class="active" >En vivo</b-nav-item>
-                            <b-nav-item to="/programa">Programa</b-nav-item>
+                            <b-nav-item to="/programas">Programa</b-nav-item>
                             <b-nav-item to="/profesorado">Profesores</b-nav-item>
                             <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
                             <b-nav-item href="#" v-b-modal.modalWorks>Trabajos</b-nav-item>
@@ -58,7 +58,8 @@
                                     <ul class="list-group list-group-horizontal text-white">
                                               <li class="m-2">
                                                   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                                   Asociación Mexicana de Metabolismo Óseo y Mineral &copy; {{ year }}
+                                                   {{ event.name }} &copy; {{ $moment(event.start_date).year() }}
+                                                   <br>
                                                   <!--| This template is made with <i class="fa fa-heart"
                                                                                   aria-hidden="true"></i> by
                                                   <a
