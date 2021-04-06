@@ -92,8 +92,11 @@
 
     async fetch() {
       try {
-        let data = await this.$axios.$get('/event');
-
+        let data  = {};
+        this.saveEvent(data);
+        console.warn(data);
+        data = await this.$axios.$get('/event');
+        console.warn(data);
         this.saveEvent(data);
 
         this.attributes[0].dates = {};
