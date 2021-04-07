@@ -2,15 +2,15 @@ import axios from 'axios';
 
 export default {
   /*
-  ** Nuxt rendering mode
-  ** See https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'universal',
-  /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
   target: 'server',
+  /**
+   * Server-side rendering
+   * https://nuxtjs.org/docs/api/configuration-ssr
+   */
+  ssr: false,
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head

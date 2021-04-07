@@ -110,6 +110,8 @@
       }
     },
 
+    fetchOnServer: false,
+
     data() {
       return {
         loadingDates: true,
