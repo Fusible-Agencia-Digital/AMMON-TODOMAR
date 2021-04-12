@@ -17,8 +17,7 @@
                                 <h2>CONGRESO VIRTUAL</h2>
                                 <img src="~/assets/img/logo/logo_cover_2.png" alt="Logo AMMOM">
                                 <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
-                                <!-- <button v-b-modal.modal-login class="btn">INICIAR SESIÓN
-                                </button> -->
+                                <a class="btn" href="https://www.srcongress.mx/ammom/registro_virtual.php">REGÍSTRATE</a>
                             </div>
                         </div>
                     </slide>
@@ -124,7 +123,7 @@
                             <img src="~/assets/images/contenido/pagos.jpg" alt="">
                             <div class="details">
                                 <p class="title text-left pl-2">
-                                  ACLARACIÓN DE PAGOS Y/O PAGOS
+                                  ACLARACIÓN DE PAGOS Y/O BECAS
                                 </p>
 
                             </div>
@@ -471,7 +470,7 @@
                 }
 
                 img {
-                    width: 400px !important;
+                    width: 300px !important;
                 }
             }
         }
