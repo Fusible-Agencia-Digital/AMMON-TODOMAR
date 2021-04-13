@@ -2,6 +2,20 @@
 # yarn lockfile v1
 
 
+"@adonisjs/websocket-client@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@adonisjs/websocket-client/-/websocket-client-1.0.9.tgz#94f018489e68e05425046b053478d44ed003b827"
+  integrity sha512-GhHmGgyylwYUB+lBMt6KFPEQo1tck4Pn1n/aFs23CydcdChJfy4Yhtn+edqTtIYS+HTpbvXNvqn2z4EiS/xZOg==
+  dependencies:
+    "@adonisjs/websocket-packet" "^1.0.6"
+    emittery "^0.3.0"
+    query-string "^6.0.0"
+
+"@adonisjs/websocket-packet@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@adonisjs/websocket-packet/-/websocket-packet-1.0.6.tgz#7b310c777fd66793149ff2de94c6b2be46302bdc"
+  integrity sha512-4MlcnwfJ5fy9EGBA0gNDAUThfrK4JeisQzHkRg0Z/Y3WGeciSuzgRB8hdwi2YEFeNOsEFcKme4ubEZXTAF020g==
+
 "@babel/code-frame@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.13.tgz#dcfc826beef65e75c50e21d3837d7d95798dd658"
@@ -1773,6 +1787,13 @@ acorn@^8.0.4:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.1.0.tgz#52311fd7037ae119cbb134309e901aa46295b3fe"
   integrity sha512-LWCF/Wn0nfHOmJ9rzQApGnxnvgfROzGilS8936rqN/lfcYkY9MYZzdMqN+2NJ4SlTc+m5HiSa+kNfDtI64dwUA==
+
+adonis-vue-websocket@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/adonis-vue-websocket/-/adonis-vue-websocket-2.0.2.tgz#1162de981d102d41c77e128b935909fb98b49ecf"
+  integrity sha512-W7VHk+mqCMpOmcfJIzzvOCpeUOIK0Fkuq7YyI+iBmWD3//HVOhZoQRjFM51HWlfofmz1PCYj9lzdVtwyFAjZ4g==
+  dependencies:
+    vue "^2.*"
 
 aggregate-error@^3.0.0:
   version "3.1.0"
@@ -4225,6 +4246,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emittery@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.3.0.tgz#e6dcedabae804b5478c760335ecbbaf159da645c"
+  integrity sha512-Bn/IFhx+BQIjTKn0vq7YWwo/yfTNeBZMqOGufY5FEV07tbwy5heDROFDCkMO2PcO5s7B9FDDXZc+JGgl6KzBOQ==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -8618,7 +8644,7 @@ query-string@^4.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.13.8:
+query-string@^6.0.0, query-string@^6.13.8:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha512-XDxAeVmpfu1/6IjyT/gXHOl+S0vQ9owggJ30hhWKdHAsNPOcasn5o9BW0eejZqL2e4vMjhAxoW3jVHcD6mbcYw==
@@ -10707,7 +10733,7 @@ vue-zoomer@^0.3.6:
   resolved "https://registry.yarnpkg.com/vue-zoomer/-/vue-zoomer-0.3.9.tgz#bedd08983def6f0e355a5571dd748b5522eb2668"
   integrity sha512-WGIkwL/Rq//f3KQaAY0HEXVgr1OlDjabGL7wM21koHiFOFO233jsJtGEKovc32CQu2JW5dYAn0SBzmzgeZHXHQ==
 
-vue@^2.5.17, vue@^2.5.2, vue@^2.6.12:
+vue@^2.*, vue@^2.5.17, vue@^2.5.2, vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==

@@ -45,6 +45,7 @@ export default {
     "@/plugins/axiosAuth.js",
     "@/plugins/vue-mask.js",
     "@/plugins/vue-zoomer.js",
+    "@/plugins/vue-sockets.js",
     "@/plugins/vue-countdown.js",
     "@/plugins/vue-form-wizard.js",
     "@/plugins/vue-social-sharing.js",

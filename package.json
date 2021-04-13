@@ -10,6 +10,7 @@
     "serve": "nuxt serve"
   },
   "dependencies": {
+    "@adonisjs/websocket-client": "^1.0.9",
     "@chenfengyuan/vue-countdown": "^1.1.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
@@ -20,6 +21,7 @@
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/device": "^1.2.7",
+    "adonis-vue-websocket": "^2.0.2",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "fs": "^0.0.1-security",
