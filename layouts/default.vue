@@ -289,7 +289,7 @@ export default {
 
         this.$ws.disconnect();
         this.$ws.connect({
-          wsDomain: "ws://localhost:3333",
+          wsDomain: process.env.WS_SERVER,
           jwtToken: token,
         });
 
