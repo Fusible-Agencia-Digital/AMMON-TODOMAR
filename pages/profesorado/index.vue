@@ -79,18 +79,10 @@
 
 <style lang="scss" scoped>
 
-    .slider-area2 {
-    }
-
-
     .team-caption {
         h3, p {
             color: #d9d9d9;
         }
-    }
-
-    .profesors-container {
-
     }
 
     .single-team {

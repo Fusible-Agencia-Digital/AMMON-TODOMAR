@@ -13,7 +13,7 @@
                     <h1 v-if="event.title" class="mb-4">{{ event.title }}</h1>
 
                     <div v-if="channel=='one'">
-                        <TheoPlayerComponent :source="videoOne" />
+                        <iframe src="https://player.castr.com/live_775e42c09bee11ebae428982bd629855?range=1618361506-1405&abr=false" frameborder="0" width="100%" height="500" allow="autoplay" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
                     </div>
                   </div>
                   <div class="col-12 text-center mt-4" v-if="event.survey_url">
