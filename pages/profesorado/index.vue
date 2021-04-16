@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap text-left" style="">
-                                <h2 style="text-transform:none!important">Profesores de las Jornadas Virtuales</h2>
+                                <h2 style="text-transform:none!important">Profesores del Congreso virtual</h2>
                                 <h4 class="text-white">Conoce a los especialistas que te transmitirán lo último en
                                     investigación
                                     <br> y tecnología al servicio de la medicina</h4>
@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-md-12 mt-5 py-5 profesors-container">
                         <div class="row" v-if="activeTab===0">
-                            <div class="col-lg-3 col-md-4 col-sm-6" v-for="doc in nationals">
+                            <div class="col-lg-3 col-md-4 col-sm-6" v-for="(doc, index) in nationals" :key="index">
                                 <div>
                                     <speaker-component :doctor="doc" color="#242b5e"></speaker-component>
                                 </div>
