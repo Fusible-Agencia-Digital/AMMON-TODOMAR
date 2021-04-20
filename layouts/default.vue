@@ -87,7 +87,9 @@
                     <li class="m-2">
                       <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                       {{ event.name }} &copy;
-                      <a v-b-modal.modal-login>{{ $moment(event.start_date).year() }}</a>
+                      <a v-b-modal.modal-login>{{
+                        $moment(event.start_date).year()
+                      }}</a>
                       <br />
                       <!--| This template is made with <i class="fa fa-heart"
                                                                                   aria-hidden="true"></i> by
@@ -288,10 +290,17 @@ export default {
           .replace("Bearer ", "");
 
         this.$ws.disconnect();
-        this.$ws.connect({
-          wsDomain: process.env.WS_SERVER,
-          jwtToken: token,
-        });
+        this.$ws.connect(
+          {
+            wsDomain: process.env.WS_SERVER,
+            jwtToken: token,
+          },
+          {
+            path: "adonis-ws",
+            reconnectionAttempts: 300,
+            reconnectionDelay: 5000,
+          }
+        );
 
         this.$ws.subscribe("stream");
         this.$ws.$emitToServer("stream", "message", {
@@ -321,8 +330,6 @@ export default {
       if (newVal.name.includes("congreso-virtual-")) {
         window.location.href = newVal.path;
       }
-
-
 
       if (this.$auth.loggedIn) {
         this.$ws.$emitToServer("stream", "message", {
