@@ -60,7 +60,7 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Agéndalo</h3>
                                 <button class="btn btn-sm" @click="addToCalendar">Añadir</button>
-                                <client-only>
+                                <!-- <client-only>
                                     <add-to-calendar :title="activity.title"
                                                      :start="$moment(activity.start_date).toDate()"
                                                      :end="$moment(activity.end_date).toDate()"
@@ -72,7 +72,7 @@
                                             </google-calendar>
                                         </div>
                                     </add-to-calendar>
-                                </client-only>
+                                </client-only> -->
                             </aside>
                         </div>
                     </div>
@@ -100,8 +100,8 @@
                                             <h2 class="blog-head ml-5" style="color: #2d2d2d;">Imparte:</h2>
                                             <div class="row">
                                                 <div class="col-6 col-md-3"
-                                                     v-for="speaker in activity.speakers">
-                                                    <speaker-component :doctor="speaker"></speaker-component>
+                                                     v-for="(speaker, index) in activity.speakers" :key="index">
+                                                    <speaker-component :doctor="speaker" ></speaker-component>
                                                 </div>
                                             </div>
                                         </div>

@@ -7,7 +7,7 @@
             </nuxt-link>
             <!-- Blog Social -->
             <ul class="team-social">
-                <li v-for="activity in doctor.activities"><nuxt-link :to="`/programa/${activity.slug}`" v-b-tooltip.hover :title="activity.title"><fa icon="calendar"></fa></nuxt-link></li>
+                <li v-for="(activity, index) in doctor.activities" :key="index"><nuxt-link :to="`/programas/${activity.slug}`" v-b-tooltip.hover :title="activity.title"><fa icon="calendar"></fa></nuxt-link></li>
             </ul>
         </div>
         <div class="team-caption">
