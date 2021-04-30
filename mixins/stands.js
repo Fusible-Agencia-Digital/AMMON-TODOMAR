@@ -30,7 +30,7 @@ const mixinStand = {
                 this.isDisabled = false;
                 this.$swal(
                     "¡Error al enviar datos!",
-                    "Por favor contacte directamente a contacto@mastologia.org.mx",
+                    "Por favor contacte directamente a " + this.contact.mail_to,
                     "error"
                 );
             }
