@@ -249,20 +249,20 @@ export default {
 
   mixins: [mixinStand],
 
-//   head() {
-//     return {
-//       __dangerouslyDisableSanitizers: ["script"],
-//       script: [
-//         {
-//           hid: "zoho",
-//           innerHTML:
-//             'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"831184da6989e307a217d8c6768d24130e7ea43e89b47b2fd17e2efcc4b72f07", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id=\'zsiqwidget\'></div>");',
-//           type: "text/javascript",
-//           charset: "utf-8",
-//         },
-//       ],
-//     };
-//   },
+  head() {
+    return {
+      // __dangerouslyDisableSanitizers: ["script"],
+      script: [
+        {
+          hid: "zsiqchat",
+          innerHTML:
+            'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "831184da6989e307a217d8c6768d24130e7ea43e89b47b2fd17e2efcc4b72f07", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);',
+          type: "text/javascript",
+          // charset: "utf-8",
+        },
+      ],
+    };
+  },
 
   methods: {
     async sendContact() {
