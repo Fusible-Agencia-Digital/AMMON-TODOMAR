@@ -31,7 +31,7 @@
               >
               <b-nav-item
                 v-if="$auth.loggedIn"
-                href="/congreso-virtual/live"
+                href="/live/uno"
                 exact
                 exact-active-class="active"
                 >En vivo</b-nav-item

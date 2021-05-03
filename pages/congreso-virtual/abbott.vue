@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-4 pt-4 mt-3 mb-0">
-              <h2 class="mb-4 pl-4">Bienvenido a medix</h2>
+              <h2 class="mb-4 pl-4">Bienvenido a Abbot</h2>
               <p class="pl-4">
                 Presione en donde vea el símbolo
                 <img
@@ -18,7 +18,7 @@
             </div>
             <div class="col-xl-8 pt-4 mt-3 mb-3 movil">
               <img
-                src="~/assets/images/medix/logo.png"
+                src="~/assets/images/abbott/logo.png"
                 width="210px"
                 class="movil float-left ml-2 pl-4 pt-3"
               />
@@ -41,44 +41,43 @@
           <div style="position: relative">
             <img
               id="main-image"
-              src="~/assets/images/medix/stand.jpg"
+              src="~/assets/images/abbott/stand.jpg"
               width="100%"
             />
             <a
-              href="/docs/OE_ AMMOM Catálogo Digital_240221.pdf"
-              target="_blank"
+              @click="$bvModal.show('uno')"
               class="rim-hotspot stand-button"
-              style="width: 9.5%; height: 18.5%; left: 12.4%; top: 61%"
+              style="width: 12.5%; height: 19.5%; left: 8.4%; top: 47%"
             ></a>
             <a
               @click="$bvModal.show('dos')"
               class="rim-hotspot stand-button"
-              style="width: 15%; height: 11.6%; left: 28.7%; top: 40.4%"
+              style="width: 4%; height: 7.6%; left: 31.7%; top: 58.4%"
             ></a>
             <a
               @click="$bvModal.show('tres')"
               class="rim-hotspot stand-button"
-              style="width: 10%; height: 6.6%; left: 34.7%; top: 59.4%"
+              style="width: 11.5%; height: 18.4%; left: 32.5%; top: 40.1%"
             ></a>
             <a
               @click="$bvModal.show('cuatro')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 47.5%; top: 45.1%"
+              style="width: 6.5%; height: 18.4%; left: 47.3%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('cinco')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 54.3%; top: 45.1%"
+              style="width: 6.5%; height: 23.4%; left: 54.3%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('seis')"
               class="rim-hotspot stand-button"
-              style="width: 15.5%; height: 9.4%; left: 54.5%; top: 65.1%"
+              style="width: 6.3%; height: 18.4%; left: 61.1%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('siete')"
               class="rim-hotspot stand-button"
-              style="width: 6.3%; height: 18.4%; left: 61.1%; top: 45.1%"
+              style="width: 13%; height: 23.1%; left: 68.8%; top: 45%"
             ></a>
             <a
               @click="$bvModal.show('ocho')"
@@ -96,7 +95,7 @@
         <div class="row">
           <div class="col-xl-6 mb-0 contacto">
             <div class="col-xl-10 offset-xl-1 p-4">
-              <h2 class="text-center mb-4 text-white">Contacto con medix</h2>
+              <h2 class="text-center mb-4 text-white">Contacto con Abbott</h2>
               <form
                 class="form-contact contact_form"
                 @submit.prevent="sendContact"
@@ -185,27 +184,27 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #ee3a44 !important"
+            style="background-color: #009ade !important"
           >
             <div class="col-xl-3 link text-center">
-              <a href="http://www.medix.com.mx" target="_blank"
+              <a
+                href="https://www.medicine.abbott/mx/abbott-mexico-upd-img.html"
+                target="_blank"
                 ><h3>Visite nuestro sitio</h3></a
               >
             </div>
           </div>
           <div>
-            <b-modal id="dos" hide-footer>
+            <b-modal ref="uno" id="uno" hide-footer>
               <div class="d-block text-center">
-                <iframe
-                  width="420"
-                  height="315"
-                  frameborder="0"
-                  src="https://player.vimeo.com/video/542844121"
-                >
-                </iframe>
+                <h2>
+                  Nuestros representantes están listos para atenderle en directo
+                  en horarios del Congreso. ¡Contáctelos ahora!
+                </h2>
               </div>
             </b-modal>
-            <b-modal id="tres" hide-footer>
+
+            <b-modal id="dos" hide-footer>
               <div class="d-block text-center">
                 <h2>
                   Póngase en contacto con nosotros a través del formulario y uno
@@ -213,19 +212,29 @@
                 </h2>
               </div>
             </b-modal>
+            <b-modal id="tres" hide-footer>
+              <div class="d-block text-center">
+                <iframe
+                  width="420"
+                  height="315"
+                  frameborder="0"
+                  src="https://player.vimeo.com/video/542838404"
+                />
+              </div>
+            </b-modal>
             <b-modal id="cuatro" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/medix/4.jpg" width="100%;" />
+                <img src="~/assets/images/abbott/4.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="cinco" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/medix/5.jpg" width="100%;" />
+                <img src="~/assets/images/abbott/5.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="seis" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/medix/6.jpg" width="100%;" />
+                <img src="~/assets/images/abbott/6.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="siete" hide-footer>
@@ -238,7 +247,7 @@
             </b-modal>
             <b-modal id="ocho" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/medix/8.jpg" width="100%;" />
+                <img src="~/assets/images/abbott/8.jpg" width="100%;" />
               </div>
             </b-modal>
           </div>
@@ -254,10 +263,25 @@ export default {
 
   mixins: [mixinStand],
 
+  head() {
+    return {
+      // __dangerouslyDisableSanitizers: ["script"],
+      script: [
+        {
+          hid: "zsiqchat",
+          innerHTML:
+            'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "cf08dd203a80d52fa06cea8d24dcd2ef4b9b03555c53d95815ab6077d3d9d036", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);',
+          type: "text/javascript",
+          // charset: "utf-8",
+        },
+      ],
+    };
+  },
+
   methods: {
     async sendContact() {
       this.isDisabled = true;
-      this.contact.mail_to = "khernandez@medix.com.mx";
+      this.contact.mail_to = "paulina.arenas@abbott.com";
       this.sendMessage();
     },
   },
