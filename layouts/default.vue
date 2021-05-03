@@ -25,6 +25,7 @@
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto">
               <b-nav-item v-if="!$auth.loggedIn" to="/">Inicio</b-nav-item>
+              <b-nav-item v-if="$auth.loggedIn" to="/congreso-virtual/lobby">Lobby</b-nav-item>
               <b-nav-item v-if="$auth.loggedIn" to="/">Expo</b-nav-item>
               <b-nav-item v-if="!$auth.loggedIn" to="/registro"
                 >Registro</b-nav-item

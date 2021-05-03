@@ -18,7 +18,7 @@
             </div>
             <div class="col-xl-8 pt-4 mt-3 mb-3 movil">
               <img
-                src="~/assets/images/asofarma/logo.png"
+                src="~/assets/images/amgen/logo.png"
                 width="210px"
                 class="movil float-left ml-2 pl-4 pt-3"
               />
@@ -41,38 +41,39 @@
           <div style="position: relative">
             <img
               id="main-image"
-              src="~/assets/images/asofarma/stand.jpg"
+              src="~/assets/images/amgen/stand.jpg"
               width="100%"
             />
             <a
-              @click="$bvModal.show('uno')"
+              href="/docs/amgen.pdf"
+              target="_blank"
               class="rim-hotspot stand-button"
-              style="width: 9.5%; height: 6.5%; left: 23.4%; top: 59%"
+              style="width: 9.5%; height: 18.5%; left: 12.4%; top: 61%"
             ></a>
             <a
               @click="$bvModal.show('dos')"
               class="rim-hotspot stand-button"
-              style="width: 11%; height: 18.6%; left: 32.7%; top: 40.4%"
+              style="width: 10%; height: 6.6%; left: 21.7%; top: 59.4%"
             ></a>
             <a
               @click="$bvModal.show('tres')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 47.5%; top: 45.1%"
+              style="width: 13.5%; height: 28.4%; left: 32.5%; top: 34.1%"
             ></a>
             <a
               @click="$bvModal.show('cuatro')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 54.3%; top: 45.1%"
+              style="width: 8.5%; height: 19.4%; left: 48.3%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('cinco')"
               class="rim-hotspot stand-button"
-              style="width: 15.5%; height: 9.4%; left: 54.5%; top: 65.1%"
+              style="width: 7.3%; height: 19.4%; left: 57.1%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('seis')"
               class="rim-hotspot stand-button"
-              style="width: 6.3%; height: 18.4%; left: 61.1%; top: 45.1%"
+              style="width: 11.5%; height: 21.4%; left: 65.5%; top: 48.1%"
             ></a>
             <a
               @click="$bvModal.show('siete')"
@@ -179,7 +180,7 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #ee3a44 !important"
+            style="background-color: #5aa948 !important"
           >
             <div class="col-xl-3 link text-center">
               <a href="http://www.asofarma.com.mx" target="_blank"
@@ -199,26 +200,28 @@
 
             <b-modal id="dos" hide-footer>
               <div class="d-block text-center">
-                <iframe
-                  width="420"
-                  height="315"
-                  frameborder="0"
-                  src="https://player.vimeo.com/video/542848197"
-                >
-                </iframe>
+                <h2>
+                  Póngase en contacto con nosotros a través del formulario y uno
+                  de nuestros representantes se comunicará en breve con usted.
+                </h2>
               </div>
             </b-modal>
             <b-modal id="tres" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/3.jpg" width="100%;" />
+                <img src="~/assets/images/amgen/3.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="cuatro" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/4.jpg" width="100%;" />
+                <img src="~/assets/images/amgen/4.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="cinco" hide-footer>
+              <div class="d-block text-center">
+                <img src="~/assets/images/amgen/5.jpg" width="100%;" />
+              </div>
+            </b-modal>
+            <b-modal id="seis" hide-footer>
               <div class="d-block text-center">
                 <h2>
                   Nuestros representantes están listos para atenderle en directo
@@ -226,14 +229,9 @@
                 </h2>
               </div>
             </b-modal>
-            <b-modal id="seis" hide-footer>
-              <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/6.jpg" width="100%;" />
-              </div>
-            </b-modal>
             <b-modal id="siete" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/7.jpg" width="100%;" />
+                <img src="~/assets/images/amgen/7.jpg" width="100%;" />
               </div>
             </b-modal>
           </div>

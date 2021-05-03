@@ -7,7 +7,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12 col-sm-12 pt-4 mt-3 mb-3 text-left">
-                            <h2 class="mb-4 pl-4 font-weight-bold">EXPO COMERCIAL 2020</h2>
+                            <h2 class="mb-4 pl-4 font-weight-bold">EXPO COMERCIAL 2021</h2>
                             <img src="~/assets/img/logo/logo_white.png" alt="" width="300px" class="float-left">
 
                         </div>
@@ -23,7 +23,7 @@
         <!-- BIENVENIDOS END -->
 
         <div> 
-          <div style="position:relative"><img id="main-image" src="~/assets/images/banner.jpg" width="100%">
+          <div style="position:relative"><img id="main-image" src="~/assets/images/expo.jpg" width="100%">
             <a href="/congreso-virtual/somos" class="rim-hotspot" style="width:8.5%; height:2.6%; left:82.0%; top:53.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>
             <!--<a href="/congreso-virtual/bayer" class="rim-hotspot" style="width:8.0%; height:5.8%; left:72.7%; top:51.8%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>-->
             <a href="/congreso-virtual/roche" class="rim-hotspot" style="width:7.7%; height:4.8%; left:63.8%; top:52.5%; position:absolute; cursor:pointer; display:block; z-index:5; overflow:hidden;"></a>

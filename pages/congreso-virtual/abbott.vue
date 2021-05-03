@@ -184,11 +184,11 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #009ade !important"
+            style="background-color: #009ADE !important"
           >
             <div class="col-xl-3 link text-center">
               <a
-                href="https://www.medicine.abbott/mx/abbott-mexico-upd-img.html"
+                href="https://www.abbottienda.com/farmaceutica/502-bonferol-70mg5600-ui-caja-con-4-tabletas.html"
                 target="_blank"
                 ><h3>Visite nuestro sitio</h3></a
               >

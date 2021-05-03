@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-4 pt-4 mt-3 mb-0">
-              <h2 class="mb-4 pl-4">Bienvenido a ASOFARMA</h2>
+              <h2 class="mb-4 pl-4">Bienvenido a LIOMONT</h2>
               <p class="pl-4">
                 Presione en donde vea el símbolo
                 <img
@@ -18,7 +18,7 @@
             </div>
             <div class="col-xl-8 pt-4 mt-3 mb-3 movil">
               <img
-                src="~/assets/images/asofarma/logo.png"
+                src="~/assets/images/liomont/logo.png"
                 width="210px"
                 class="movil float-left ml-2 pl-4 pt-3"
               />
@@ -41,38 +41,39 @@
           <div style="position: relative">
             <img
               id="main-image"
-              src="~/assets/images/asofarma/stand.jpg"
+              src="~/assets/images/liomont/stand.jpg"
               width="100%"
             />
             <a
-              @click="$bvModal.show('uno')"
+              href="/docs/liomont.pdf"
+              target="_blank"
               class="rim-hotspot stand-button"
-              style="width: 9.5%; height: 6.5%; left: 23.4%; top: 59%"
+              style="width: 9.5%; height: 18.5%; left: 12.4%; top: 61%"
             ></a>
             <a
               @click="$bvModal.show('dos')"
               class="rim-hotspot stand-button"
-              style="width: 11%; height: 18.6%; left: 32.7%; top: 40.4%"
+              style="width: 15%; height: 12.6%; left: 28.7%; top: 40.4%"
             ></a>
             <a
               @click="$bvModal.show('tres')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 47.5%; top: 45.1%"
+              style="width: 10%; height: 7.6%; left: 30.7%; top: 58.4%"
             ></a>
             <a
               @click="$bvModal.show('cuatro')"
               class="rim-hotspot stand-button"
-              style="width: 6.5%; height: 18.4%; left: 54.3%; top: 45.1%"
+              style="width: 6.5%; height: 18.4%; left: 43.5%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('cinco')"
               class="rim-hotspot stand-button"
-              style="width: 15.5%; height: 9.4%; left: 54.5%; top: 65.1%"
+              style="width: 8.5%; height: 18.4%; left: 50.3%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('seis')"
               class="rim-hotspot stand-button"
-              style="width: 6.3%; height: 18.4%; left: 61.1%; top: 45.1%"
+              style="width: 8.3%; height: 18.4%; left: 59.1%; top: 45.1%"
             ></a>
             <a
               @click="$bvModal.show('siete')"
@@ -90,7 +91,7 @@
         <div class="row">
           <div class="col-xl-6 mb-0 contacto">
             <div class="col-xl-10 offset-xl-1 p-4">
-              <h2 class="text-center mb-4 text-white">Contacto con ASOFARMA</h2>
+              <h2 class="text-center mb-4 text-white">Contacto con LIOMONT</h2>
               <form
                 class="form-contact contact_form"
                 @submit.prevent="sendContact"
@@ -179,16 +180,27 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #ee3a44 !important"
+            style="background-color: #0082ca !important"
           >
             <div class="col-xl-3 link text-center">
-              <a href="http://www.asofarma.com.mx" target="_blank"
+              <a href="http://www.LIOMONT.com.mx" target="_blank"
                 ><h3>Visite nuestro sitio</h3></a
               >
             </div>
           </div>
           <div>
-            <b-modal ref="uno" id="uno" hide-footer>
+            <b-modal id="dos" hide-footer>
+              <div class="d-block text-center">
+                <iframe
+                  width="420"
+                  height="315"
+                  frameborder="0"
+                  src="https://player.vimeo.com/video/542844944"
+                >
+                </iframe>
+              </div>
+            </b-modal>
+            <b-modal id="tres" hide-footer>
               <div class="d-block text-center">
                 <h2>
                   Póngase en contacto con nosotros a través del formulario y uno
@@ -196,44 +208,24 @@
                 </h2>
               </div>
             </b-modal>
-
-            <b-modal id="dos" hide-footer>
-              <div class="d-block text-center">
-                <iframe
-                  width="420"
-                  height="315"
-                  frameborder="0"
-                  src="https://player.vimeo.com/video/542848197"
-                >
-                </iframe>
-              </div>
-            </b-modal>
-            <b-modal id="tres" hide-footer>
-              <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/3.jpg" width="100%;" />
-              </div>
-            </b-modal>
             <b-modal id="cuatro" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/4.jpg" width="100%;" />
+                <img src="~/assets/images/liomont/4.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="cinco" hide-footer>
               <div class="d-block text-center">
-                <h2>
-                  Nuestros representantes están listos para atenderle en directo
-                  en horarios del Congreso. ¡Contáctelos ahora!
-                </h2>
+                <img src="~/assets/images/liomont/5.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="seis" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/6.jpg" width="100%;" />
+                <img src="~/assets/images/liomont/6.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="siete" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/asofarma/7.jpg" width="100%;" />
+                <img src="~/assets/images/liomont/7.jpg" width="100%;" />
               </div>
             </b-modal>
           </div>
@@ -267,7 +259,7 @@ export default {
   methods: {
     async sendContact() {
       this.isDisabled = true;
-      this.contact.mail_to = "informacionmedica@asofarma.com.mx";
+      this.contact.mail_to = "informacionmedica@liomont.com.mx";
       this.sendMessage();
     },
   },

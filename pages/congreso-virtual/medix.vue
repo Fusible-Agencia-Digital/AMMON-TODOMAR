@@ -45,7 +45,7 @@
               width="100%"
             />
             <a
-              href="/docs/OE_ AMMOM Catálogo Digital_240221.pdf"
+              href="/docs/medix.pdf"
               target="_blank"
               class="rim-hotspot stand-button"
               style="width: 9.5%; height: 18.5%; left: 12.4%; top: 61%"
@@ -185,7 +185,7 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #ee3a44 !important"
+            style="background-color: #0978BE !important"
           >
             <div class="col-xl-3 link text-center">
               <a href="http://www.medix.com.mx" target="_blank"
@@ -225,15 +225,15 @@
             </b-modal>
             <b-modal id="seis" hide-footer>
               <div class="d-block text-center">
-                <img src="~/assets/images/medix/6.jpg" width="100%;" />
-              </div>
-            </b-modal>
-            <b-modal id="siete" hide-footer>
-              <div class="d-block text-center">
                 <h2>
                   Nuestros representantes están listos para atenderle en directo
                   en horarios del Congreso. ¡Contáctelos ahora!
                 </h2>
+              </div>
+            </b-modal>
+            <b-modal id="siete" hide-footer>
+              <div class="d-block text-center">
+                <img src="~/assets/images/medix/6.jpg" width="100%;" />
               </div>
             </b-modal>
             <b-modal id="ocho" hide-footer>
