@@ -254,7 +254,7 @@ export default {
         {
           hid: "zsiqchat",
           innerHTML:
-            'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "831184da6989e307a217d8c6768d24130e7ea43e89b47b2fd17e2efcc4b72f07", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);',
+            'var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "c1a87a31cb4e49328b8e184a76c808eb8781798c20454206b2e5863f4a4fade4", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);',
           type: "text/javascript",
           // charset: "utf-8",
         },
