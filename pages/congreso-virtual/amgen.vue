@@ -180,10 +180,10 @@
           </div>
           <div
             class="col-xl-6 p-0 m-0"
-            style="background-color: #5aa948 !important"
+            style="background-color: #5AA948 !important"
           >
             <div class="col-xl-3 link text-center">
-              <a href="http://www.asofarma.com.mx" target="_blank"
+              <a href="https://amgenone.com" target="_blank"
                 ><h3>Visite nuestro sitio</h3></a
               >
             </div>

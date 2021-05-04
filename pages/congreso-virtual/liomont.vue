@@ -183,7 +183,7 @@
             style="background-color: #0082ca !important"
           >
             <div class="col-xl-3 link text-center">
-              <a href="http://www.LIOMONT.com.mx" target="_blank"
+              <a href="https://todoendolorliomont.com/home_login/?redirect_to=https%3A%2F%2Ftodoendolorliomont.com%2F" target="_blank"
                 ><h3>Visite nuestro sitio</h3></a
               >
             </div>
@@ -244,7 +244,7 @@ export default {
   methods: {
     async sendContact() {
       this.isDisabled = true;
-      this.contact.mail_to = "informacionmedica@liomont.com.mx";
+      this.contact.mail_to = "michelle.concontraste@hotmail.com";
       this.sendMessage();
     },
   },
