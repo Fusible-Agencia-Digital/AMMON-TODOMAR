@@ -13,8 +13,8 @@
       </div>
 
       <menu-tabs-component>
-        <b-nav-item :active="false" to="/live/uno"> Canal uno </b-nav-item>
-        <b-nav-item :active="true" to="/live/dos"> Canal dos </b-nav-item>
+        <b-nav-item :active="false" href="/live/uno"> Canal uno </b-nav-item>
+        <b-nav-item :active="true" href="/live/dos"> Canal dos </b-nav-item>
       </menu-tabs-component>
     </div>
 

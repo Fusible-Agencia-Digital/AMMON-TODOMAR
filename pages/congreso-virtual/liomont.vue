@@ -48,7 +48,19 @@
               href="/docs/liomont.pdf"
               target="_blank"
               class="rim-hotspot stand-button"
-              style="width: 9.5%; height: 18.5%; left: 12.4%; top: 61%"
+              style="width: 9.5%; height: 6.5%; left: 12.4%; top: 61%"
+            ></a>
+            <a
+              href="/docs/liomont_2.pdf"
+              target="_blank"
+              class="rim-hotspot stand-button"
+              style="width: 9.5%; height: 6.5%; left: 12.4%; top: 69%"
+            ></a>
+            <a
+              href="/docs/liomont_3.pdf"
+              target="_blank"
+              class="rim-hotspot stand-button"
+              style="width: 9.5%; height: 6.5%; left: 12.4%; top: 77%"
             ></a>
             <a
               @click="$bvModal.show('dos')"
