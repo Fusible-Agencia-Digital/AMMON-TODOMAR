@@ -109,6 +109,20 @@ export default {
   components: { HelpModal },
   name: "index",
   middleware: ["authenticated"],
+
+  head() {
+    return {
+      // __dangerouslyDisableSanitizers: ["script"],
+      script: [
+        {
+          id: "pixel-script-poptin",
+          src: 'https://cdn.popt.in/pixel.js?id=9806b22c1e4e5',
+          type: "text/javascript",
+          async: true
+        },
+      ],
+    };
+  },
 };
 </script>
 
