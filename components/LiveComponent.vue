@@ -20,8 +20,8 @@
             <div v-if="channel == 'one'">
               <iframe
                 src="https://player.castr.com/live_e40ed240a3a511eb84c7a18aa3ed8d56"
-                width="590"
-                height="431"
+                width="100%"
+                height="600px"
                 frameborder="0"
                 scrolling="no"
                 allow="autoplay"
