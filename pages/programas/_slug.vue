@@ -310,7 +310,7 @@
 
     .btn {
         &:hover {
-            color: red !important;
+            color: white !important;
             -webkit-text-fill-color: white;
         }
     }
