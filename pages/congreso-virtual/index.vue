@@ -88,13 +88,13 @@
         <help-modal type="doubts" />
       </div>
     </b-modal>
-    <b-modal id="seis" hide-footer>
+    <b-modal id="seis" size="lg" hide-footer>
       <div class="d-block text-center">
         <iframe
-          width="420"
-          height="315"
+          width="720"
+          height="480"
           frameborder="0"
-          src="https://player.vimeo.com/video/542848197"
+          src="https://player.vimeo.com/video/545732493"
         >
         </iframe>
       </div>
