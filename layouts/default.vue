@@ -321,6 +321,11 @@ export default {
 
   watch: {
     $route: async function () {
+      let chatWindow = document.querySelector(".zsiq_floatmain");
+      if (chatWindow) {
+        chatWindow.classList.add("d-none");
+      }
+      
       await this.verifyToken();
 
       if (this.$auth.loggedIn) {
