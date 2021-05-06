@@ -37,7 +37,7 @@
                 exact-active-class="active"
                 >En vivo</b-nav-item
               >
-              <b-nav-item to="/programas">Programa</b-nav-item>
+              <b-nav-item v-if="$auth.loggedIn" to="/programas">Programa</b-nav-item>
               <b-nav-item to="/profesorado">Profesores</b-nav-item>
               <!-- <b-nav-item to="/queretaro">Querétaro 2021</b-nav-item> -->
               <b-nav-item href="#" v-b-modal.modalWorks>Trabajos</b-nav-item>
@@ -320,17 +320,8 @@ export default {
   },
 
   watch: {
-    $route: async function (newVal, oldVal) {
-      let chatWindow = document.querySelector(".zsiq_floatmain");
-      if (chatWindow) {
-        chatWindow.classList.add("d-none");
-      }
-
+    $route: async function () {
       await this.verifyToken();
-
-      if (newVal.name.includes("congreso-virtual-")) {
-        window.location.href = newVal.path;
-      }
 
       if (this.$auth.loggedIn) {
         this.$ws.$emitToServer("stream", "message", {

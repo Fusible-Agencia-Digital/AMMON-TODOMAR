@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-4 pt-4 mt-3 mb-0">
-              <h2 class="mb-4 pl-4">Bienvenido a ASOFARMA</h2>
+              <h2 class="mb-4 pl-4">Bienvenido a AMGEN</h2>
               <p class="pl-4">
                 Presione en donde vea el símbolo
                 <img
@@ -24,10 +24,10 @@
               />
             </div>
             <div class="col-xl-12 pl-4 registrarte">
-              <nuxt-link
-                to="/congreso-virtual"
+              <a
+                href="/congreso-virtual/expo"
                 class="btn mb-5 mb-md-3 mt-0 ml-2"
-                >Regresar</nuxt-link
+                >Regresar</a
               >
             </div>
           </div>
@@ -91,7 +91,7 @@
         <div class="row">
           <div class="col-xl-6 mb-0 contacto">
             <div class="col-xl-10 offset-xl-1 p-4">
-              <h2 class="text-center mb-4 text-white">Contacto con ASOFARMA</h2>
+              <h2 class="text-center mb-4 text-white">Contacto con AMGEN</h2>
               <form
                 class="form-contact contact_form"
                 @submit.prevent="sendContact"
@@ -265,7 +265,7 @@ export default {
   methods: {
     async sendContact() {
       this.isDisabled = true;
-      this.contact.mail_to = "informacionmedica@asofarma.com.mx";
+      this.contact.mail_to = "medinfomx@amgen.com";
       this.sendMessage();
     },
   },

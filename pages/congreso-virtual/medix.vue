@@ -24,10 +24,10 @@
               />
             </div>
             <div class="col-xl-12 pl-4 registrarte">
-              <nuxt-link
-                to="/congreso-virtual"
+              <a
+                href="/congreso-virtual/expo"
                 class="btn mb-5 mb-md-3 mt-0 ml-2"
-                >Regresar</nuxt-link
+                >Regresar</a
               >
             </div>
           </div>

@@ -148,7 +148,7 @@
             </a>
           </div>
           <div class="col-md-4 col-lg-4">
-            <a href="#">
+            <a href="/docs/ammom_programa_5_mayo.pdf" target="_blank">
               <div class="congress-content">
                 <img src="~/assets/images/contenido/programa.jpg" alt="" />
                 <div class="details">

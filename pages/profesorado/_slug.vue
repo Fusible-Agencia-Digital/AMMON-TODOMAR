@@ -24,7 +24,7 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Eventos programados con {{ speaker.name }} {{ speaker.last_name }}:</h3>
                                 <div class="socials">
-                                    <a v-for="activity in speaker.activities" class="social-link" :href="`/programas/${activity.slug}`">{{ activity.title }}</a>
+                                    <a v-for="(activity, index) in speaker.activities" :key="index" class="social-link" :href="`/programas/${activity.slug}`">{{ activity.title }}</a>
                                 </div>
                             </aside>
                         </div>
@@ -36,7 +36,7 @@
                                     <image-component :picture="speaker.picture"></image-component>
                                 </div>
                                 <div class="blog_details">
-                                    <h3 class="blog-head text-center" style="color: #2d2d2d;">{{ `${speaker.name} ${speaker.last_name} - ${speaker.job_title}` }}</h3>
+                                    <h3 class="blog-head text-center" style="color: #2d2d2d;">{{ `${speaker.job_title} ${speaker.name} ${speaker.last_name}` }}</h3>
                                     <p class="mt-5" v-html="speaker.biography"></p>
                                 </div>
                             </article>

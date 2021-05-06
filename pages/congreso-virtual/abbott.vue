@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xl-4 pt-4 mt-3 mb-0">
-              <h2 class="mb-4 pl-4">Bienvenido a Abbot</h2>
+              <h2 class="mb-4 pl-4">Bienvenido a Abbott</h2>
               <p class="pl-4">
                 Presione en donde vea el símbolo
                 <img
@@ -24,10 +24,10 @@
               />
             </div>
             <div class="col-xl-12 pl-4 registrarte">
-              <nuxt-link
-                to="/congreso-virtual"
+              <a
+                href="/congreso-virtual/expo"
                 class="btn mb-5 mb-md-3 mt-0 ml-2"
-                >Regresar</nuxt-link
+                >Regresar</a
               >
             </div>
           </div>
