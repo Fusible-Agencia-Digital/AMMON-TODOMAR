@@ -24,12 +24,18 @@
                 <img
                   src="~/assets/img/logo/logo_cover_2.png"
                   alt="Logo AMMOM"
+                  class="w-100"
                 />
                 <h2 class="mb-4">DEL 6 AL 8 DE MAYO 2021</h2>
                 <a
                   class="btn"
                   href="https://www.srcongress.mx/ammom/registro_virtual.php"
                   >REGÍSTRATE</a
+                >
+                <br />
+                <br />
+                <a href="#" v-b-modal.modal-login class="mt-3"
+                  >Si ya estás registrado, ingrese aquí.</a
                 >
               </div>
             </div>
@@ -355,6 +361,10 @@
                 </div>
         </section-->
     <!-- Brand Area End-->
+
+    <!-- <b-modal id="modal-login" :hide-footer="true" title="Iniciar sesión">
+      <login-modal-component />
+    </b-modal> -->
   </main>
 </template>
 
@@ -588,10 +598,10 @@ export default {
 
 .slider-bg {
   /deep/ .VueCarousel {
-    max-height: 600px;
+    max-height: 650px;
 
     .VueCarousel-inner {
-      height: 600px !important;
+      height: 650px !important;
     }
 
     .VueCarousel-pagination {

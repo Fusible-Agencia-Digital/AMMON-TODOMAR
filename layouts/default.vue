@@ -340,6 +340,12 @@ export default {
 
 <style lang="scss">
 @import "assets/scss/color";
+
+
+.btn-header {
+  background-color: #411EF5;
+}
+
 .nav-item {
   text-align: center;
 }

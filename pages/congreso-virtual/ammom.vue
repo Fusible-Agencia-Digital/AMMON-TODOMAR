@@ -59,6 +59,16 @@
               class="rim-hotspot stand-button"
               style="width: 10.5%; height: 17.4%; left: 54.5%; top: 45.1%"
             ></a>
+            <a
+              @click="$bvModal.show('cuatro')"
+              class="rim-hotspot stand-button"
+              style="width: 7%; height: 17.6%; left: 46.7%; top: 45.4%"
+            ></a>
+            <a
+              @click="$bvModal.show('cinco')"
+              class="rim-hotspot stand-button"
+              style="width: 18.5%; height: 40.4%; left: 81.5%; top: 45.1%"
+            ></a>
           </div>
         </div>
       </div>
@@ -190,6 +200,16 @@
             <b-modal id="tres" hide-footer>
               <div class="d-block text-center">
                 <img src="~/assets/images/ammom/3.jpg" width="100%;" />
+              </div>
+            </b-modal>
+            <b-modal id="cuatro" hide-footer>
+              <div class="d-block text-center">
+                <img src="~/assets/images/ammom/4.jpg" width="100%;" />
+              </div>
+            </b-modal>
+            <b-modal id="cinco" hide-footer>
+              <div class="d-block text-center">
+                <img src="~/assets/images/ammom/5.jpg" width="100%;" />
               </div>
             </b-modal>
           </div>
