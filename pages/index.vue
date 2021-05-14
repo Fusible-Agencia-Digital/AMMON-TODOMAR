@@ -30,13 +30,13 @@
                 <a
                   class="btn"
                   href="https://www.srcongress.mx/ammom/registro_virtual.php"
-                  >REGÍSTRATE</a
+                  >Descargue su constancia</a
                 >
                 <br />
                 <br />
-                <a href="#" v-b-modal.modal-login class="mt-3"
+                <!-- <a href="#" v-b-modal.modal-login class="mt-3"
                   >Si ya estás registrado, ingrese aquí.</a
-                >
+                > -->
               </div>
             </div>
           </slide>
@@ -377,6 +377,22 @@ export default {
   middleware: ["guest"],
 
   components: { ImageComponent, SpeakerComponent },
+
+  head() {
+    return {
+      // __dangerouslyDisableSanitizers: ["script"],
+      script: [
+        {
+          id: "pixel-script-poptin",
+          src: 'https://cdn.popt.in/pixel.js?id=9806b22c1e4e5',
+          type: "text/javascript",
+          async: true
+        },
+      ],
+    };
+  },
+
+  
   data() {
     return {
       sponsors: [],
