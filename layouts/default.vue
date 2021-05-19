@@ -53,13 +53,13 @@
               </template>
 
               <div class="text-center d-sm-block d-lg-block mt-20">
-                <button
+                <!-- <button
                   v-if="!$auth.loggedIn"
                   v-b-modal.modal-login
                   class="btn btn-header"
                 >
                   Iniciar sesión
-                </button>
+                </button> -->
                 <button
                   v-if="$auth.loggedIn"
                   @click="authLogout"
