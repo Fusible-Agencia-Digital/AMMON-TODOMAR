@@ -21,7 +21,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <LiveComponent channel="two" />
+          <!-- <LiveComponent channel="two" /> -->
           <!-- <LiveComponent channel="two"/> -->
         </div>
       </div>

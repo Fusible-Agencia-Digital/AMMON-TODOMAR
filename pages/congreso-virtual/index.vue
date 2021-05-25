@@ -61,17 +61,17 @@
           style="width: 8.1%; height: 13.2%; left: 44.8%; top: 35.8%"
         ></a>
         <a
-          href="/live/uno"
+          href="#"
           class="rim-hotspot stand-button"
           style="width: 8.1%; height: 16.2%; left: 64.8%; top: 29.8%"
         ></a>
         <a
-          href="/live/uno"
+          href="#"
           class="rim-hotspot stand-button"
           style="width: 8.1%; height: 13.2%; left: 72.8%; top: 26.8%"
         ></a>
         <a
-          @click="$bvModal.show('seis')"
+          href="#"
           class="rim-hotspot stand-button"
           style="width: 17.1%; height: 24.2%; left: 81.8%; top: 31.8%"
         ></a>
@@ -90,6 +90,14 @@
     </b-modal>
     <b-modal id="seis" size="lg" hide-footer>
       <div class="d-block text-center">
+        <h2 class="text-center">Congreso Virtual</h2>
+        <p class="my-4 text-center">
+          Congreso Mexicano de Osteoporosis y Enfermedades Metabólicas Óseas
+        </p>
+        <p>6 al 8 de mayo 2021</p>
+        <!-- <help-modal type="doubts" /> -->
+      </div>
+      <!-- <div class="d-block text-center">
         <iframe
           width="720"
           height="480"
@@ -97,7 +105,7 @@
           src="https://player.vimeo.com/video/545732493"
         >
         </iframe>
-      </div>
+      </div> -->
     </b-modal>
   </main>
 </template>
@@ -116,9 +124,9 @@ export default {
       script: [
         {
           id: "pixel-script-poptin",
-          src: 'https://cdn.popt.in/pixel.js?id=9806b22c1e4e5',
+          src: "https://cdn.popt.in/pixel.js?id=9806b22c1e4e5",
           type: "text/javascript",
-          async: true
+          async: true,
         },
       ],
     };

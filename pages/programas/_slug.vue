@@ -31,8 +31,8 @@
                                     </div>
                                 </div>
                             </aside>
-                            <a href="/live/uno" class="btn my-2 w-100">En vivo</a>
-                            <aside class="single_sidebar_widget popular_post_widget">
+                            <!-- <a href="/live/uno" class="btn my-2 w-100">En vivo</a> -->
+                            <!-- <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Comparte</h3>
                                 <div class="social-icons" v-if="activity">
                                     <ShareNetwork
@@ -56,11 +56,11 @@
                                         <fa :icon="['fab', 'whatsapp']"></fa>
                                     </ShareNetwork>
                                 </div>
-                            </aside>
-                            <aside class="single_sidebar_widget popular_post_widget">
+                            </aside> -->
+                            <!-- <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Agéndalo</h3>
                                 <button class="btn btn-sm" @click="addToCalendar">Añadir</button>
-                                <!-- <client-only>
+                                <client-only>
                                     <add-to-calendar :title="activity.title"
                                                      :start="$moment(activity.start_date).toDate()"
                                                      :end="$moment(activity.end_date).toDate()"
@@ -72,8 +72,8 @@
                                             </google-calendar>
                                         </div>
                                     </add-to-calendar>
-                                </client-only> -->
-                            </aside>
+                                </client-only>
+                            </aside> -->
                         </div>
                     </div>
                     <div class="col">
@@ -94,7 +94,7 @@
                                       <iframe class="embed-responsive-item" :src="activity.video_url" allowfullscreen></iframe>
                                     </div>
 
-                                    <div v-html="activity.description"></div>
+                                    <div class="mt-4" v-html="activity.description"></div>
                                     <div class="row team-area mt-5">
                                         <div class="col" v-if="activity.speakers.length">
                                             <h2 class="blog-head ml-5" style="color: #2d2d2d;">Imparte:</h2>
