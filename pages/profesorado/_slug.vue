@@ -19,7 +19,7 @@
         <section class="blog_area section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <!-- <div class="col-md-3">
                         <div class="blog_right_sidebar" v-if="speaker.activities">
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Eventos programados con {{ speaker.name }} {{ speaker.last_name }}:</h3>
@@ -28,7 +28,7 @@
                                 </div>
                             </aside>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col">
                         <div class="blog_left_sidebar">
                             <article class="blog_item">

@@ -6,9 +6,9 @@
                 <image-component :picture="doctor.picture"></image-component>
             </nuxt-link>
             <!-- Blog Social -->
-            <ul class="team-social">
+            <!-- <ul class="team-social">
                 <li v-for="(activity, index) in doctor.activities" :key="index"><nuxt-link :to="`/programas/${activity.slug}`" v-b-tooltip.hover :title="activity.title"><fa icon="calendar"></fa></nuxt-link></li>
-            </ul>
+            </ul> -->
         </div>
         <div class="team-caption">
             <h3 class="text-center"  v-if="doctor.job_title">{{ `${doctor.job_title}` }}</h3>
